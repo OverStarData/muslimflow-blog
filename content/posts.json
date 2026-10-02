@@ -1,6 +1,160 @@
 {
   "posts": [
     {
+      "id": "2026-10-02-intention",
+      "date": "2026-10-02T09:00:00Z",
+      "title": {
+        "en": "Intention comes first",
+        "ar": "النية أولًا",
+        "ms": "Niat itu yang pertama",
+        "es": "La intención va primero",
+        "fr": "L’intention d’abord"
+      },
+      "text": {
+        "en": "Actions are judged by intentions, and every person will have what they intended.\n\n— Prophet Muhammad ﷺ · Sahih al-Bukhari 1, Sahih Muslim 1907",
+        "ar": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى.\n\n— النبي ﷺ · صحيح البخاري 1، صحيح مسلم 1907",
+        "ms": "Sesungguhnya setiap amalan bergantung pada niat, dan setiap orang akan mendapat apa yang diniatkannya.\n\n— Nabi Muhammad ﷺ · Sahih al-Bukhari 1, Sahih Muslim 1907",
+        "es": "Las acciones se juzgan por las intenciones, y cada persona obtendrá lo que haya intencionado.\n\n— Profeta Muhammad ﷺ · Sahih al-Bujari 1, Sahih Muslim 1907",
+        "fr": "Les actes ne valent que par les intentions, et chacun n’aura que ce qu’il a eu l’intention de faire.\n\n— Prophète Muhammad ﷺ · Sahih al-Boukhari 1, Sahih Mouslim 1907"
+      }
+    },
+    {
+      "id": "2026-10-03-remember-allah",
+      "date": "2026-10-03T00:00:00Z",
+      "title": {
+        "en": "Remember Allah",
+        "ar": "اذكروا الله",
+        "ms": "Ingatilah Allah",
+        "es": "Recuerda a Alá",
+        "fr": "Souvenez-vous d’Allah"
+      },
+      "text": {
+        "en": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.\n\n— Quran 2:152",
+        "ar": "فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ\n\n— القرآن الكريم 2:152",
+        "ms": "Oleh itu ingatlah kamu kepadaKu (dengan mematuhi hukum dan undang-undangKu), supaya Aku membalas kamu dengan kebaikan; dan bersyukurlah kamu kepadaKu dan janganlah kamu kufur (akan nikmatKu).\n\n— Al-Quran 2:152",
+        "es": "¡Acordaos de Mí, que Yo Me acordaré de vosotros! ¡Dadme las gracias y no Me seáis desagradecidos!\n\n— Corán 2:152",
+        "fr": "Souvenez-vous de Moi donc. Je vous récompenserai. Remerciez-Moi et ne soyez pas ingrats envers Moi!\n\n— Coran 2:152"
+      },
+      "notify": {
+        "title": {
+          "en": "New reminder",
+          "ar": "تذكير جديد",
+          "ms": "Peringatan baharu",
+          "es": "Nuevo recordatorio",
+          "fr": "Nouveau rappel"
+        },
+        "body": {
+          "en": "Open the blog to read today’s reminder.",
+          "ar": "افتح المدوّنة لقراءة تذكير اليوم.",
+          "ms": "Buka blog untuk membaca peringatan hari ini.",
+          "es": "Abre el blog para leer el recordatorio de hoy.",
+          "fr": "Ouvrez le blog pour lire le rappel du jour."
+        }
+      }
+    },
+    {
+      "id": "2026-10-04-consistency",
+      "date": "2026-10-04T00:00:00Z",
+      "title": {
+        "en": "Small and steady",
+        "ar": "القليل الدائم",
+        "ms": "Sedikit tetapi berterusan",
+        "es": "Pequeño y constante",
+        "fr": "Petit mais régulier"
+      },
+      "text": {
+        "en": "The most beloved deeds to Allah are the most consistent, even if they are small.\n\n— Prophet Muhammad ﷺ · Sahih al-Bukhari 6464, Sahih Muslim 783",
+        "ar": "أَحَبُّ الْأَعْمَالِ إِلَى اللَّهِ أَدْوَمُهَا وَإِنْ قَلَّ.\n\n— النبي ﷺ · صحيح البخاري 6464، صحيح مسلم 783",
+        "ms": "Amalan yang paling disukai Allah ialah yang paling berterusan, walaupun sedikit.\n\n— Nabi Muhammad ﷺ · Sahih al-Bukhari 6464, Sahih Muslim 783",
+        "es": "Las obras más amadas por Alá son las más constantes, aunque sean pequeñas.\n\n— Profeta Muhammad ﷺ · Sahih al-Bujari 6464, Sahih Muslim 783",
+        "fr": "Les œuvres les plus aimées d’Allah sont les plus régulières, même si elles sont peu nombreuses.\n\n— Prophète Muhammad ﷺ · Sahih al-Boukhari 6464, Sahih Mouslim 783"
+      },
+      "notify": {
+        "title": {
+          "en": "New reminder",
+          "ar": "تذكير جديد",
+          "ms": "Peringatan baharu",
+          "es": "Nuevo recordatorio",
+          "fr": "Nouveau rappel"
+        },
+        "body": {
+          "en": "Open the blog to read today’s reminder.",
+          "ar": "افتح المدوّنة لقراءة تذكير اليوم.",
+          "ms": "Buka blog untuk membaca peringatan hari ini.",
+          "es": "Abre el blog para leer el recordatorio de hoy.",
+          "fr": "Ouvrez le blog pour lire le rappel du jour."
+        }
+      }
+    },
+    {
+      "id": "2026-10-05-love-for-others",
+      "date": "2026-10-05T00:00:00Z",
+      "title": {
+        "en": "Love for others what you love for yourself",
+        "ar": "أحبّ لغيرك ما تحبّ لنفسك",
+        "ms": "Sukailah untuk orang lain apa yang anda sukai untuk diri sendiri",
+        "es": "Desea para otros lo que deseas para ti",
+        "fr": "Aimez pour les autres ce que vous aimez pour vous-même"
+      },
+      "text": {
+        "en": "None of you truly believes until he loves for his brother what he loves for himself.\n\n— Prophet Muhammad ﷺ · Sahih al-Bukhari 13, Sahih Muslim 45",
+        "ar": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ.\n\n— النبي ﷺ · صحيح البخاري 13، صحيح مسلم 45",
+        "ms": "Tidak beriman seseorang daripada kamu sehinggalah dia menyukai untuk saudaranya apa yang dia sukai untuk dirinya sendiri.\n\n— Nabi Muhammad ﷺ · Sahih al-Bukhari 13, Sahih Muslim 45",
+        "es": "Ninguno de vosotros cree verdaderamente hasta que desea para su hermano lo que desea para sí mismo.\n\n— Profeta Muhammad ﷺ · Sahih al-Bujari 13, Sahih Muslim 45",
+        "fr": "Aucun de vous ne croit véritablement tant qu’il n’aime pas pour son frère ce qu’il aime pour lui-même.\n\n— Prophète Muhammad ﷺ · Sahih al-Boukhari 13, Sahih Mouslim 45"
+      },
+      "notify": {
+        "title": {
+          "en": "New reminder",
+          "ar": "تذكير جديد",
+          "ms": "Peringatan baharu",
+          "es": "Nuevo recordatorio",
+          "fr": "Nouveau rappel"
+        },
+        "body": {
+          "en": "Open the blog to read today’s reminder.",
+          "ar": "افتح المدوّنة لقراءة تذكير اليوم.",
+          "ms": "Buka blog untuk membaca peringatan hari ini.",
+          "es": "Abre el blog para leer el recordatorio de hoy.",
+          "fr": "Ouvrez le blog pour lire le rappel du jour."
+        }
+      }
+    },
+    {
+      "id": "2026-10-06-ease",
+      "date": "2026-10-06T00:00:00Z",
+      "title": {
+        "en": "With hardship comes ease",
+        "ar": "مع العسر يسر",
+        "ms": "Bersama kesusahan ada kemudahan",
+        "es": "Con la dificultad viene la facilidad",
+        "fr": "Avec la difficulté vient la facilité"
+      },
+      "text": {
+        "en": "For indeed, with hardship [will be] ease. Indeed, with hardship [will be] ease.\n\n— Quran 94:5-6",
+        "ar": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا\n\n— القرآن الكريم 94:5-6",
+        "ms": "Oleh itu, maka (tetapkanlah kepercayaanmu) bahawa sesungguhnya tiap-tiap kesukaran disertai kemudahan, (Sekali lagi ditegaskan): bahawa sesungguhnya tiap-tiap kesukaran disertai kemudahan.\n\n— Al-Quran 94:5-6",
+        "es": "¡La adversidad y la felicidad van a una! ¡La adversidad y la felicidad van a una!\n\n— Corán 94:5-6",
+        "fr": "A côté de la difficulté est, certes, une facilité! A côté de la difficulté est, certes, une facilité!\n\n— Coran 94:5-6"
+      },
+      "notify": {
+        "title": {
+          "en": "New reminder",
+          "ar": "تذكير جديد",
+          "ms": "Peringatan baharu",
+          "es": "Nuevo recordatorio",
+          "fr": "Nouveau rappel"
+        },
+        "body": {
+          "en": "Open the blog to read today’s reminder.",
+          "ar": "افتح المدوّنة لقراءة تذكير اليوم.",
+          "ms": "Buka blog untuk membaca peringatan hari ini.",
+          "es": "Abre el blog para leer el recordatorio de hoy.",
+          "fr": "Ouvrez le blog pour lire le rappel du jour."
+        }
+      }
+    },
+    {
       "id": "welcome",
       "date": "2026-10-02T08:00:00Z",
       "title": {
