@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "welcome",
+      "date": "2026-10-02T08:00:00Z",
+      "title": {
+        "en": "Welcome to the Muslim Flow blog",
+        "ar": "مرحبًا بكم في مدوّنة مسلم فلو",
+        "ms": "Selamat datang ke blog Muslim Flow",
+        "es": "Te damos la bienvenida al blog de Muslim Flow",
+        "fr": "Bienvenue sur le blog de Muslim Flow"
+      },
+      "text": {
+        "en": "Here you will find short reminders and news about the app. Like a post to keep it on your device, share it with family and friends, and save any picture you like.",
+        "ar": "ستجدون هنا تذكيرات قصيرة وأخبارًا عن التطبيق. أعجبوا بالمنشور لتحتفظوا به على جهازكم، وشاركوه مع أهلكم وأصدقائكم، واحفظوا أي صورة تعجبكم.",
+        "ms": "Di sini anda akan menemui peringatan ringkas dan berita tentang aplikasi. Sukai catatan untuk menyimpannya pada peranti anda, kongsikannya dengan keluarga dan rakan, dan simpan mana-mana gambar yang anda suka.",
+        "es": "Aquí encontrarás recordatorios breves y novedades de la aplicación. Dale a me gusta a una publicación para guardarla en tu dispositivo, compártela con tu familia y amigos y guarda cualquier imagen que te guste.",
+        "fr": "Vous trouverez ici de courts rappels et des nouvelles de l’application. Aimez une publication pour la garder sur votre appareil, partagez-la avec votre famille et vos amis, et enregistrez les images qui vous plaisent."
+      }
+    }
+  ]
+}

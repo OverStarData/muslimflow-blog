@@ -1,0 +1,159 @@
+{
+  "_about": "Examples of every kind of post. They are NOT published. In development builds the app shows them while the blog is not published yet. The blog repository (scripts/blog-repo, created by npm run blog:create-repo) has its own copy: content/samples.json.",
+  "posts": [
+    {
+      "id": "sample-text-only",
+      "date": "2026-10-01T06:00:00Z",
+      "title": {
+        "en": "A short reminder",
+        "ar": "تذكير قصير",
+        "ms": "Peringatan ringkas",
+        "es": "Un recordatorio breve",
+        "fr": "Un court rappel"
+      },
+      "text": {
+        "en": "The best of deeds are those done regularly, even if they are small.",
+        "ar": "أحبّ الأعمال إلى الله أدومها وإن قلّ.",
+        "ms": "Amalan yang paling baik ialah yang berterusan walaupun sedikit.",
+        "es": "Las mejores obras son las constantes, aunque sean pequeñas.",
+        "fr": "Les meilleures œuvres sont les plus régulières, même si elles sont petites."
+      }
+    },
+    {
+      "id": "sample-long-text",
+      "date": "2026-09-30T06:00:00Z",
+      "title": {
+        "en": "A longer post",
+        "ar": "منشور أطول",
+        "ms": "Catatan yang lebih panjang",
+        "es": "Una publicación más larga",
+        "fr": "Une publication plus longue"
+      },
+      "text": {
+        "en": "Long posts are shortened in the list with a \"Read more\" button, and shown in full on the post page.\n\nBlank lines make new paragraphs, like this one.\n\nYou can write as much as you need. The text follows the text size chosen in Settings, and each language shows only to people using that language.\n\nIf a language is missing, the English text is used.",
+        "ar": "تُختصر المنشورات الطويلة في القائمة مع زر «اقرأ المزيد»، وتظهر كاملة في صفحة المنشور.\n\nالأسطر الفارغة تصنع فقرات جديدة، مثل هذه.\n\nيمكنك أن تكتب بقدر ما تحتاج. يتبع النص حجم الخط المختار في الإعدادات، ويظهر كل نص لمن يستخدم لغته فقط.\n\nإذا غابت لغة ما يُستخدم النص الإنجليزي.",
+        "ms": "Catatan panjang dipendekkan dalam senarai dengan butang \"Baca lagi\", dan dipaparkan penuh pada halaman catatan.\n\nBaris kosong membuat perenggan baharu, seperti ini.\n\nAnda boleh menulis sebanyak yang perlu. Teks mengikut saiz teks yang dipilih dalam Tetapan, dan setiap bahasa hanya dipaparkan kepada pengguna bahasa itu.\n\nJika sesuatu bahasa tiada, teks Inggeris digunakan.",
+        "es": "Las publicaciones largas se acortan en la lista con un botón «Leer más» y se muestran completas en la página de la publicación.\n\nLas líneas en blanco crean párrafos nuevos, como este.\n\nPuedes escribir cuanto necesites. El texto sigue el tamaño elegido en Ajustes y cada idioma se muestra solo a quien usa ese idioma.\n\nSi falta un idioma, se usa el texto en inglés.",
+        "fr": "Les longues publications sont raccourcies dans la liste avec un bouton « Lire la suite » et affichées en entier sur la page de la publication.\n\nLes lignes vides créent de nouveaux paragraphes, comme celui-ci.\n\nVous pouvez écrire autant que nécessaire. Le texte suit la taille choisie dans les Réglages et chaque langue n’est montrée qu’aux personnes qui l’utilisent.\n\nSi une langue manque, le texte anglais est utilisé."
+      }
+    },
+    {
+      "id": "sample-text-and-image",
+      "date": "2026-09-29T06:00:00Z",
+      "title": {
+        "en": "Text and picture",
+        "ar": "نص وصورة",
+        "ms": "Teks dan gambar",
+        "es": "Texto e imagen",
+        "fr": "Texte et image"
+      },
+      "text": {
+        "en": "A post with both a picture and words. Tap the picture to open it full screen, then save or share it.",
+        "ar": "منشور فيه صورة وكلمات. اضغط على الصورة لفتحها بملء الشاشة ثم احفظها أو شاركها.",
+        "ms": "Catatan dengan gambar dan kata-kata. Ketik gambar untuk membukanya skrin penuh, kemudian simpan atau kongsi.",
+        "es": "Una publicación con imagen y texto. Toca la imagen para abrirla a pantalla completa, y luego guárdala o compártela.",
+        "fr": "Une publication avec une image et du texte. Touchez l’image pour l’ouvrir en plein écran, puis enregistrez-la ou partagez-la."
+      },
+      "image": "images/sample-text-and-image.jpg",
+      "imageWidth": 1080,
+      "imageHeight": 1350,
+      "imageAlt": {
+        "en": "A green geometric star pattern",
+        "ar": "نقش نجمة هندسية خضراء",
+        "ms": "Corak bintang geometri hijau",
+        "es": "Un patrón de estrella geométrica verde",
+        "fr": "Un motif d’étoile géométrique vert"
+      }
+    },
+    {
+      "id": "sample-image-only",
+      "date": "2026-09-28T06:00:00Z",
+      "image": "images/sample-image-only.jpg",
+      "imageWidth": 1080,
+      "imageHeight": 1080,
+      "imageAlt": {
+        "en": "A gold geometric star pattern",
+        "ar": "نقش نجمة هندسية ذهبية",
+        "ms": "Corak bintang geometri emas",
+        "es": "Un patrón de estrella geométrica dorado",
+        "fr": "Un motif d’étoile géométrique doré"
+      }
+    },
+    {
+      "id": "sample-title-and-image",
+      "date": "2026-09-27T06:00:00Z",
+      "title": {
+        "en": "Title with a picture",
+        "ar": "عنوان مع صورة",
+        "ms": "Tajuk dengan gambar",
+        "es": "Título con imagen",
+        "fr": "Titre avec image"
+      },
+      "image": "images/sample-title-and-image.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 800
+    },
+    {
+      "id": "sample-with-link",
+      "date": "2026-09-26T06:00:00Z",
+      "title": {
+        "en": "A post with a link",
+        "ar": "منشور فيه رابط",
+        "ms": "Catatan dengan pautan",
+        "es": "Una publicación con enlace",
+        "fr": "Une publication avec un lien"
+      },
+      "text": {
+        "en": "Add a button that opens a web page.",
+        "ar": "أضف زرًّا يفتح صفحة ويب.",
+        "ms": "Tambah butang yang membuka halaman web.",
+        "es": "Añade un botón que abre una página web.",
+        "fr": "Ajoutez un bouton qui ouvre une page web."
+      },
+      "link": {
+        "url": "https://example.com",
+        "label": {
+          "en": "Open the page",
+          "ar": "افتح الصفحة",
+          "ms": "Buka halaman",
+          "es": "Abrir la página",
+          "fr": "Ouvrir la page"
+        }
+      }
+    },
+    {
+      "id": "sample-queued",
+      "date": "2030-01-01T09:00:00Z",
+      "title": {
+        "en": "A queued post",
+        "ar": "منشور مجدول",
+        "ms": "Catatan berjadual",
+        "es": "Una publicación programada",
+        "fr": "Une publication programmée"
+      },
+      "text": {
+        "en": "A future date queues the post. It stays hidden until then, and users get the notification text below.",
+        "ar": "التاريخ المستقبلي يجدول المنشور. يبقى مخفيًا حتى ذلك الوقت، ويحصل المستخدمون على نص الإشعار أدناه.",
+        "ms": "Tarikh akan datang menjadualkan catatan. Ia kekal tersembunyi sehingga masa itu, dan pengguna menerima teks pemberitahuan di bawah.",
+        "es": "Una fecha futura programa la publicación. Permanece oculta hasta entonces y los usuarios reciben el texto de notificación de abajo.",
+        "fr": "Une date future programme la publication. Elle reste cachée jusque-là et les utilisateurs reçoivent le texte de notification ci-dessous."
+      },
+      "notify": {
+        "title": {
+          "en": "A new post is here",
+          "ar": "وصل منشور جديد",
+          "ms": "Catatan baharu telah tiba",
+          "es": "Ha llegado una publicación nueva",
+          "fr": "Une nouvelle publication est arrivée"
+        },
+        "body": {
+          "en": "Open the blog to read it.",
+          "ar": "افتح المدوّنة لقراءته.",
+          "ms": "Buka blog untuk membacanya.",
+          "es": "Abre el blog para leerla.",
+          "fr": "Ouvrez le blog pour la lire."
+        }
+      }
+    }
+  ]
+}

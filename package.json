@@ -1,0 +1,13 @@
+{
+  "name": "muslimflow-blog",
+  "private": true,
+  "type": "module",
+  "description": "Posts for the Muslim Flow app blog",
+  "scripts": {
+    "new": "node scripts/new.mjs",
+    "add": "node scripts/add.mjs",
+    "build": "node scripts/build.mjs",
+    "queue": "node scripts/queue.mjs",
+    "publish": "node scripts/publish.mjs"
+  }
+}

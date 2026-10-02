@@ -1,0 +1,50 @@
+# Publishes the blog to GitHub Pages.
+#
+# Runs when the content changes, on demand, and every 10 minutes. The build only
+# includes posts whose date has passed, so a post queued for a later time goes
+# live by itself on the first run after that time.
+#
+# One-time setup: repository Settings -> Pages -> Source: "GitHub Actions".
+name: Publish blog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "scripts/**"
+      - ".github/workflows/publish.yml"
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: blog-pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/configure-pages@v5
+      - name: Build the blog
+        run: node scripts/build.mjs
+        env:
+          BLOG_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v4
