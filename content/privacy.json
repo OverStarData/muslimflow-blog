@@ -38,10 +38,10 @@
           "description": "Used only while the app is open, to work out prayer times and the Qibla direction.",
           "items": [
             "Location is requested only when a feature needs it, and you can refuse. Without it, prayer times and the Qibla direction cannot be worked out for your position.",
-            "Prayer times and the Qibla direction are calculated on your device.",
+            "The Qibla direction is calculated on your device. For prayer times the app sends your coordinates to the AlAdhan prayer-times service; if it cannot be reached, the times are calculated on your device instead.",
             "A city and country name is looked up with your device’s built-in geocoding service, which is provided by Apple or Google.",
             "Your last location is saved on your device so the app opens quickly. It is not uploaded to us.",
-            "In Malaysia the app asks the official JAKIM e-Solat service for the times of your prayer zone and sends only a zone code. If that service is unavailable, your coordinates may be sent to the AlAdhan prayer-times service to get the times.",
+            "In Malaysia the app first asks the official JAKIM e-Solat service for the times of your prayer zone and sends only a zone code. If that service is unavailable, it uses AlAdhan as described above.",
             "The app does not track your location in the background."
           ]
         },
@@ -201,10 +201,10 @@
           "description": "يُستخدم فقط أثناء فتح التطبيق، لحساب أوقات الصلاة واتجاه القبلة.",
           "items": [
             "يُطلب الموقع فقط عندما تحتاجه ميزة ما، ويمكنك الرفض. من دونه لا يمكن حساب أوقات الصلاة واتجاه القبلة لموضعك.",
-            "تُحسب أوقات الصلاة واتجاه القبلة على جهازك.",
+            "يُحسب اتجاه القبلة على جهازك. وفيما يخص أوقات الصلاة يرسل التطبيق إحداثياتك إلى خدمة AlAdhan لأوقات الصلاة؛ وإذا تعذّر الوصول إليها تُحسب الأوقات على جهازك بدلًا من ذلك.",
             "يُستعلم عن اسم المدينة والدولة عبر خدمة الترميز الجغرافي المدمجة في جهازك، وتوفرها Apple أو Google.",
             "يُحفظ آخر موقع لك على جهازك ليفتح التطبيق بسرعة، ولا يُرفع إلينا.",
-            "في ماليزيا يطلب التطبيق من خدمة JAKIM e-Solat الرسمية أوقات منطقتك ويرسل رمز المنطقة فقط. وإذا تعذّرت هذه الخدمة فقد تُرسل إحداثياتك إلى خدمة AlAdhan للحصول على الأوقات.",
+            "في ماليزيا يطلب التطبيق أولًا من خدمة JAKIM e-Solat الرسمية أوقات منطقتك ويرسل رمز المنطقة فقط. وإذا تعذّرت هذه الخدمة فإنه يستخدم AlAdhan كما هو موضح أعلاه.",
             "لا يتتبع التطبيق موقعك في الخلفية."
           ]
         },
@@ -364,10 +364,10 @@
           "description": "Digunakan hanya semasa aplikasi dibuka, untuk menentukan waktu solat dan arah kiblat.",
           "items": [
             "Lokasi diminta hanya apabila sesuatu ciri memerlukannya, dan anda boleh menolak. Tanpanya, waktu solat dan arah kiblat tidak dapat ditentukan untuk kedudukan anda.",
-            "Waktu solat dan arah kiblat dikira pada peranti anda.",
+            "Arah kiblat dikira pada peranti anda. Untuk waktu solat, aplikasi menghantar koordinat anda kepada perkhidmatan waktu solat AlAdhan; jika tidak dapat dicapai, waktu dikira pada peranti anda.",
             "Nama bandar dan negara dicari menggunakan perkhidmatan geokod terbina dalam peranti anda, yang disediakan oleh Apple atau Google.",
             "Lokasi terakhir anda disimpan pada peranti supaya aplikasi dibuka dengan cepat. Ia tidak dimuat naik kepada kami.",
-            "Di Malaysia, aplikasi meminta perkhidmatan rasmi JAKIM e-Solat untuk waktu bagi zon solat anda dan hanya menghantar kod zon. Jika perkhidmatan itu tidak tersedia, koordinat anda mungkin dihantar kepada perkhidmatan waktu solat AlAdhan untuk mendapatkan waktu.",
+            "Di Malaysia, aplikasi mula-mula meminta perkhidmatan rasmi JAKIM e-Solat untuk waktu bagi zon solat anda dan hanya menghantar kod zon. Jika perkhidmatan itu tidak tersedia, ia menggunakan AlAdhan seperti diterangkan di atas.",
             "Aplikasi ini tidak menjejaki lokasi anda di latar belakang."
           ]
         },
@@ -527,10 +527,10 @@
           "description": "Se usa solo mientras la aplicación está abierta, para calcular los horarios de oración y la dirección de la Qibla.",
           "items": [
             "La ubicación se solicita solo cuando una función la necesita y puedes rechazarla. Sin ella, no se pueden calcular los horarios de oración ni la dirección de la Qibla para tu posición.",
-            "Los horarios de oración y la dirección de la Qibla se calculan en tu dispositivo.",
+            "La dirección de la Qibla se calcula en tu dispositivo. Para los horarios de oración, la aplicación envía tus coordenadas al servicio de horarios de oración AlAdhan; si no se puede acceder a él, los horarios se calculan en tu dispositivo.",
             "El nombre de la ciudad y del país se consulta con el servicio de geocodificación integrado en tu dispositivo, que proporciona Apple o Google.",
             "Tu última ubicación se guarda en tu dispositivo para que la aplicación se abra rápido. No se sube a nuestros servidores.",
-            "En Malasia, la aplicación consulta el servicio oficial JAKIM e-Solat para obtener los horarios de tu zona de oración y envía solo un código de zona. Si ese servicio no está disponible, tus coordenadas pueden enviarse al servicio de horarios de oración AlAdhan para obtener los horarios.",
+            "En Malasia, la aplicación consulta primero el servicio oficial JAKIM e-Solat para obtener los horarios de tu zona de oración y envía solo un código de zona. Si ese servicio no está disponible, usa AlAdhan como se describe arriba.",
             "La aplicación no rastrea tu ubicación en segundo plano."
           ]
         },
@@ -690,10 +690,10 @@
           "description": "Utilisée uniquement lorsque l’application est ouverte, pour calculer les horaires de prière et la direction de la Qibla.",
           "items": [
             "La position n’est demandée que lorsqu’une fonction en a besoin, et vous pouvez refuser. Sans elle, les horaires de prière et la direction de la Qibla ne peuvent pas être calculés pour votre emplacement.",
-            "Les horaires de prière et la direction de la Qibla sont calculés sur votre appareil.",
+            "La direction de la Qibla est calculée sur votre appareil. Pour les horaires de prière, l’application envoie vos coordonnées au service d’horaires de prière AlAdhan ; s’il est inaccessible, les horaires sont calculés sur votre appareil.",
             "Le nom de la ville et du pays est obtenu grâce au service de géocodage intégré à votre appareil, fourni par Apple ou Google.",
             "Votre dernière position est enregistrée sur votre appareil pour que l’application s’ouvre rapidement. Elle n’est pas envoyée chez nous.",
-            "En Malaisie, l’application interroge le service officiel JAKIM e-Solat pour obtenir les horaires de votre zone de prière et envoie uniquement un code de zone. Si ce service est indisponible, vos coordonnées peuvent être envoyées au service d’horaires de prière AlAdhan pour obtenir les horaires.",
+            "En Malaisie, l’application interroge d’abord le service officiel JAKIM e-Solat pour obtenir les horaires de votre zone de prière et envoie uniquement un code de zone. Si ce service est indisponible, elle utilise AlAdhan comme décrit ci-dessus.",
             "L’application ne suit pas votre position en arrière-plan."
           ]
         },
