@@ -1,35 +1,36 @@
 {
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-11-02",
   "appName": "Muslim Flow",
+  "developerName": "Mahmoud Kamal",
   "supportEmail": "mahmoudkamal20518@gmail.com",
   "languages": {
     "en": {
       "title": "Privacy Policy",
-      "intro": "Muslim Flow is built to work without an account. This page explains in plain language what the app uses on your device, what it sends over the internet, and the choices you have.",
-      "updatedLabel": "Last updated 2026-10-02",
+      "intro": "Muslim Flow works without an account. An account is needed only for the optional Community (Beta). This page explains in plain language what the app uses on your device, what it sends over the internet, what the Community stores, and the choices you have.",
+      "updatedLabel": "Last updated 2026-11-02",
       "highlights": [
         {
-          "title": "No account needed",
-          "text": "Use every feature without signing up or giving your name or email."
+          "title": "Account only for Community",
+          "text": "Prayer times, Quran, adhkar and Qibla work without signing up. An account is needed only to join the Community."
         },
         {
           "title": "No ads or tracking",
           "text": "The app has no advertising, analytics or crash-reporting tools."
         },
         {
-          "title": "Stays on your device",
-          "text": "Settings, progress and favorites are stored locally, not uploaded to us."
+          "title": "Worship data stays on your device",
+          "text": "Settings, progress and favorites are stored locally. Only what you post in the Community is stored online."
         }
       ],
       "sections": [
         {
           "id": "overview",
           "title": "What this policy covers",
-          "description": "Muslim Flow is a prayer, Quran, Qibla, adhkar and daily-worship app. It does not build a profile about you. To work, it uses your location while the app is open, storage on your device and a few public content services described below.",
+          "description": "Muslim Flow is a prayer, Quran, Qibla, adhkar and daily-worship app. It does not build a profile about you. To work, it uses your location while the app is open, storage on your device and a few public content services described below. If you choose to join the Community, it also uses an online account.",
           "items": [
-            "There are no user accounts in the app.",
-            "The app does not upload your data to a server operated by us.",
-            "What you save stays on your device unless you choose to share it."
+            "No account is needed for prayer times, Quran, Qibla, adhkar or the other worship tools.",
+            "An account is needed only for the optional Community (Beta). Community data is stored online on our server, which is hosted by Supabase.",
+            "Everything else you save stays on your device unless you choose to share it."
           ]
         },
         {
@@ -67,7 +68,23 @@
             "Day-planner tasks and their reminder times.",
             "Saved prayer times and content so the app keeps working offline.",
             "Blog posts you opened, and the posts you liked.",
+            "If you sign in to the Community, a sign-in session and an unsent post draft are also kept on your device.",
             "None of this is sent to us. Uninstalling the app or clearing its storage removes it."
+          ]
+        },
+        {
+          "id": "community",
+          "title": "Community (Beta) and your account",
+          "description": "The Community is optional. You can use the whole app without it. This is what it stores if you join.",
+          "items": [
+            "Sign-up: your e-mail address and a password, confirmed with a code sent to your e-mail. You can also continue with your Google account, where offered; then Google gives us your e-mail address and name. We cannot read your password.",
+            "Profile: a display name, a username and, if you choose, a short bio, country, languages, gender, an illustrated avatar and a cover. Your profile is visible to other people in the Community.",
+            "Posts: the text, pictures, short videos, voice recitations and verse cards you post, plus your comments, reposts and likes. They are stored online and shown to others according to the audience you pick.",
+            "Follows are visible to others. Saved posts, blocks, mutes and notification settings are private to you. In-app notifications are stored with your account.",
+            "Reports you send about a post or person are seen by our moderators and administrators.",
+            "To stop spam and abuse, the server keeps a short private log of actions such as posting and reporting for a few days to apply limits, and a CAPTCHA from Cloudflare (Turnstile) is shown when you sign in or sign up. Cloudflare may see your IP address and browser details for that check.",
+            "Moderators can remove posts and suspend accounts that break the Community rules. Their actions are recorded in a private activity log.",
+            "We do not sell Community data and there are no ads or analytics in it. Anything you post can be seen by others, so do not post private information."
           ]
         },
         {
@@ -81,7 +98,8 @@
             "Tafsir: Quran Tafseer and QuranEnc.",
             "Connection check: the app contacts a Google connectivity-check address to find out whether you are online.",
             "Blog: posts and pictures are loaded from the blog website, hosted on GitHub Pages.",
-            "These requests do not include your name or an account identifier. Each service has its own privacy policy."
+            "Community: our server on Supabase, and Cloudflare Turnstile for the CAPTCHA. If you use Google sign-in, Google’s sign-in page.",
+            "Requests to the content services above do not include your name or an account identifier. Each service has its own privacy policy."
           ]
         },
         {
@@ -92,7 +110,7 @@
             "The Qibla compass reads your device heading through the system location services. Heading data is used on the device only and is not stored or sent.",
             "Vibration and haptic feedback are used for counters and Qibla alignment, and can be turned off in Settings.",
             "Quran audio can keep playing in the background through a media notification.",
-            "The app does not use your microphone or camera."
+            "The microphone is used only if you record a voice recitation for the Community, and only while you record. The app does not use your camera."
           ]
         },
         {
@@ -103,7 +121,8 @@
             "Shared text or images, such as an ayah, a dua, an adhkar item or the app link, are handed to the app you choose. We do not receive or store them.",
             "Shared messages include the app name and a store link so others can find the app.",
             "Support emails open in your own email app. We only receive what you send.",
-            "If you tap Save on a blog picture, it is added to your photo library. The app can add pictures but cannot read your photos."
+            "If you tap Save on a blog picture, it is added to your photo library.",
+            "Pictures and videos for Community posts are chosen by you in the system picker. The app cannot read the rest of your photos."
           ]
         },
         {
@@ -113,7 +132,8 @@
           "items": [
             "We do not sell or rent personal information.",
             "The app contains no advertising and no analytics or crash-reporting tools.",
-            "Your location and worship activity are never used for advertising."
+            "Your location and worship activity are never used for advertising.",
+            "Community posts are shown to other users as you choose. We do not sell them."
           ]
         },
         {
@@ -123,7 +143,12 @@
           "items": [
             "Local data stays on your device until you clear the app’s storage or uninstall the app.",
             "Downloaded audio is removed the same way.",
-            "We hold no copy of your data, so there is nothing for us to delete on our side."
+            "Prayer, Quran and planner data are not held by us, so there is nothing for us to delete on our side.",
+            "Community: you can delete your account at any time in the app (Community > Menu > Settings > Delete account). This removes your sign-in, profile, posts, comments, likes, follows, saved posts, and the pictures, videos and voice files you uploaded.",
+            "A post or comment you delete yourself is deleted from our database and its files are removed. If a report about it is still open, it is kept until the report is decided, then deleted. Content removed by moderators is kept for up to 30 days for review and then deleted.",
+            "Accounts that are not opened for 3 months are deleted automatically with everything in them (team members and suspended accounts are not deleted this way). Sign-ups that never confirm their e-mail are deleted after 7 days.",
+            "Some records may be kept when needed to keep the Community safe: reports, moderator actions, and the e-mail address of an account that was suspended, so it cannot sign up again.",
+            "If you cannot open the app, write to the privacy e-mail below from your account address and we will delete the account."
           ]
         },
         {
@@ -132,7 +157,8 @@
           "description": "Simple steps that protect your information.",
           "items": [
             "The app connects to content services over secure HTTPS connections.",
-            "Because your data stays on your device, your device lock screen is the best protection for it."
+            "Community data is protected by access rules in the database, and your password is stored only in hashed form by the sign-in provider.",
+            "Your device lock screen is the best protection for data stored on your device. Use a strong, unique password for your account."
           ]
         },
         {
@@ -140,7 +166,8 @@
           "title": "Children",
           "description": "The app is suitable for all ages.",
           "items": [
-            "The app does not knowingly collect personal information from anyone, including children."
+            "The worship features collect no personal information from anyone, including children.",
+            "The Community is not meant for children under 13. Please do not create an account if you are under 13. If we learn that an account belongs to a child under 13, we delete it."
           ]
         },
         {
@@ -148,10 +175,11 @@
           "title": "Your choices",
           "description": "You decide what the app can use.",
           "items": [
-            "Allow, deny or change location and notification access at any time in your device settings.",
+            "Allow, deny or change location, notification and microphone access at any time in your device settings. The app keeps working without them.",
             "Turn prayer notifications and Qibla sound or vibration off in Settings.",
             "Use the app offline: Quran text, duas and downloaded audio work without an internet connection.",
-            "Clear local data in your device settings, or uninstall the app."
+            "Edit your profile, delete your posts, and block, mute or report people inside the Community.",
+            "Delete your Community account in the app, or ask us by e-mail. Clear local data in your device settings, or uninstall the app."
           ]
         },
         {
@@ -159,40 +187,41 @@
           "title": "Changes to this policy",
           "description": "You will see updates here.",
           "items": [
-            "If the app starts to use accounts, analytics, advertising or cloud sync, this policy will be updated first, with a new date shown at the top."
+            "If the app starts to use analytics, advertising or new kinds of data, this policy will be updated first, with a new date shown at the top."
           ]
         }
       ],
       "contactTitle": "Questions about privacy?",
-      "contactDescription": "Contact us if you have a privacy question or a request."
+      "contactDescription": "Contact us if you have a privacy question or a request.",
+      "developerLabel": "Developer"
     },
     "ar": {
       "title": "سياسة الخصوصية",
-      "intro": "صُمّم Muslim Flow ليعمل دون حساب. تشرح هذه الصفحة بلغة واضحة ما يستخدمه التطبيق على جهازك، وما يرسله عبر الإنترنت، والخيارات المتاحة لك.",
-      "updatedLabel": "آخر تحديث 2026-10-02",
+      "intro": "يعمل Muslim Flow دون حساب، ولا يلزم الحساب إلا للمجتمع (تجريبي) الاختياري. تشرح هذه الصفحة بلغة واضحة ما يستخدمه التطبيق على جهازك، وما يرسله عبر الإنترنت، وما يخزّنه المجتمع، والخيارات المتاحة لك.",
+      "updatedLabel": "آخر تحديث 2026-11-02",
       "highlights": [
         {
-          "title": "لا حاجة لحساب",
-          "text": "استخدم كل الميزات دون تسجيل ودون إدخال اسمك أو بريدك الإلكتروني."
+          "title": "الحساب للمجتمع فقط",
+          "text": "أوقات الصلاة والقرآن والأذكار والقبلة تعمل دون تسجيل. ولا يلزم الحساب إلا للانضمام إلى المجتمع."
         },
         {
           "title": "بلا إعلانات ولا تتبّع",
           "text": "لا يحتوي التطبيق على إعلانات ولا أدوات تحليلات ولا أدوات تقارير الأعطال."
         },
         {
-          "title": "يبقى على جهازك",
-          "text": "تُحفظ الإعدادات والتقدّم والمفضلات محلياً ولا تُرفع إلينا."
+          "title": "بيانات العبادة تبقى على جهازك",
+          "text": "تُحفظ الإعدادات والتقدّم والمفضلات محليًا. ولا يُخزَّن عبر الإنترنت إلا ما تنشره في المجتمع."
         }
       ],
       "sections": [
         {
           "id": "overview",
           "title": "ما الذي تشمله هذه السياسة",
-          "description": "Muslim Flow تطبيق للصلاة والقرآن والقبلة والأذكار والعبادات اليومية. لا يبني ملفاً شخصياً عنك. ولكي يعمل يستخدم موقعك أثناء فتح التطبيق، ومساحة التخزين على جهازك، وبعض خدمات المحتوى العامة الموضحة أدناه.",
+          "description": "Muslim Flow تطبيق للصلاة والقرآن والقبلة والأذكار والعبادات اليومية. لا يبني ملفًا شخصيًا عنك. ولكي يعمل يستخدم موقعك أثناء فتح التطبيق، ومساحة التخزين على جهازك، وبعض خدمات المحتوى العامة الموضحة أدناه. وإذا اخترت الانضمام إلى المجتمع، فإنه يستخدم أيضًا حسابًا عبر الإنترنت.",
           "items": [
-            "لا توجد حسابات مستخدمين في التطبيق.",
-            "لا يرفع التطبيق بياناتك إلى خادم نديره نحن.",
-            "ما تحفظه يبقى على جهازك ما لم تقرر مشاركته."
+            "لا حاجة إلى حساب لأوقات الصلاة أو القرآن أو القبلة أو الأذكار أو بقية أدوات العبادة.",
+            "لا يلزم الحساب إلا للمجتمع (تجريبي) الاختياري. وتُخزَّن بيانات المجتمع عبر الإنترنت على خادمنا المستضاف لدى Supabase.",
+            "كل ما عدا ذلك مما تحفظه يبقى على جهازك ما لم تقرر مشاركته."
           ]
         },
         {
@@ -222,7 +251,7 @@
         {
           "id": "storage",
           "title": "المعلومات المخزّنة على جهازك",
-          "description": "يتذكر التطبيق اختياراتك وتقدّمك محلياً.",
+          "description": "يتذكر التطبيق اختياراتك وتقدّمك محليًا.",
           "items": [
             "إعدادات مثل اللغة والمظهر وصيغة الوقت وترجمة القرآن والقارئ وحجم الخط.",
             "مفضلات القرآن وموضع القراءة وصوتيات السور المحمّلة.",
@@ -230,21 +259,38 @@
             "مهام مخطط اليوم وأوقات تذكيرها.",
             "أوقات الصلاة والمحتوى المحفوظ ليستمر التطبيق في العمل دون اتصال.",
             "المنشورات التي فتحتها في المدوّنة وتلك التي أعجبتك.",
+            "إذا سجّلت الدخول إلى المجتمع، فتُحفظ على جهازك أيضًا جلسة تسجيل الدخول ومسودة منشور لم يُرسل.",
             "لا يُرسل شيء من ذلك إلينا. يؤدي حذف التطبيق أو مسح بياناته إلى إزالته."
+          ]
+        },
+        {
+          "id": "community",
+          "title": "المجتمع (تجريبي) وحسابك",
+          "description": "المجتمع اختياري، ويمكنك استخدام التطبيق كاملًا من دونه. وهذا ما يخزّنه إن انضممت إليه.",
+          "items": [
+            "التسجيل: بريدك الإلكتروني وكلمة مرور، مع تأكيد برمز يصل إلى بريدك. ويمكنك أيضًا المتابعة بحساب Google حيث يتوفر ذلك، وحينها تزوّدنا Google ببريدك الإلكتروني واسمك. ولا يمكننا قراءة كلمة مرورك.",
+            "الملف الشخصي: اسم العرض واسم المستخدم، وإن شئت نبذة قصيرة والبلد واللغات والجنس وصورة رمزية مرسومة وغلاف. ويظهر ملفك الشخصي للآخرين في المجتمع.",
+            "المنشورات: النصوص والصور ومقاطع الفيديو القصيرة والتلاوات الصوتية وبطاقات الآيات التي تنشرها، إضافةً إلى تعليقاتك وإعادات النشر والإعجابات. وتُخزَّن عبر الإنترنت وتُعرض للآخرين بحسب الجمهور الذي تختاره.",
+            "المتابعات ظاهرة للآخرين. أما المنشورات المحفوظة وحالات الحظر والكتم وإعدادات الإشعارات فهي خاصة بك. وتُخزَّن إشعارات التطبيق مع حسابك.",
+            "البلاغات التي ترسلها عن منشور أو شخص يراها المشرفون والمسؤولون لدينا.",
+            "لمنع الرسائل المزعجة وإساءة الاستخدام، يحتفظ الخادم بسجل خاص قصير للإجراءات مثل النشر والإبلاغ لبضعة أيام لتطبيق الحدود، ويظهر اختبار CAPTCHA من Cloudflare (Turnstile) عند تسجيل الدخول أو إنشاء الحساب. وقد ترى Cloudflare عنوان IP وتفاصيل المتصفح لديك لأجل هذا الفحص.",
+            "يستطيع المشرفون إزالة المنشورات وتعليق الحسابات المخالفة لقواعد المجتمع. وتُسجَّل إجراءاتهم في سجل نشاط خاص.",
+            "لا نبيع بيانات المجتمع، ولا توجد فيه إعلانات ولا تحليلات. وكل ما تنشره يمكن للآخرين رؤيته، فلا تنشر معلومات خاصة."
           ]
         },
         {
           "id": "network",
           "title": "المحتوى وخدمات الإنترنت",
-          "description": "تحمّل بعض الميزات محتوى عاماً. وترى هذه الخدمات معلومات تقنية معتادة مثل عنوان IP كأي موقع إلكتروني.",
+          "description": "تحمّل بعض الميزات محتوى عامًا. وترى هذه الخدمات معلومات تقنية معتادة مثل عنوان IP كأي موقع إلكتروني.",
           "items": [
-            "أوقات الصلاة: JAKIM e-Solat (ماليزيا) وAlAdhan.",
+            "أوقات الصلاة: JAKIM e-Solat (ماليزيا) و AlAdhan.",
             "نص الأذكار: خدمة محتوى الأذكار على api.islamic.app.",
-            "صوتيات القرآن: MP3Quran (mp3quran.net) وشبكة Islamic Network للصوتيات وAl Quran Cloud.",
-            "التفسير: Quran Tafseer وQuranEnc.",
+            "صوتيات القرآن: MP3Quran (mp3quran.net) وشبكة Islamic Network للصوتيات و Al Quran Cloud.",
+            "التفسير: Quran Tafseer و QuranEnc.",
             "فحص الاتصال: يتصل التطبيق بعنوان فحص اتصال تابع لـ Google ليعرف هل أنت متصل بالإنترنت.",
             "المدوّنة: تُحمَّل المنشورات والصور من موقع المدوّنة المستضاف على GitHub Pages.",
-            "لا تتضمن هذه الطلبات اسمك ولا معرّف حساب. ولكل خدمة سياسة خصوصية خاصة بها."
+            "المجتمع: خادمنا على Supabase، و Cloudflare Turnstile لاختبار CAPTCHA. وإذا استخدمت تسجيل الدخول عبر Google فصفحة تسجيل الدخول من Google.",
+            "لا تتضمن الطلبات إلى خدمات المحتوى أعلاه اسمك ولا معرّف حساب. ولكل خدمة سياسة خصوصية خاصة بها."
           ]
         },
         {
@@ -255,7 +301,7 @@
             "تقرأ بوصلة القبلة اتجاه جهازك عبر خدمات الموقع في النظام. وتُستخدم بيانات الاتجاه على الجهاز فقط ولا تُخزَّن ولا تُرسل.",
             "يُستخدم الاهتزاز والاستجابة اللمسية في العدّادات ومحاذاة القبلة، ويمكن إيقافهما من الإعدادات.",
             "يمكن أن يستمر صوت القرآن في الخلفية عبر إشعار الوسائط.",
-            "لا يستخدم التطبيق الميكروفون ولا الكاميرا."
+            "لا يُستخدم الميكروفون إلا إذا سجّلت تلاوة صوتية للمجتمع، ولا يعمل إلا أثناء التسجيل. ولا يستخدم التطبيق الكاميرا."
           ]
         },
         {
@@ -266,7 +312,8 @@
             "النصوص أو الصور المشاركة، مثل آية أو دعاء أو ذكر أو رابط التطبيق، تُسلَّم إلى التطبيق الذي تختاره. ولا نستلمها ولا نخزّنها.",
             "تتضمن الرسائل المشاركة اسم التطبيق ورابط المتجر ليتمكن الآخرون من إيجاد التطبيق.",
             "تُفتح رسائل الدعم في تطبيق البريد لديك. ولا نستلم إلا ما ترسله.",
-            "إذا ضغطت «حفظ» على صورة في المدوّنة فإنها تُضاف إلى مكتبة الصور في جهازك. يستطيع التطبيق إضافة الصور لكنه لا يستطيع قراءة صورك."
+            "إذا ضغطت «حفظ» على صورة في المدوّنة فإنها تُضاف إلى مكتبة الصور في جهازك.",
+            "تختار أنت الصور ومقاطع الفيديو لمنشورات المجتمع من أداة الاختيار في النظام. ولا يستطيع التطبيق قراءة بقية صورك."
           ]
         },
         {
@@ -276,7 +323,8 @@
           "items": [
             "لا نبيع المعلومات الشخصية ولا نؤجّرها.",
             "لا يحتوي التطبيق على إعلانات ولا على أدوات تحليلات أو تقارير أعطال.",
-            "لا يُستخدم موقعك ولا نشاطك التعبدي في الإعلان أبداً."
+            "لا يُستخدم موقعك ولا نشاطك التعبدي في الإعلان أبدًا.",
+            "تُعرض منشورات المجتمع للمستخدمين الآخرين بحسب اختيارك. ولا نبيعها."
           ]
         },
         {
@@ -286,7 +334,12 @@
           "items": [
             "تبقى البيانات المحلية على جهازك إلى أن تمسح بيانات التطبيق أو تحذفه.",
             "تُزال الصوتيات المحمّلة بالطريقة نفسها.",
-            "لا نحتفظ بنسخة من بياناتك، فلا يوجد ما نحذفه من جانبنا."
+            "بيانات الصلاة والقرآن والمخطط لا نحتفظ بها، فلا يوجد ما نحذفه من جانبنا.",
+            "المجتمع: يمكنك حذف حسابك في أي وقت من التطبيق (المجتمع > القائمة > الإعدادات > حذف الحساب). وبذلك يُزال تسجيل دخولك وملفك الشخصي ومنشوراتك وتعليقاتك وإعجاباتك ومتابعاتك والمنشورات المحفوظة، والصور ومقاطع الفيديو والملفات الصوتية التي رفعتها.",
+            "المنشور أو التعليق الذي تحذفه بنفسك يُحذف من قاعدة بياناتنا وتُزال ملفاته. وإن كان هناك بلاغ عنه لم يُفصل فيه بعد، يُحتفظ به حتى يُبَتّ في البلاغ ثم يُحذف. أما المحتوى الذي يزيله المشرفون فيُحتفظ به حتى 30 يومًا للمراجعة ثم يُحذف.",
+            "تُحذف الحسابات التي لم تُفتح لمدة 3 أشهر تلقائيًا مع كل ما فيها (ولا يشمل ذلك أعضاء الفريق ولا الحسابات المعلّقة). وتُحذف التسجيلات التي لم يُؤكَّد بريدها الإلكتروني بعد 7 أيام.",
+            "قد يُحتفظ ببعض السجلات عند الحاجة إلى إبقاء المجتمع آمنًا: البلاغات وإجراءات المشرفين والبريد الإلكتروني لحساب عُلّق، حتى لا يتمكن من التسجيل مجددًا.",
+            "إذا تعذّر عليك فتح التطبيق، فراسل بريد الخصوصية أدناه من عنوان بريد حسابك وسنحذف الحساب."
           ]
         },
         {
@@ -295,7 +348,8 @@
           "description": "خطوات بسيطة تحمي معلوماتك.",
           "items": [
             "يتصل التطبيق بخدمات المحتوى عبر اتصالات HTTPS آمنة.",
-            "ولأن بياناتك تبقى على جهازك، فإن قفل الشاشة هو أفضل وسيلة لحمايتها."
+            "تحمي بيانات المجتمع قواعد وصول في قاعدة البيانات، ولا تُخزَّن كلمة مرورك لدى مزوّد تسجيل الدخول إلا في صورة مُجزَّأة (Hash).",
+            "قفل شاشة جهازك هو أفضل وسيلة لحماية البيانات المخزّنة عليه. واستخدم كلمة مرور قوية وفريدة لحسابك."
           ]
         },
         {
@@ -303,7 +357,8 @@
           "title": "الأطفال",
           "description": "التطبيق مناسب لجميع الأعمار.",
           "items": [
-            "لا يجمع التطبيق عن علم معلومات شخصية من أي شخص، بمن فيهم الأطفال."
+            "لا تجمع ميزات العبادة معلومات شخصية من أي شخص، بمن فيهم الأطفال.",
+            "المجتمع غير موجّه للأطفال دون سن 13. فلا تنشئ حسابًا إن كان عمرك أقل من 13 عامًا. وإذا علمنا أن حسابًا يخص طفلًا دون 13 عامًا فإننا نحذفه."
           ]
         },
         {
@@ -311,10 +366,11 @@
           "title": "خياراتك",
           "description": "أنت تقرر ما يمكن للتطبيق استخدامه.",
           "items": [
-            "اسمح بالوصول إلى الموقع والإشعارات أو امنعه أو غيّره في أي وقت من إعدادات جهازك.",
+            "اسمح بالوصول إلى الموقع والإشعارات والميكروفون أو امنعه أو غيّره في أي وقت من إعدادات جهازك. ويستمر التطبيق في العمل من دونها.",
             "أوقف إشعارات الصلاة وصوت القبلة أو اهتزازها من الإعدادات.",
             "استخدم التطبيق دون اتصال: نص القرآن والأدعية والصوتيات المحمّلة تعمل دون إنترنت.",
-            "امسح البيانات المحلية من إعدادات جهازك، أو احذف التطبيق."
+            "عدّل ملفك الشخصي، واحذف منشوراتك، واحظر الأشخاص أو اكتمهم أو أبلغ عنهم داخل المجتمع.",
+            "احذف حسابك في المجتمع من التطبيق، أو اطلب ذلك منا بالبريد الإلكتروني. وامسح البيانات المحلية من إعدادات جهازك، أو احذف التطبيق."
           ]
         },
         {
@@ -322,40 +378,41 @@
           "title": "تغييرات هذه السياسة",
           "description": "ستظهر التحديثات هنا.",
           "items": [
-            "إذا بدأ التطبيق باستخدام الحسابات أو التحليلات أو الإعلانات أو المزامنة السحابية، فسنحدّث هذه السياسة أولاً مع إظهار تاريخ جديد في أعلاها."
+            "إذا بدأ التطبيق باستخدام التحليلات أو الإعلانات أو أنواع جديدة من البيانات، فسنحدّث هذه السياسة أولًا مع إظهار تاريخ جديد في أعلاها."
           ]
         }
       ],
       "contactTitle": "هل لديك سؤال عن الخصوصية؟",
-      "contactDescription": "تواصل معنا إذا كان لديك سؤال أو طلب يخص الخصوصية."
+      "contactDescription": "تواصل معنا إذا كان لديك سؤال أو طلب يخص الخصوصية.",
+      "developerLabel": "المطوّر"
     },
     "ms": {
       "title": "Dasar Privasi",
-      "intro": "Muslim Flow dibina untuk berfungsi tanpa akaun. Halaman ini menerangkan dengan bahasa yang mudah apa yang digunakan oleh aplikasi pada peranti anda, apa yang dihantar melalui internet, dan pilihan yang anda ada.",
-      "updatedLabel": "Dikemas kini terakhir 2026-10-02",
+      "intro": "Muslim Flow berfungsi tanpa akaun. Akaun hanya diperlukan untuk Komuniti (Beta) pilihan. Halaman ini menerangkan dengan bahasa yang mudah apa yang digunakan oleh aplikasi pada peranti anda, apa yang dihantar melalui internet, apa yang disimpan oleh Komuniti, dan pilihan yang anda ada.",
+      "updatedLabel": "Dikemas kini terakhir 2026-11-02",
       "highlights": [
         {
-          "title": "Tiada akaun diperlukan",
-          "text": "Gunakan semua ciri tanpa mendaftar atau memberikan nama atau e-mel anda."
+          "title": "Akaun hanya untuk Komuniti",
+          "text": "Waktu solat, al-Quran, zikir dan kiblat berfungsi tanpa mendaftar. Akaun hanya diperlukan untuk menyertai Komuniti."
         },
         {
           "title": "Tiada iklan atau penjejakan",
           "text": "Aplikasi ini tidak mempunyai iklan, analitik atau alat pelaporan ranap."
         },
         {
-          "title": "Kekal pada peranti anda",
-          "text": "Tetapan, kemajuan dan kegemaran disimpan setempat, tidak dimuat naik kepada kami."
+          "title": "Data ibadah kekal pada peranti anda",
+          "text": "Tetapan, kemajuan dan kegemaran disimpan setempat. Hanya hantaran anda dalam Komuniti disimpan dalam talian."
         }
       ],
       "sections": [
         {
           "id": "overview",
           "title": "Apa yang dilindungi dasar ini",
-          "description": "Muslim Flow ialah aplikasi solat, al-Quran, kiblat, zikir dan ibadah harian. Ia tidak membina profil tentang anda. Untuk berfungsi, ia menggunakan lokasi anda semasa aplikasi dibuka, storan pada peranti anda dan beberapa perkhidmatan kandungan awam yang diterangkan di bawah.",
+          "description": "Muslim Flow ialah aplikasi solat, al-Quran, kiblat, zikir dan ibadah harian. Ia tidak membina profil tentang anda. Untuk berfungsi, ia menggunakan lokasi anda semasa aplikasi dibuka, storan pada peranti anda dan beberapa perkhidmatan kandungan awam yang diterangkan di bawah. Jika anda memilih untuk menyertai Komuniti, ia juga menggunakan akaun dalam talian.",
           "items": [
-            "Tiada akaun pengguna dalam aplikasi ini.",
-            "Aplikasi ini tidak memuat naik data anda ke pelayan yang kami kendalikan.",
-            "Apa yang anda simpan kekal pada peranti anda melainkan anda memilih untuk berkongsi."
+            "Tiada akaun diperlukan untuk waktu solat, al-Quran, kiblat, zikir atau alat ibadah yang lain.",
+            "Akaun hanya diperlukan untuk Komuniti (Beta) pilihan. Data Komuniti disimpan dalam talian pada pelayan kami, yang dihoskan oleh Supabase.",
+            "Semua yang lain yang anda simpan kekal pada peranti anda melainkan anda memilih untuk berkongsi."
           ]
         },
         {
@@ -393,7 +450,23 @@
             "Tugas perancang harian dan masa peringatannya.",
             "Waktu solat dan kandungan yang disimpan supaya aplikasi terus berfungsi tanpa talian.",
             "Catatan blog yang anda buka, dan catatan yang anda sukai.",
+            "Jika anda log masuk ke Komuniti, sesi log masuk dan draf hantaran yang belum dihantar turut disimpan pada peranti anda.",
             "Tiada satu pun daripadanya dihantar kepada kami. Menyahpasang aplikasi atau mengosongkan storannya akan memadamkannya."
+          ]
+        },
+        {
+          "id": "community",
+          "title": "Komuniti (Beta) dan akaun anda",
+          "description": "Komuniti adalah pilihan. Anda boleh menggunakan seluruh aplikasi tanpanya. Inilah yang disimpannya jika anda menyertainya.",
+          "items": [
+            "Pendaftaran: alamat e-mel dan kata laluan anda, disahkan dengan kod yang dihantar ke e-mel anda. Anda juga boleh meneruskan dengan akaun Google anda, jika disediakan; ketika itu Google memberi kami alamat e-mel dan nama anda. Kami tidak dapat membaca kata laluan anda.",
+            "Profil: nama paparan, nama pengguna dan, jika anda mahu, bio ringkas, negara, bahasa, jantina, avatar berilustrasi dan sampul. Profil anda kelihatan kepada orang lain dalam Komuniti.",
+            "Hantaran: teks, gambar, video pendek, bacaan suara dan kad ayat yang anda siarkan, serta ulasan, siaran semula dan suka anda. Semuanya disimpan dalam talian dan dipaparkan kepada orang lain mengikut khalayak yang anda pilih.",
+            "Ikutan kelihatan kepada orang lain. Hantaran disimpan, sekatan, bisu dan tetapan pemberitahuan adalah peribadi kepada anda. Pemberitahuan dalam aplikasi disimpan bersama akaun anda.",
+            "Laporan yang anda hantar tentang sesuatu hantaran atau seseorang dilihat oleh moderator dan pentadbir kami.",
+            "Untuk menghentikan spam dan penyalahgunaan, pelayan menyimpan log peribadi ringkas bagi tindakan seperti menyiarkan dan melapor selama beberapa hari untuk menguatkuasakan had, dan CAPTCHA daripada Cloudflare (Turnstile) dipaparkan apabila anda log masuk atau mendaftar. Cloudflare mungkin melihat alamat IP dan butiran pelayar anda untuk semakan itu.",
+            "Moderator boleh membuang hantaran dan menggantung akaun yang melanggar peraturan Komuniti. Tindakan mereka direkodkan dalam log aktiviti peribadi.",
+            "Kami tidak menjual data Komuniti dan tiada iklan atau analitik di dalamnya. Apa sahaja yang anda siarkan boleh dilihat oleh orang lain, jadi jangan menyiarkan maklumat peribadi."
           ]
         },
         {
@@ -407,7 +480,8 @@
             "Tafsir: Quran Tafseer dan QuranEnc.",
             "Semakan sambungan: aplikasi menghubungi alamat semakan sambungan Google untuk mengetahui sama ada anda berada dalam talian.",
             "Blog: catatan dan gambar dimuatkan daripada laman web blog, yang dihoskan di GitHub Pages.",
-            "Permintaan ini tidak termasuk nama anda atau pengenal akaun. Setiap perkhidmatan mempunyai dasar privasinya sendiri."
+            "Komuniti: pelayan kami di Supabase, dan Cloudflare Turnstile untuk CAPTCHA. Jika anda menggunakan log masuk Google, halaman log masuk Google.",
+            "Permintaan kepada perkhidmatan kandungan di atas tidak termasuk nama anda atau pengenal akaun. Setiap perkhidmatan mempunyai dasar privasinya sendiri."
           ]
         },
         {
@@ -418,7 +492,7 @@
             "Kompas kiblat membaca arah peranti anda melalui perkhidmatan lokasi sistem. Data arah hanya digunakan pada peranti dan tidak disimpan atau dihantar.",
             "Getaran dan maklum balas haptik digunakan untuk kaunter dan penjajaran kiblat, dan boleh dimatikan dalam Tetapan.",
             "Audio al-Quran boleh terus dimainkan di latar belakang melalui pemberitahuan media.",
-            "Aplikasi ini tidak menggunakan mikrofon atau kamera anda."
+            "Mikrofon digunakan hanya jika anda merakam bacaan suara untuk Komuniti, dan hanya semasa anda merakam. Aplikasi ini tidak menggunakan kamera anda."
           ]
         },
         {
@@ -429,7 +503,8 @@
             "Teks atau imej yang dikongsi, seperti ayat, doa, zikir atau pautan aplikasi, diserahkan kepada aplikasi yang anda pilih. Kami tidak menerima atau menyimpannya.",
             "Mesej yang dikongsi menyertakan nama aplikasi dan pautan kedai supaya orang lain dapat menemui aplikasi ini.",
             "E-mel sokongan dibuka dalam aplikasi e-mel anda sendiri. Kami hanya menerima apa yang anda hantar.",
-            "Jika anda mengetik Simpan pada gambar blog, gambar itu ditambah ke pustaka foto anda. Aplikasi boleh menambah gambar tetapi tidak boleh membaca foto anda."
+            "Jika anda mengetik Simpan pada gambar blog, gambar itu ditambah ke pustaka foto anda.",
+            "Gambar dan video untuk hantaran Komuniti dipilih oleh anda dalam pemilih sistem. Aplikasi tidak dapat membaca foto anda yang lain."
           ]
         },
         {
@@ -439,7 +514,8 @@
           "items": [
             "Kami tidak menjual atau menyewakan maklumat peribadi.",
             "Aplikasi ini tidak mengandungi iklan dan tiada alat analitik atau pelaporan ranap.",
-            "Lokasi dan aktiviti ibadah anda tidak pernah digunakan untuk pengiklanan."
+            "Lokasi dan aktiviti ibadah anda tidak pernah digunakan untuk pengiklanan.",
+            "Hantaran Komuniti dipaparkan kepada pengguna lain mengikut pilihan anda. Kami tidak menjualnya."
           ]
         },
         {
@@ -449,7 +525,12 @@
           "items": [
             "Data setempat kekal pada peranti anda sehingga anda mengosongkan storan aplikasi atau menyahpasangnya.",
             "Audio yang dimuat turun dipadam dengan cara yang sama.",
-            "Kami tidak menyimpan salinan data anda, jadi tiada apa yang perlu kami padam di pihak kami."
+            "Data solat, al-Quran dan perancang tidak disimpan oleh kami, jadi tiada apa yang perlu kami padam di pihak kami.",
+            "Komuniti: anda boleh memadam akaun anda pada bila-bila masa dalam aplikasi (Komuniti > Menu > Tetapan > Padam akaun). Ini membuang log masuk, profil, hantaran, ulasan, suka, ikutan dan hantaran disimpan anda, serta gambar, video dan fail suara yang anda muat naik.",
+            "Hantaran atau ulasan yang anda padam sendiri dipadam daripada pangkalan data kami dan failnya dibuang. Jika laporan mengenainya masih terbuka, ia disimpan sehingga laporan itu diputuskan, kemudian dipadam. Kandungan yang dibuang oleh moderator disimpan sehingga 30 hari untuk semakan, kemudian dipadam.",
+            "Akaun yang tidak dibuka selama 3 bulan dipadam secara automatik bersama semua kandungannya (ahli pasukan dan akaun yang digantung tidak dipadam dengan cara ini). Pendaftaran yang tidak mengesahkan e-mel dipadam selepas 7 hari.",
+            "Sesetengah rekod mungkin disimpan apabila perlu untuk memastikan Komuniti selamat: laporan, tindakan moderator, dan alamat e-mel akaun yang digantung supaya ia tidak dapat mendaftar semula.",
+            "Jika anda tidak dapat membuka aplikasi, tulis kepada e-mel privasi di bawah daripada alamat akaun anda dan kami akan memadam akaun itu."
           ]
         },
         {
@@ -458,7 +539,8 @@
           "description": "Langkah mudah yang melindungi maklumat anda.",
           "items": [
             "Aplikasi menyambung ke perkhidmatan kandungan melalui sambungan HTTPS yang selamat.",
-            "Oleh sebab data anda kekal pada peranti, kunci skrin peranti anda ialah perlindungan terbaik untuknya."
+            "Data Komuniti dilindungi oleh peraturan akses dalam pangkalan data, dan kata laluan anda hanya disimpan dalam bentuk cincang oleh penyedia log masuk.",
+            "Kunci skrin peranti anda ialah perlindungan terbaik untuk data yang disimpan pada peranti. Gunakan kata laluan yang kukuh dan unik untuk akaun anda."
           ]
         },
         {
@@ -466,7 +548,8 @@
           "title": "Kanak-kanak",
           "description": "Aplikasi ini sesuai untuk semua peringkat umur.",
           "items": [
-            "Aplikasi ini tidak dengan sengaja mengumpul maklumat peribadi daripada sesiapa, termasuk kanak-kanak."
+            "Ciri ibadah tidak mengumpul maklumat peribadi daripada sesiapa, termasuk kanak-kanak.",
+            "Komuniti tidak ditujukan kepada kanak-kanak di bawah 13 tahun. Sila jangan buat akaun jika anda berumur di bawah 13 tahun. Jika kami mendapati sesuatu akaun milik kanak-kanak di bawah 13 tahun, kami memadamnya."
           ]
         },
         {
@@ -474,10 +557,11 @@
           "title": "Pilihan anda",
           "description": "Anda menentukan apa yang boleh digunakan oleh aplikasi.",
           "items": [
-            "Benarkan, tolak atau ubah akses lokasi dan pemberitahuan pada bila-bila masa dalam tetapan peranti anda.",
+            "Benarkan, tolak atau ubah akses lokasi, pemberitahuan dan mikrofon pada bila-bila masa dalam tetapan peranti anda. Aplikasi terus berfungsi tanpanya.",
             "Matikan pemberitahuan solat serta bunyi atau getaran kiblat dalam Tetapan.",
             "Gunakan aplikasi tanpa talian: teks al-Quran, doa dan audio yang dimuat turun berfungsi tanpa sambungan internet.",
-            "Kosongkan data setempat dalam tetapan peranti anda, atau nyahpasang aplikasi."
+            "Sunting profil anda, padam hantaran anda, dan sekat, bisukan atau laporkan orang dalam Komuniti.",
+            "Padam akaun Komuniti anda dalam aplikasi, atau minta kami melalui e-mel. Kosongkan data setempat dalam tetapan peranti anda, atau nyahpasang aplikasi."
           ]
         },
         {
@@ -485,40 +569,41 @@
           "title": "Perubahan pada dasar ini",
           "description": "Anda akan melihat kemas kini di sini.",
           "items": [
-            "Jika aplikasi mula menggunakan akaun, analitik, pengiklanan atau penyegerakan awan, dasar ini akan dikemas kini terlebih dahulu, dengan tarikh baharu dipaparkan di bahagian atas."
+            "Jika aplikasi mula menggunakan analitik, pengiklanan atau jenis data baharu, dasar ini akan dikemas kini terlebih dahulu, dengan tarikh baharu dipaparkan di bahagian atas."
           ]
         }
       ],
       "contactTitle": "Soalan tentang privasi?",
-      "contactDescription": "Hubungi kami jika anda mempunyai soalan atau permintaan berkaitan privasi."
+      "contactDescription": "Hubungi kami jika anda mempunyai soalan atau permintaan berkaitan privasi.",
+      "developerLabel": "Pembangun"
     },
     "es": {
       "title": "Política de privacidad",
-      "intro": "Muslim Flow está diseñada para funcionar sin cuenta. Esta página explica en lenguaje sencillo qué usa la aplicación en tu dispositivo, qué envía por internet y qué opciones tienes.",
-      "updatedLabel": "Última actualización 2026-10-02",
+      "intro": "Muslim Flow funciona sin cuenta. Solo se necesita una cuenta para la Comunidad (Beta), que es opcional. Esta página explica en lenguaje sencillo qué usa la aplicación en tu dispositivo, qué envía por internet, qué guarda la Comunidad y qué opciones tienes.",
+      "updatedLabel": "Última actualización 2026-11-02",
       "highlights": [
         {
-          "title": "No necesitas cuenta",
-          "text": "Usa todas las funciones sin registrarte ni dar tu nombre o correo electrónico."
+          "title": "Cuenta solo para la Comunidad",
+          "text": "Los horarios de oración, el Corán, los adhkar y la Qibla funcionan sin registrarte. Solo necesitas una cuenta para unirte a la Comunidad."
         },
         {
           "title": "Sin anuncios ni rastreo",
           "text": "La aplicación no tiene publicidad, analíticas ni herramientas de informes de fallos."
         },
         {
-          "title": "Se queda en tu dispositivo",
-          "text": "Los ajustes, el progreso y los favoritos se guardan localmente y no se suben a nuestros servidores."
+          "title": "Los datos de adoración se quedan en tu dispositivo",
+          "text": "Los ajustes, el progreso y los favoritos se guardan localmente. Solo lo que publicas en la Comunidad se guarda en línea."
         }
       ],
       "sections": [
         {
           "id": "overview",
           "title": "Qué cubre esta política",
-          "description": "Muslim Flow es una aplicación de oración, Corán, Qibla, adhkar y adoración diaria. No crea un perfil sobre ti. Para funcionar, usa tu ubicación mientras la aplicación está abierta, el almacenamiento de tu dispositivo y algunos servicios públicos de contenido descritos más abajo.",
+          "description": "Muslim Flow es una aplicación de oración, Corán, Qibla, adhkar y adoración diaria. No crea un perfil sobre ti. Para funcionar, usa tu ubicación mientras la aplicación está abierta, el almacenamiento de tu dispositivo y algunos servicios públicos de contenido descritos más abajo. Si decides unirte a la Comunidad, también usa una cuenta en línea.",
           "items": [
-            "La aplicación no tiene cuentas de usuario.",
-            "La aplicación no sube tus datos a un servidor operado por nosotros.",
-            "Lo que guardas permanece en tu dispositivo a menos que decidas compartirlo."
+            "No se necesita cuenta para los horarios de oración, el Corán, la Qibla, los adhkar ni las demás herramientas de adoración.",
+            "Solo se necesita una cuenta para la Comunidad (Beta), que es opcional. Los datos de la Comunidad se guardan en línea en nuestro servidor, alojado en Supabase.",
+            "Todo lo demás que guardas permanece en tu dispositivo a menos que decidas compartirlo."
           ]
         },
         {
@@ -556,7 +641,23 @@
             "Tareas del planificador diario y sus horas de recordatorio.",
             "Horarios de oración y contenido guardados para que la aplicación siga funcionando sin conexión.",
             "Las publicaciones del blog que abriste y las que te gustaron.",
+            "Si inicias sesión en la Comunidad, también se guardan en tu dispositivo una sesión iniciada y un borrador de publicación sin enviar.",
             "Nada de esto se nos envía. Desinstalar la aplicación o borrar su almacenamiento lo elimina."
+          ]
+        },
+        {
+          "id": "community",
+          "title": "Comunidad (Beta) y tu cuenta",
+          "description": "La Comunidad es opcional. Puedes usar toda la aplicación sin ella. Esto es lo que guarda si te unes.",
+          "items": [
+            "Registro: tu correo electrónico y una contraseña, confirmados con un código enviado a tu correo. También puedes continuar con tu cuenta de Google, donde esté disponible; entonces Google nos da tu correo electrónico y tu nombre. No podemos leer tu contraseña.",
+            "Perfil: un nombre visible, un nombre de usuario y, si quieres, una biografía breve, país, idiomas, género, un avatar ilustrado y una portada. Tu perfil es visible para otras personas de la Comunidad.",
+            "Publicaciones: el texto, las imágenes, los vídeos cortos, las recitaciones de voz y las tarjetas de versículos que publicas, además de tus comentarios, publicaciones compartidas y «me gusta». Se guardan en línea y se muestran a otras personas según la audiencia que elijas.",
+            "Los seguimientos son visibles para los demás. Las publicaciones guardadas, los bloqueos, los silenciados y los ajustes de notificaciones son solo para ti. Las notificaciones dentro de la aplicación se guardan con tu cuenta.",
+            "Los reportes que envías sobre una publicación o una persona los ven nuestros moderadores y administradores.",
+            "Para frenar el spam y los abusos, el servidor guarda durante unos días un breve registro privado de acciones como publicar y reportar, con el fin de aplicar límites, y se muestra un CAPTCHA de Cloudflare (Turnstile) cuando inicias sesión o te registras. Cloudflare puede ver tu dirección IP y los datos de tu navegador para esa comprobación.",
+            "Los moderadores pueden eliminar publicaciones y suspender cuentas que incumplan las normas de la Comunidad. Sus acciones se anotan en un registro de actividad privado.",
+            "No vendemos los datos de la Comunidad y en ella no hay anuncios ni analíticas. Todo lo que publicas puede verlo otra gente, así que no publiques información privada."
           ]
         },
         {
@@ -570,7 +671,8 @@
             "Tafsir: Quran Tafseer y QuranEnc.",
             "Comprobación de conexión: la aplicación contacta una dirección de comprobación de conectividad de Google para saber si estás en línea.",
             "Blog: las publicaciones y las imágenes se cargan desde el sitio web del blog, alojado en GitHub Pages.",
-            "Estas solicitudes no incluyen tu nombre ni un identificador de cuenta. Cada servicio tiene su propia política de privacidad."
+            "Comunidad: nuestro servidor en Supabase y Cloudflare Turnstile para el CAPTCHA. Si usas el inicio de sesión con Google, la página de inicio de sesión de Google.",
+            "Las solicitudes a los servicios de contenido anteriores no incluyen tu nombre ni un identificador de cuenta. Cada servicio tiene su propia política de privacidad."
           ]
         },
         {
@@ -581,7 +683,7 @@
             "La brújula de la Qibla lee la orientación de tu dispositivo a través de los servicios de ubicación del sistema. Los datos de orientación se usan solo en el dispositivo y no se guardan ni se envían.",
             "La vibración y la respuesta háptica se usan en los contadores y en la alineación de la Qibla, y pueden desactivarse en Ajustes.",
             "El audio del Corán puede seguir sonando en segundo plano mediante una notificación multimedia.",
-            "La aplicación no usa tu micrófono ni tu cámara."
+            "El micrófono se usa solo si grabas una recitación de voz para la Comunidad, y únicamente mientras grabas. La aplicación no usa tu cámara."
           ]
         },
         {
@@ -592,7 +694,8 @@
             "El texto o las imágenes compartidos, como una aleya, una súplica, un adhkar o el enlace de la aplicación, se entregan a la aplicación que elijas. No los recibimos ni los guardamos.",
             "Los mensajes compartidos incluyen el nombre de la aplicación y un enlace a la tienda para que otros puedan encontrarla.",
             "Los correos de soporte se abren en tu propia aplicación de correo. Solo recibimos lo que envías.",
-            "Si pulsas Guardar en una imagen del blog, se añade a tu fototeca. La aplicación puede añadir imágenes, pero no puede leer tus fotos."
+            "Si pulsas Guardar en una imagen del blog, se añade a tu fototeca.",
+            "Las imágenes y los vídeos de las publicaciones de la Comunidad los eliges tú en el selector del sistema. La aplicación no puede leer el resto de tus fotos."
           ]
         },
         {
@@ -602,7 +705,8 @@
           "items": [
             "No vendemos ni alquilamos información personal.",
             "La aplicación no contiene publicidad ni herramientas de analíticas o de informes de fallos.",
-            "Tu ubicación y tu actividad de adoración nunca se usan para publicidad."
+            "Tu ubicación y tu actividad de adoración nunca se usan para publicidad.",
+            "Las publicaciones de la Comunidad se muestran a otros usuarios según lo que elijas. No las vendemos."
           ]
         },
         {
@@ -612,7 +716,12 @@
           "items": [
             "Los datos locales permanecen en tu dispositivo hasta que borres el almacenamiento de la aplicación o la desinstales.",
             "El audio descargado se elimina del mismo modo.",
-            "No conservamos ninguna copia de tus datos, así que no hay nada que eliminar de nuestro lado."
+            "Los datos de oración, del Corán y del planificador no los conservamos nosotros, así que no hay nada que eliminar de nuestro lado.",
+            "Comunidad: puedes eliminar tu cuenta en cualquier momento desde la aplicación (Comunidad > Menú > Ajustes > Eliminar cuenta). Así se eliminan tu inicio de sesión, tu perfil, tus publicaciones, comentarios, «me gusta», seguimientos y publicaciones guardadas, y las imágenes, vídeos y archivos de voz que subiste.",
+            "Una publicación o un comentario que eliminas tú mismo se borra de nuestra base de datos y se eliminan sus archivos. Si todavía hay un reporte abierto sobre ello, se conserva hasta que se resuelva y luego se borra. El contenido retirado por los moderadores se conserva hasta 30 días para su revisión y después se borra.",
+            "Las cuentas que no se abren durante 3 meses se eliminan automáticamente con todo su contenido (los miembros del equipo y las cuentas suspendidas no se eliminan así). Los registros que nunca confirman su correo electrónico se eliminan a los 7 días.",
+            "Algunos registros pueden conservarse cuando hace falta para mantener segura la Comunidad: los reportes, las acciones de los moderadores y el correo electrónico de una cuenta suspendida, para que no pueda registrarse de nuevo.",
+            "Si no puedes abrir la aplicación, escribe al correo de privacidad de más abajo desde la dirección de tu cuenta y eliminaremos la cuenta."
           ]
         },
         {
@@ -621,7 +730,8 @@
           "description": "Medidas sencillas que protegen tu información.",
           "items": [
             "La aplicación se conecta a los servicios de contenido mediante conexiones HTTPS seguras.",
-            "Como tus datos permanecen en tu dispositivo, el bloqueo de pantalla es la mejor protección para ellos."
+            "Los datos de la Comunidad están protegidos por reglas de acceso en la base de datos, y el proveedor de inicio de sesión guarda tu contraseña únicamente como hash.",
+            "El bloqueo de pantalla es la mejor protección para los datos guardados en tu dispositivo. Usa una contraseña segura y única para tu cuenta."
           ]
         },
         {
@@ -629,7 +739,8 @@
           "title": "Niños",
           "description": "La aplicación es adecuada para todas las edades.",
           "items": [
-            "La aplicación no recopila a sabiendas información personal de nadie, incluidos los niños."
+            "Las funciones de adoración no recopilan información personal de nadie, incluidos los niños.",
+            "La Comunidad no está pensada para menores de 13 años. No crees una cuenta si tienes menos de 13 años. Si nos enteramos de que una cuenta pertenece a un menor de 13 años, la eliminamos."
           ]
         },
         {
@@ -637,10 +748,11 @@
           "title": "Tus opciones",
           "description": "Tú decides qué puede usar la aplicación.",
           "items": [
-            "Permite, deniega o cambia el acceso a la ubicación y a las notificaciones en cualquier momento en los ajustes de tu dispositivo.",
+            "Permite, deniega o cambia el acceso a la ubicación, a las notificaciones y al micrófono en cualquier momento en los ajustes de tu dispositivo. La aplicación sigue funcionando sin ellos.",
             "Desactiva en Ajustes las notificaciones de oración y el sonido o la vibración de la Qibla.",
             "Usa la aplicación sin conexión: el texto del Corán, las súplicas y el audio descargado funcionan sin internet.",
-            "Borra los datos locales en los ajustes de tu dispositivo o desinstala la aplicación."
+            "Edita tu perfil, elimina tus publicaciones y bloquea, silencia o reporta a otras personas dentro de la Comunidad.",
+            "Elimina tu cuenta de la Comunidad desde la aplicación o pídenoslo por correo electrónico. Borra los datos locales en los ajustes de tu dispositivo o desinstala la aplicación."
           ]
         },
         {
@@ -648,40 +760,41 @@
           "title": "Cambios en esta política",
           "description": "Verás las actualizaciones aquí.",
           "items": [
-            "Si la aplicación empieza a usar cuentas, analíticas, publicidad o sincronización en la nube, esta política se actualizará primero y se mostrará una nueva fecha en la parte superior."
+            "Si la aplicación empieza a usar analíticas, publicidad o nuevos tipos de datos, esta política se actualizará primero y se mostrará una nueva fecha en la parte superior."
           ]
         }
       ],
       "contactTitle": "¿Preguntas sobre privacidad?",
-      "contactDescription": "Contáctanos si tienes una pregunta o una solicitud sobre privacidad."
+      "contactDescription": "Contáctanos si tienes una pregunta o una solicitud sobre privacidad.",
+      "developerLabel": "Desarrollador"
     },
     "fr": {
       "title": "Politique de confidentialité",
-      "intro": "Muslim Flow est conçue pour fonctionner sans compte. Cette page explique en termes simples ce que l’application utilise sur votre appareil, ce qu’elle envoie sur internet et les choix dont vous disposez.",
-      "updatedLabel": "Dernière mise à jour 2026-10-02",
+      "intro": "Muslim Flow fonctionne sans compte. Un compte n’est nécessaire que pour la Communauté (bêta), facultative. Cette page explique en termes simples ce que l’application utilise sur votre appareil, ce qu’elle envoie sur internet, ce que stocke la Communauté et les choix dont vous disposez.",
+      "updatedLabel": "Dernière mise à jour 2026-11-02",
       "highlights": [
         {
-          "title": "Aucun compte nécessaire",
-          "text": "Utilisez toutes les fonctions sans vous inscrire ni donner votre nom ou votre e-mail."
+          "title": "Compte uniquement pour la Communauté",
+          "text": "Les horaires de prière, le Coran, les adhkar et la Qibla fonctionnent sans inscription. Un compte n’est nécessaire que pour rejoindre la Communauté."
         },
         {
           "title": "Ni publicité ni suivi",
           "text": "L’application ne contient ni publicité, ni outil d’analyse, ni outil de rapport de plantage."
         },
         {
-          "title": "Reste sur votre appareil",
-          "text": "Les réglages, la progression et les favoris sont enregistrés localement, pas envoyés chez nous."
+          "title": "Les données d’adoration restent sur votre appareil",
+          "text": "Les réglages, la progression et les favoris sont enregistrés localement. Seul ce que vous publiez dans la Communauté est stocké en ligne."
         }
       ],
       "sections": [
         {
           "id": "overview",
           "title": "Ce que couvre cette politique",
-          "description": "Muslim Flow est une application de prière, de Coran, de Qibla, d’adhkar et d’adoration quotidienne. Elle ne construit pas de profil sur vous. Pour fonctionner, elle utilise votre position lorsque l’application est ouverte, le stockage de votre appareil et quelques services de contenu publics décrits ci-dessous.",
+          "description": "Muslim Flow est une application de prière, de Coran, de Qibla, d’adhkar et d’adoration quotidienne. Elle ne construit pas de profil sur vous. Pour fonctionner, elle utilise votre position lorsque l’application est ouverte, le stockage de votre appareil et quelques services de contenu publics décrits ci-dessous. Si vous choisissez de rejoindre la Communauté, elle utilise aussi un compte en ligne.",
           "items": [
-            "Il n’y a pas de compte utilisateur dans l’application.",
-            "L’application n’envoie pas vos données vers un serveur que nous exploitons.",
-            "Ce que vous enregistrez reste sur votre appareil, sauf si vous choisissez de le partager."
+            "Aucun compte n’est nécessaire pour les horaires de prière, le Coran, la Qibla, les adhkar ou les autres outils d’adoration.",
+            "Un compte n’est nécessaire que pour la Communauté (bêta), facultative. Les données de la Communauté sont stockées en ligne sur notre serveur, hébergé par Supabase.",
+            "Tout le reste de ce que vous enregistrez reste sur votre appareil, sauf si vous choisissez de le partager."
           ]
         },
         {
@@ -719,7 +832,23 @@
             "Les tâches du planificateur quotidien et leurs heures de rappel.",
             "Les horaires de prière et le contenu enregistrés pour que l’application continue de fonctionner hors ligne.",
             "Les publications du blog que vous avez ouvertes et celles que vous avez aimées.",
+            "Si vous vous connectez à la Communauté, une session de connexion et un brouillon de publication non envoyé sont aussi conservés sur votre appareil.",
             "Rien de tout cela ne nous est envoyé. Désinstaller l’application ou vider son stockage le supprime."
+          ]
+        },
+        {
+          "id": "community",
+          "title": "Communauté (bêta) et votre compte",
+          "description": "La Communauté est facultative. Vous pouvez utiliser toute l’application sans elle. Voici ce qu’elle stocke si vous la rejoignez.",
+          "items": [
+            "Inscription : votre adresse e-mail et un mot de passe, confirmés par un code envoyé à votre e-mail. Vous pouvez aussi continuer avec votre compte Google, lorsque c’est proposé ; Google nous transmet alors votre adresse e-mail et votre nom. Nous ne pouvons pas lire votre mot de passe.",
+            "Profil : un nom affiché, un pseudo et, si vous le souhaitez, une courte bio, un pays, des langues, un genre, un avatar illustré et une couverture. Votre profil est visible par les autres personnes de la Communauté.",
+            "Publications : le texte, les images, les courtes vidéos, les récitations vocales et les cartes de versets que vous publiez, ainsi que vos commentaires, repartages et mentions J’aime. Ils sont stockés en ligne et montrés aux autres selon l’audience que vous choisissez.",
+            "Les abonnements sont visibles par les autres. Les publications enregistrées, les blocages, les personnes masquées et les réglages de notifications ne sont visibles que par vous. Les notifications dans l’application sont stockées avec votre compte.",
+            "Les signalements que vous envoyez à propos d’une publication ou d’une personne sont vus par nos modérateurs et nos administrateurs.",
+            "Pour lutter contre le spam et les abus, le serveur conserve quelques jours un court journal privé des actions telles que publier et signaler afin d’appliquer des limites, et un CAPTCHA de Cloudflare (Turnstile) s’affiche lorsque vous vous connectez ou vous inscrivez. Cloudflare peut voir votre adresse IP et des informations sur votre navigateur pour cette vérification.",
+            "Les modérateurs peuvent supprimer des publications et suspendre les comptes qui enfreignent les règles de la Communauté. Leurs actions sont consignées dans un journal d’activité privé.",
+            "Nous ne vendons pas les données de la Communauté et elle ne contient ni publicité ni outil d’analyse. Tout ce que vous publiez peut être vu par les autres : ne publiez donc pas d’informations privées."
           ]
         },
         {
@@ -733,7 +862,8 @@
             "Tafsir : Quran Tafseer et QuranEnc.",
             "Vérification de connexion : l’application contacte une adresse de test de connectivité de Google pour savoir si vous êtes en ligne.",
             "Blog : les publications et les images sont chargées depuis le site du blog, hébergé sur GitHub Pages.",
-            "Ces requêtes n’incluent ni votre nom ni identifiant de compte. Chaque service a sa propre politique de confidentialité."
+            "Communauté : notre serveur sur Supabase, et Cloudflare Turnstile pour le CAPTCHA. Si vous utilisez la connexion Google, la page de connexion de Google.",
+            "Les requêtes envoyées aux services de contenu ci-dessus n’incluent ni votre nom ni identifiant de compte. Chaque service a sa propre politique de confidentialité."
           ]
         },
         {
@@ -744,7 +874,7 @@
             "La boussole de la Qibla lit l’orientation de votre appareil via les services de localisation du système. Les données d’orientation sont utilisées uniquement sur l’appareil et ne sont ni enregistrées ni envoyées.",
             "Les vibrations et le retour haptique servent pour les compteurs et l’alignement de la Qibla, et peuvent être désactivés dans les Réglages.",
             "L’audio du Coran peut continuer à jouer en arrière-plan grâce à une notification multimédia.",
-            "L’application n’utilise ni votre microphone ni votre appareil photo."
+            "Le microphone n’est utilisé que si vous enregistrez une récitation vocale pour la Communauté, et uniquement pendant l’enregistrement. L’application n’utilise pas votre appareil photo."
           ]
         },
         {
@@ -755,7 +885,8 @@
             "Les textes ou images partagés, tels qu’un verset, une invocation, un adhkar ou le lien de l’application, sont transmis à l’application que vous choisissez. Nous ne les recevons ni ne les conservons.",
             "Les messages partagés incluent le nom de l’application et un lien vers la boutique pour que d’autres puissent la trouver.",
             "Les e-mails d’assistance s’ouvrent dans votre propre application de messagerie. Nous ne recevons que ce que vous envoyez.",
-            "Si vous touchez Enregistrer sur une image du blog, elle est ajoutée à votre photothèque. L’application peut ajouter des images mais ne peut pas lire vos photos."
+            "Si vous touchez Enregistrer sur une image du blog, elle est ajoutée à votre photothèque.",
+            "Les images et vidéos des publications de la Communauté sont choisies par vous dans le sélecteur du système. L’application ne peut pas lire le reste de vos photos."
           ]
         },
         {
@@ -765,7 +896,8 @@
           "items": [
             "Nous ne vendons ni ne louons d’informations personnelles.",
             "L’application ne contient aucune publicité ni outil d’analyse ou de rapport de plantage.",
-            "Votre position et votre activité d’adoration ne sont jamais utilisées à des fins publicitaires."
+            "Votre position et votre activité d’adoration ne sont jamais utilisées à des fins publicitaires.",
+            "Les publications de la Communauté sont montrées aux autres utilisateurs selon votre choix. Nous ne les vendons pas."
           ]
         },
         {
@@ -775,7 +907,12 @@
           "items": [
             "Les données locales restent sur votre appareil jusqu’à ce que vous vidiez le stockage de l’application ou la désinstalliez.",
             "L’audio téléchargé est supprimé de la même manière.",
-            "Nous ne conservons aucune copie de vos données, il n’y a donc rien à supprimer de notre côté."
+            "Les données de prière, de Coran et de planificateur ne sont pas conservées par nous, il n’y a donc rien à supprimer de notre côté.",
+            "Communauté : vous pouvez supprimer votre compte à tout moment dans l’application (Communauté > Menu > Paramètres > Supprimer le compte). Cela supprime votre connexion, votre profil, vos publications, commentaires, mentions J’aime, abonnements et publications enregistrées, ainsi que les images, vidéos et fichiers vocaux que vous avez envoyés.",
+            "Une publication ou un commentaire que vous supprimez vous-même est supprimé de notre base de données et ses fichiers sont effacés. Si un signalement le concernant est encore ouvert, il est conservé jusqu’à la décision, puis supprimé. Le contenu retiré par les modérateurs est conservé jusqu’à 30 jours pour examen, puis supprimé.",
+            "Les comptes qui ne sont pas ouverts pendant 3 mois sont supprimés automatiquement avec tout leur contenu (les membres de l’équipe et les comptes suspendus ne sont pas supprimés ainsi). Les inscriptions dont l’e-mail n’est jamais confirmé sont supprimées après 7 jours.",
+            "Certains enregistrements peuvent être conservés lorsque c’est nécessaire pour la sécurité de la Communauté : les signalements, les actions des modérateurs et l’adresse e-mail d’un compte suspendu, afin qu’il ne puisse pas se réinscrire.",
+            "Si vous ne pouvez pas ouvrir l’application, écrivez à l’adresse e-mail de confidentialité ci-dessous depuis l’adresse de votre compte et nous supprimerons le compte."
           ]
         },
         {
@@ -784,7 +921,8 @@
           "description": "Des mesures simples qui protègent vos informations.",
           "items": [
             "L’application se connecte aux services de contenu via des connexions HTTPS sécurisées.",
-            "Comme vos données restent sur votre appareil, le verrouillage de l’écran est la meilleure protection pour elles."
+            "Les données de la Communauté sont protégées par des règles d’accès dans la base de données, et votre mot de passe n’est conservé que sous forme hachée par le fournisseur de connexion.",
+            "Le verrouillage de l’écran est la meilleure protection pour les données stockées sur votre appareil. Utilisez un mot de passe fort et unique pour votre compte."
           ]
         },
         {
@@ -792,7 +930,8 @@
           "title": "Enfants",
           "description": "L’application convient à tous les âges.",
           "items": [
-            "L’application ne collecte pas sciemment d’informations personnelles auprès de qui que ce soit, y compris les enfants."
+            "Les fonctions d’adoration ne collectent d’informations personnelles auprès de personne, y compris les enfants.",
+            "La Communauté n’est pas destinée aux enfants de moins de 13 ans. Veuillez ne pas créer de compte si vous avez moins de 13 ans. Si nous apprenons qu’un compte appartient à un enfant de moins de 13 ans, nous le supprimons."
           ]
         },
         {
@@ -800,10 +939,11 @@
           "title": "Vos choix",
           "description": "Vous décidez de ce que l’application peut utiliser.",
           "items": [
-            "Autorisez, refusez ou modifiez l’accès à la position et aux notifications à tout moment dans les réglages de votre appareil.",
+            "Autorisez, refusez ou modifiez l’accès à la position, aux notifications et au microphone à tout moment dans les réglages de votre appareil. L’application continue de fonctionner sans eux.",
             "Désactivez dans les Réglages les notifications de prière et le son ou la vibration de la Qibla.",
             "Utilisez l’application hors ligne : le texte du Coran, les invocations et l’audio téléchargé fonctionnent sans connexion internet.",
-            "Effacez les données locales dans les réglages de votre appareil, ou désinstallez l’application."
+            "Modifiez votre profil, supprimez vos publications, et bloquez, masquez ou signalez des personnes dans la Communauté.",
+            "Supprimez votre compte Communauté dans l’application, ou demandez-le-nous par e-mail. Effacez les données locales dans les réglages de votre appareil, ou désinstallez l’application."
           ]
         },
         {
@@ -811,40 +951,41 @@
           "title": "Modifications de cette politique",
           "description": "Vous verrez les mises à jour ici.",
           "items": [
-            "Si l’application se met à utiliser des comptes, des analyses, de la publicité ou la synchronisation cloud, cette politique sera d’abord mise à jour, avec une nouvelle date affichée en haut."
+            "Si l’application se met à utiliser des analyses, de la publicité ou de nouveaux types de données, cette politique sera d’abord mise à jour, avec une nouvelle date affichée en haut."
           ]
         }
       ],
       "contactTitle": "Des questions sur la confidentialité ?",
-      "contactDescription": "Contactez-nous si vous avez une question ou une demande concernant la confidentialité."
+      "contactDescription": "Contactez-nous si vous avez une question ou une demande concernant la confidentialité.",
+      "developerLabel": "Développeur"
     },
     "tr": {
       "title": "Gizlilik Politikası",
-      "intro": "Muslim Flow hesap olmadan çalışacak şekilde yapıldı. Bu sayfa, uygulamanın cihazınızda neyi kullandığını, internet üzerinden neyi gönderdiğini ve sahip olduğunuz seçenekleri sade bir dille açıklar.",
-      "updatedLabel": "Son güncelleme 2026-10-02",
+      "intro": "Muslim Flow hesap olmadan çalışır. Hesap yalnızca isteğe bağlı Topluluk (Beta) için gerekir. Bu sayfa, uygulamanın cihazınızda neyi kullandığını, internet üzerinden neyi gönderdiğini, Topluluğun neyi sakladığını ve sahip olduğunuz seçenekleri sade bir dille açıklar.",
+      "updatedLabel": "Son güncelleme 2026-11-02",
       "highlights": [
         {
-          "title": "Hesap gerekmez",
-          "text": "Kaydolmadan veya adınızı ya da e-postanızı vermeden tüm özellikleri kullanın."
+          "title": "Hesap yalnızca Topluluk için",
+          "text": "Namaz vakitleri, Kur'an, zikir ve Kıble kaydolmadan çalışır. Hesap yalnızca Topluluğa katılmak için gerekir."
         },
         {
           "title": "Reklam ve takip yok",
           "text": "Uygulamada reklam, analiz veya çökme raporlama aracı yoktur."
         },
         {
-          "title": "Cihazınızda kalır",
-          "text": "Ayarlar, ilerleme ve favoriler yerel olarak saklanır, bize yüklenmez."
+          "title": "İbadet verileriniz cihazınızda kalır",
+          "text": "Ayarlar, ilerleme ve favoriler yerel olarak saklanır. Yalnızca Toplulukta paylaştıklarınız çevrimiçi saklanır."
         }
       ],
       "sections": [
         {
           "id": "overview",
           "title": "Bu politika neleri kapsar",
-          "description": "Muslim Flow, namaz, Kur'an, Kıble, zikir ve günlük ibadet uygulamasıdır. Hakkınızda profil oluşturmaz. Çalışmak için uygulama açıkken konumunuzu, cihazınızdaki depolamayı ve aşağıda açıklanan birkaç herkese açık içerik hizmetini kullanır.",
+          "description": "Muslim Flow, namaz, Kur'an, Kıble, zikir ve günlük ibadet uygulamasıdır. Hakkınızda profil oluşturmaz. Çalışmak için uygulama açıkken konumunuzu, cihazınızdaki depolamayı ve aşağıda açıklanan birkaç herkese açık içerik hizmetini kullanır. Topluluğa katılmayı seçerseniz çevrimiçi bir hesap da kullanır.",
           "items": [
-            "Uygulamada kullanıcı hesabı yoktur.",
-            "Uygulama verilerinizi bizim işlettiğimiz bir sunucuya yüklemez.",
-            "Kaydettikleriniz, siz paylaşmayı seçmedikçe cihazınızda kalır."
+            "Namaz vakitleri, Kur'an, Kıble, zikir veya diğer ibadet araçları için hesap gerekmez.",
+            "Hesap yalnızca isteğe bağlı Topluluk (Beta) için gerekir. Topluluk verileri, Supabase tarafından barındırılan sunucumuzda çevrimiçi saklanır.",
+            "Geri kalan her şey, siz paylaşmayı seçmedikçe cihazınızda kalır."
           ]
         },
         {
@@ -882,13 +1023,29 @@
             "Gün planlayıcı görevleri ve hatırlatma saatleri.",
             "Uygulamanın çevrimdışı çalışmaya devam etmesi için kayıtlı namaz vakitleri ve içerik.",
             "Açtığınız blog yazıları ve beğendiğiniz yazılar.",
+            "Topluluğa giriş yaparsanız, bir oturum bilgisi ve gönderilmemiş bir gönderi taslağı da cihazınızda tutulur.",
             "Bunların hiçbiri bize gönderilmez. Uygulamayı kaldırmak veya depolamasını temizlemek bunları siler."
+          ]
+        },
+        {
+          "id": "community",
+          "title": "Topluluk (Beta) ve hesabınız",
+          "description": "Topluluk isteğe bağlıdır. Uygulamanın tamamını onsuz kullanabilirsiniz. Katılırsanız şunları saklar.",
+          "items": [
+            "Kayıt: e-posta adresiniz ve bir parola; e-postanıza gönderilen bir kodla doğrulanır. Sunulduğu yerde Google hesabınızla da devam edebilirsiniz; bu durumda Google bize e-posta adresinizi ve adınızı verir. Parolanızı okuyamayız.",
+            "Profil: görünen bir ad, bir kullanıcı adı ve isterseniz kısa bir biyografi, ülke, diller, cinsiyet, çizimli bir avatar ve bir kapak görseli. Profiliniz Topluluktaki diğer kişilere görünür.",
+            "Gönderiler: paylaştığınız metinler, resimler, kısa videolar, sesli tilavetler ve ayet kartları; ayrıca yorumlarınız, yeniden paylaşımlarınız ve beğenileriniz. Çevrimiçi saklanır ve seçtiğiniz kitleye göre başkalarına gösterilir.",
+            "Takipleriniz başkalarına görünür. Kaydedilen gönderiler, engellediğiniz veya sessize aldığınız kişiler ve bildirim ayarları yalnızca size aittir. Uygulama içi bildirimler hesabınızla birlikte saklanır.",
+            "Bir gönderi veya kişi hakkında gönderdiğiniz şikayetleri moderatörlerimiz ve yöneticilerimiz görür.",
+            "Spam ve kötüye kullanımı önlemek için sunucu, sınırları uygulamak amacıyla gönderi paylaşma ve şikayet etme gibi işlemlerin kısa ve özel bir kaydını birkaç gün tutar. Giriş yaparken veya kaydolurken Cloudflare'in (Turnstile) bir CAPTCHA'sı gösterilir. Cloudflare bu kontrol için IP adresinizi ve tarayıcı bilgilerinizi görebilir.",
+            "Moderatörler, Topluluk kurallarını ihlal eden gönderileri kaldırabilir ve hesapları askıya alabilir. Bu işlemler özel bir etkinlik günlüğüne kaydedilir.",
+            "Topluluk verilerini satmayız ve Toplulukta reklam veya analiz yoktur. Paylaştığınız her şey başkaları tarafından görülebilir; bu yüzden özel bilgi paylaşmayın."
           ]
         },
         {
           "id": "network",
           "title": "İçerik ve internet hizmetleri",
-          "description": "Bazı özellikler herkese açık içerik yükler. Bu hizmetler, her web sitesi gibi IP adresiniz gibi standart teknik bilgileri görür.",
+          "description": "Bazı özellikler herkese açık içerik yükler. Bu hizmetler, her web sitesi gibi, IP adresiniz dahil standart teknik bilgileri görür.",
           "items": [
             "Namaz vakitleri: JAKIM e-Solat (Malezya) ve AlAdhan.",
             "Zikir metni: api.islamic.app adresindeki zikir içerik hizmeti.",
@@ -896,7 +1053,8 @@
             "Tefsir: Quran Tafseer ve QuranEnc.",
             "Bağlantı denetimi: uygulama çevrimiçi olup olmadığınızı anlamak için bir Google bağlantı denetimi adresiyle iletişim kurar.",
             "Blog: yazılar ve resimler, GitHub Pages üzerinde barındırılan blog sitesinden yüklenir.",
-            "Bu isteklerde adınız veya bir hesap tanımlayıcısı bulunmaz. Her hizmetin kendi gizlilik politikası vardır."
+            "Topluluk: Supabase üzerindeki sunucumuz ve CAPTCHA için Cloudflare Turnstile. Google ile giriş kullanırsanız Google'ın giriş sayfası.",
+            "Yukarıdaki içerik hizmetlerine yapılan isteklerde adınız veya bir hesap tanımlayıcısı bulunmaz. Her hizmetin kendi gizlilik politikası vardır."
           ]
         },
         {
@@ -907,7 +1065,7 @@
             "Kıble pusulası, cihazınızın yönünü sistem konum hizmetleri üzerinden okur. Yön verisi yalnızca cihazda kullanılır, saklanmaz veya gönderilmez.",
             "Titreşim ve dokunsal geri bildirim sayaçlar ve Kıble hizalaması için kullanılır ve Ayarlar'dan kapatılabilir.",
             "Kur'an sesi, bir medya bildirimi aracılığıyla arka planda çalmaya devam edebilir.",
-            "Uygulama mikrofonunuzu veya kameranızı kullanmaz."
+            "Mikrofon yalnızca Topluluk için sesli tilavet kaydederseniz ve yalnızca kayıt sırasında kullanılır. Uygulama kameranızı kullanmaz."
           ]
         },
         {
@@ -918,7 +1076,8 @@
             "Bir ayet, dua, zikir öğesi veya uygulama bağlantısı gibi paylaşılan metin veya görseller, seçtiğiniz uygulamaya iletilir. Bunları biz almayız ve saklamayız.",
             "Paylaşılan iletiler, başkalarının uygulamayı bulabilmesi için uygulama adını ve bir mağaza bağlantısını içerir.",
             "Destek e-postaları kendi e-posta uygulamanızda açılır. Biz yalnızca sizin gönderdiğinizi alırız.",
-            "Bir blog resminde Kaydet'e dokunursanız, resim fotoğraf kitaplığınıza eklenir. Uygulama resim ekleyebilir ancak fotoğraflarınızı okuyamaz."
+            "Bir blog resminde Kaydet'e dokunursanız, resim fotoğraf kitaplığınıza eklenir.",
+            "Topluluk gönderileri için resim ve videoları siz sistem seçicisinden seçersiniz. Uygulama diğer fotoğraflarınızı okuyamaz."
           ]
         },
         {
@@ -928,7 +1087,8 @@
           "items": [
             "Kişisel bilgileri satmayız veya kiralamayız.",
             "Uygulamada reklam ile analiz veya çökme raporlama araçları yoktur.",
-            "Konumunuz ve ibadet etkinliğiniz asla reklam için kullanılmaz."
+            "Konumunuz ve ibadet etkinliğiniz asla reklam için kullanılmaz.",
+            "Topluluk gönderileri, seçiminize göre diğer kullanıcılara gösterilir. Bunları satmayız."
           ]
         },
         {
@@ -938,7 +1098,11 @@
           "items": [
             "Yerel veriler, uygulamanın depolamasını temizleyene veya uygulamayı kaldırana kadar cihazınızda kalır.",
             "İndirilen sesler de aynı şekilde kaldırılır.",
-            "Verilerinizin bir kopyasını tutmadığımız için bizim tarafımızda silinecek bir şey yoktur."
+            "Namaz, Kur'an ve planlayıcı verilerini biz tutmadığımız için bizim tarafımızda silinecek bir şey yoktur.",
+            "Topluluk: hesabınızı istediğiniz zaman uygulama içinden silebilirsiniz (Topluluk > Menü > Ayarlar > Hesabı sil). Bu işlem girişinizi, profilinizi, gönderilerinizi, yorumlarınızı, beğenilerinizi, takiplerinizi, kaydettiğiniz gönderileri ve yüklediğiniz resim, video ve ses dosyalarını kaldırır.",
+            "Kendi sildiğiniz bir gönderi hemen gizlenir ve dosyaları kaldırılır. Metni, hesabınız silinene kadar veri tabanımızda gizli kalabilir.",
+            "Topluluğun güvenliği için gerektiğinde bazı kayıtlar tutulabilir: şikayetler, moderatör işlemleri ve askıya alınan bir hesabın e-posta adresi (tekrar kaydolamaması için).",
+            "Uygulamayı açamıyorsanız, hesabınızın e-posta adresinden aşağıdaki gizlilik e-posta adresine yazın; hesabı sileriz."
           ]
         },
         {
@@ -947,7 +1111,8 @@
           "description": "Bilgilerinizi koruyan basit adımlar.",
           "items": [
             "Uygulama, içerik hizmetlerine güvenli HTTPS bağlantılarıyla bağlanır.",
-            "Verileriniz cihazınızda kaldığı için, cihazınızın kilit ekranı onlar için en iyi korumadır."
+            "Topluluk verileri veri tabanındaki erişim kurallarıyla korunur; parolanız giriş sağlayıcısında yalnızca özet (hash) biçiminde saklanır.",
+            "Cihazınızda saklanan veriler için en iyi koruma cihazınızın kilit ekranıdır. Hesabınız için güçlü ve benzersiz bir parola kullanın."
           ]
         },
         {
@@ -955,7 +1120,8 @@
           "title": "Çocuklar",
           "description": "Uygulama her yaştan kullanıcı için uygundur.",
           "items": [
-            "Uygulama, çocuklar dahil hiç kimseden bilerek kişisel bilgi toplamaz."
+            "İbadet özellikleri, çocuklar dahil hiç kimseden kişisel bilgi toplamaz.",
+            "Topluluk, 13 yaşından küçük çocuklara yönelik değildir. 13 yaşından küçükseniz lütfen hesap oluşturmayın. Bir hesabın 13 yaşından küçük bir çocuğa ait olduğunu öğrenirsek hesabı sileriz."
           ]
         },
         {
@@ -963,10 +1129,11 @@
           "title": "Seçenekleriniz",
           "description": "Uygulamanın neleri kullanabileceğine siz karar verirsiniz.",
           "items": [
-            "Konum ve bildirim erişimine cihaz ayarlarınızdan istediğiniz zaman izin verin, reddedin veya değiştirin.",
+            "Konum, bildirim ve mikrofon erişimine cihaz ayarlarınızdan istediğiniz zaman izin verin, reddedin veya değiştirin. Uygulama bunlar olmadan da çalışır.",
             "Namaz bildirimlerini ve Kıble sesini veya titreşimini Ayarlar'dan kapatın.",
             "Uygulamayı çevrimdışı kullanın: Kur'an metni, dualar ve indirilen sesler internet bağlantısı olmadan çalışır.",
-            "Yerel verileri cihaz ayarlarınızdan temizleyin veya uygulamayı kaldırın."
+            "Profilinizi düzenleyin, gönderilerinizi silin; Toplulukta kişileri engelleyin, sessize alın veya şikayet edin.",
+            "Topluluk hesabınızı uygulama içinden silin veya bize e-postayla bildirin. Yerel verileri cihaz ayarlarınızdan temizleyin veya uygulamayı kaldırın."
           ]
         },
         {
@@ -974,40 +1141,41 @@
           "title": "Bu politikadaki değişiklikler",
           "description": "Güncellemeleri burada görürsünüz.",
           "items": [
-            "Uygulama hesap, analiz, reklam veya bulut eşitleme kullanmaya başlarsa, bu politika önce güncellenecek ve en üstte yeni bir tarih gösterilecektir."
+            "Uygulama analiz, reklam veya yeni tür veriler kullanmaya başlarsa, bu politika önce güncellenecek ve en üstte yeni bir tarih gösterilecektir."
           ]
         }
       ],
       "contactTitle": "Gizlilikle ilgili sorularınız mı var?",
-      "contactDescription": "Gizlilikle ilgili bir sorunuz veya talebiniz varsa bize ulaşın."
+      "contactDescription": "Gizlilikle ilgili bir sorunuz veya talebiniz varsa bize ulaşın.",
+      "developerLabel": "Geliştirici"
     },
     "id": {
       "title": "Kebijakan Privasi",
-      "intro": "Muslim Flow dibuat agar berfungsi tanpa akun. Halaman ini menjelaskan dengan bahasa sederhana apa yang digunakan aplikasi di perangkat Anda, apa yang dikirim lewat internet, dan pilihan yang Anda miliki.",
-      "updatedLabel": "Terakhir diperbarui 2026-10-02",
+      "intro": "Muslim Flow berfungsi tanpa akun. Akun hanya diperlukan untuk Komunitas (Beta) yang bersifat opsional. Halaman ini menjelaskan dengan bahasa sederhana apa yang digunakan aplikasi di perangkat Anda, apa yang dikirim lewat internet, apa yang disimpan Komunitas, dan pilihan yang Anda miliki.",
+      "updatedLabel": "Terakhir diperbarui 2026-11-02",
       "highlights": [
         {
-          "title": "Tanpa akun",
-          "text": "Gunakan semua fitur tanpa mendaftar atau memberikan nama atau email Anda."
+          "title": "Akun hanya untuk Komunitas",
+          "text": "Waktu salat, Al-Qur'an, zikir, dan Kiblat berfungsi tanpa mendaftar. Akun hanya diperlukan untuk bergabung dengan Komunitas."
         },
         {
           "title": "Tanpa iklan atau pelacakan",
           "text": "Aplikasi tidak memiliki iklan, analitik, atau alat pelaporan kerusakan."
         },
         {
-          "title": "Tetap di perangkat Anda",
-          "text": "Pengaturan, kemajuan, dan favorit disimpan secara lokal, tidak diunggah kepada kami."
+          "title": "Data ibadah tetap di perangkat Anda",
+          "text": "Pengaturan, kemajuan, dan favorit disimpan secara lokal. Hanya yang Anda posting di Komunitas yang disimpan secara online."
         }
       ],
       "sections": [
         {
           "id": "overview",
           "title": "Cakupan kebijakan ini",
-          "description": "Muslim Flow adalah aplikasi salat, Al-Qur'an, Kiblat, zikir, dan ibadah harian. Aplikasi ini tidak membuat profil tentang Anda. Agar berfungsi, aplikasi memakai lokasi Anda saat aplikasi terbuka, penyimpanan di perangkat Anda, dan beberapa layanan konten publik yang dijelaskan di bawah.",
+          "description": "Muslim Flow adalah aplikasi salat, Al-Qur'an, Kiblat, zikir, dan ibadah harian. Aplikasi ini tidak membuat profil tentang Anda. Agar berfungsi, aplikasi memakai lokasi Anda saat aplikasi terbuka, penyimpanan di perangkat Anda, dan beberapa layanan konten publik yang dijelaskan di bawah. Jika Anda memilih bergabung dengan Komunitas, aplikasi juga memakai akun online.",
           "items": [
-            "Tidak ada akun pengguna di aplikasi.",
-            "Aplikasi tidak mengunggah data Anda ke server yang kami kelola.",
-            "Apa yang Anda simpan tetap di perangkat Anda kecuali Anda memilih untuk membagikannya."
+            "Akun tidak diperlukan untuk waktu salat, Al-Qur'an, Kiblat, zikir, atau alat ibadah lainnya.",
+            "Akun hanya diperlukan untuk Komunitas (Beta) yang bersifat opsional. Data Komunitas disimpan online di server kami, yang dihosting oleh Supabase.",
+            "Semua yang lain yang Anda simpan tetap di perangkat Anda kecuali Anda memilih untuk membagikannya."
           ]
         },
         {
@@ -1045,7 +1213,23 @@
             "Tugas perencana harian dan waktu pengingatnya.",
             "Waktu salat dan konten yang tersimpan agar aplikasi tetap berfungsi offline.",
             "Pos blog yang Anda buka dan pos yang Anda sukai.",
+            "Jika Anda masuk ke Komunitas, sesi masuk dan draf postingan yang belum terkirim juga disimpan di perangkat Anda.",
             "Semua ini tidak dikirim kepada kami. Menghapus aplikasi atau membersihkan penyimpanannya akan menghapusnya."
+          ]
+        },
+        {
+          "id": "community",
+          "title": "Komunitas (Beta) dan akun Anda",
+          "description": "Komunitas bersifat opsional. Anda dapat memakai seluruh aplikasi tanpa Komunitas. Berikut data yang disimpan jika Anda bergabung.",
+          "items": [
+            "Pendaftaran: alamat email dan kata sandi Anda, dikonfirmasi dengan kode yang dikirim ke email Anda. Anda juga dapat melanjutkan dengan akun Google, jika tersedia; dalam hal itu Google memberi kami alamat email dan nama Anda. Kami tidak dapat membaca kata sandi Anda.",
+            "Profil: nama tampilan, nama pengguna, dan, jika Anda mau, bio singkat, negara, bahasa, jenis kelamin, avatar ilustrasi, dan sampul. Profil Anda terlihat oleh orang lain di Komunitas.",
+            "Postingan: teks, gambar, video pendek, bacaan suara, dan kartu ayat yang Anda posting, ditambah komentar, repost, dan suka Anda. Semuanya disimpan online dan ditampilkan kepada orang lain sesuai audiens yang Anda pilih.",
+            "Ikutan terlihat oleh orang lain. Postingan tersimpan, blokir, bisu, dan pengaturan notifikasi hanya bisa dilihat oleh Anda. Notifikasi dalam aplikasi disimpan bersama akun Anda.",
+            "Laporan yang Anda kirim tentang postingan atau seseorang dapat dilihat oleh moderator dan administrator kami.",
+            "Untuk mencegah spam dan penyalahgunaan, server menyimpan catatan pribadi singkat tentang tindakan seperti memposting dan melapor selama beberapa hari untuk menerapkan batasan. CAPTCHA dari Cloudflare (Turnstile) ditampilkan saat Anda masuk atau mendaftar. Cloudflare dapat melihat alamat IP dan detail browser Anda untuk pemeriksaan itu.",
+            "Moderator dapat menghapus postingan dan menangguhkan akun yang melanggar aturan Komunitas. Tindakan mereka dicatat dalam log aktivitas pribadi.",
+            "Kami tidak menjual data Komunitas, dan di dalamnya tidak ada iklan atau analitik. Semua yang Anda posting dapat dilihat orang lain, jadi jangan memposting informasi pribadi."
           ]
         },
         {
@@ -1059,7 +1243,8 @@
             "Tafsir: Quran Tafseer dan QuranEnc.",
             "Pemeriksaan koneksi: aplikasi menghubungi alamat pemeriksaan konektivitas Google untuk mengetahui apakah Anda online.",
             "Blog: pos dan gambar dimuat dari situs blog yang dihosting di GitHub Pages.",
-            "Permintaan ini tidak menyertakan nama Anda atau pengenal akun. Setiap layanan memiliki kebijakan privasinya sendiri."
+            "Komunitas: server kami di Supabase, dan Cloudflare Turnstile untuk CAPTCHA. Jika Anda masuk dengan Google, halaman masuk Google.",
+            "Permintaan ke layanan konten di atas tidak menyertakan nama Anda atau pengenal akun. Setiap layanan memiliki kebijakan privasinya sendiri."
           ]
         },
         {
@@ -1070,7 +1255,7 @@
             "Kompas Kiblat membaca arah perangkat Anda melalui layanan lokasi sistem. Data arah hanya digunakan di perangkat dan tidak disimpan atau dikirim.",
             "Getaran dan umpan balik haptik digunakan untuk penghitung dan kesejajaran Kiblat, dan dapat dimatikan di Pengaturan.",
             "Audio Al-Qur'an dapat terus diputar di latar belakang melalui notifikasi media.",
-            "Aplikasi tidak menggunakan mikrofon atau kamera Anda."
+            "Mikrofon hanya digunakan jika Anda merekam bacaan suara untuk Komunitas, dan hanya saat Anda merekam. Aplikasi tidak menggunakan kamera Anda."
           ]
         },
         {
@@ -1081,7 +1266,8 @@
             "Teks atau gambar yang dibagikan, seperti ayat, doa, item zikir, atau tautan aplikasi, diserahkan ke aplikasi yang Anda pilih. Kami tidak menerima atau menyimpannya.",
             "Pesan yang dibagikan menyertakan nama aplikasi dan tautan toko agar orang lain dapat menemukan aplikasinya.",
             "Email dukungan terbuka di aplikasi email Anda sendiri. Kami hanya menerima apa yang Anda kirim.",
-            "Jika Anda mengetuk Simpan pada gambar blog, gambar itu ditambahkan ke pustaka foto Anda. Aplikasi dapat menambahkan gambar tetapi tidak dapat membaca foto Anda."
+            "Jika Anda mengetuk Simpan pada gambar blog, gambar itu ditambahkan ke pustaka foto Anda.",
+            "Gambar dan video untuk postingan Komunitas Anda pilih sendiri lewat pemilih sistem. Aplikasi tidak dapat membaca foto Anda yang lain."
           ]
         },
         {
@@ -1091,7 +1277,8 @@
           "items": [
             "Kami tidak menjual atau menyewakan informasi pribadi.",
             "Aplikasi tidak memuat iklan serta tidak ada alat analitik atau pelaporan kerusakan.",
-            "Lokasi dan aktivitas ibadah Anda tidak pernah digunakan untuk iklan."
+            "Lokasi dan aktivitas ibadah Anda tidak pernah digunakan untuk iklan.",
+            "Postingan Komunitas ditampilkan kepada pengguna lain sesuai pilihan Anda. Kami tidak menjualnya."
           ]
         },
         {
@@ -1101,7 +1288,11 @@
           "items": [
             "Data lokal tetap di perangkat Anda sampai Anda membersihkan penyimpanan aplikasi atau menghapus aplikasi.",
             "Audio yang diunduh dihapus dengan cara yang sama.",
-            "Kami tidak menyimpan salinan data Anda, sehingga tidak ada yang perlu kami hapus di sisi kami."
+            "Data salat, Al-Qur'an, dan perencana tidak kami simpan, sehingga tidak ada yang perlu kami hapus di sisi kami.",
+            "Komunitas: Anda dapat menghapus akun kapan saja di aplikasi (Komunitas > Menu > Pengaturan > Hapus akun). Ini menghapus data masuk, profil, postingan, komentar, suka, ikutan, postingan tersimpan, serta gambar, video, dan file suara yang Anda unggah.",
+            "Postingan yang Anda hapus sendiri langsung disembunyikan dan file-nya dihapus. Teksnya mungkin tetap tersembunyi di database kami sampai akun Anda dihapus.",
+            "Beberapa catatan dapat disimpan bila diperlukan untuk menjaga keamanan Komunitas: laporan, tindakan moderator, dan alamat email akun yang ditangguhkan agar tidak dapat mendaftar lagi.",
+            "Jika Anda tidak dapat membuka aplikasi, tulislah ke email privasi di bawah dari alamat email akun Anda, dan kami akan menghapus akunnya."
           ]
         },
         {
@@ -1110,7 +1301,8 @@
           "description": "Langkah sederhana yang melindungi informasi Anda.",
           "items": [
             "Aplikasi terhubung ke layanan konten melalui koneksi HTTPS yang aman.",
-            "Karena data Anda tetap di perangkat, layar kunci perangkat Anda adalah perlindungan terbaik untuknya."
+            "Data Komunitas dilindungi aturan akses di database, dan kata sandi Anda hanya disimpan dalam bentuk hash oleh penyedia layanan masuk.",
+            "Layar kunci perangkat adalah perlindungan terbaik untuk data yang tersimpan di perangkat Anda. Gunakan kata sandi yang kuat dan unik untuk akun Anda."
           ]
         },
         {
@@ -1118,7 +1310,8 @@
           "title": "Anak-anak",
           "description": "Aplikasi ini cocok untuk segala usia.",
           "items": [
-            "Aplikasi tidak dengan sengaja mengumpulkan informasi pribadi dari siapa pun, termasuk anak-anak."
+            "Fitur ibadah tidak mengumpulkan informasi pribadi dari siapa pun, termasuk anak-anak.",
+            "Komunitas tidak ditujukan untuk anak di bawah 13 tahun. Mohon jangan membuat akun jika usia Anda di bawah 13 tahun. Jika kami mengetahui bahwa sebuah akun milik anak di bawah 13 tahun, kami akan menghapusnya."
           ]
         },
         {
@@ -1126,10 +1319,11 @@
           "title": "Pilihan Anda",
           "description": "Anda yang menentukan apa yang boleh digunakan aplikasi.",
           "items": [
-            "Izinkan, tolak, atau ubah akses lokasi dan notifikasi kapan saja di pengaturan perangkat Anda.",
+            "Izinkan, tolak, atau ubah akses lokasi, notifikasi, dan mikrofon kapan saja di pengaturan perangkat Anda. Aplikasi tetap berfungsi tanpa akses tersebut.",
             "Matikan notifikasi salat serta suara atau getaran Kiblat di Pengaturan.",
             "Gunakan aplikasi secara offline: teks Al-Qur'an, doa, dan audio yang diunduh berfungsi tanpa koneksi internet.",
-            "Bersihkan data lokal di pengaturan perangkat Anda, atau hapus aplikasi."
+            "Ubah profil Anda, hapus postingan Anda, serta blokir, bisukan, atau laporkan orang di dalam Komunitas.",
+            "Hapus akun Komunitas Anda di aplikasi, atau minta kepada kami lewat email. Bersihkan data lokal di pengaturan perangkat Anda, atau hapus aplikasi."
           ]
         },
         {
@@ -1137,40 +1331,41 @@
           "title": "Perubahan pada kebijakan ini",
           "description": "Anda akan melihat pembaruan di sini.",
           "items": [
-            "Jika aplikasi mulai menggunakan akun, analitik, iklan, atau sinkronisasi cloud, kebijakan ini akan diperbarui lebih dulu, dengan tanggal baru di bagian atas."
+            "Jika aplikasi mulai menggunakan analitik, iklan, atau jenis data baru, kebijakan ini akan diperbarui lebih dulu, dengan tanggal baru di bagian atas."
           ]
         }
       ],
       "contactTitle": "Pertanyaan tentang privasi?",
-      "contactDescription": "Hubungi kami jika Anda memiliki pertanyaan atau permintaan terkait privasi."
+      "contactDescription": "Hubungi kami jika Anda memiliki pertanyaan atau permintaan terkait privasi.",
+      "developerLabel": "Pengembang"
     },
     "ur": {
       "title": "رازداری کی پالیسی",
-      "intro": "Muslim Flow بغیر اکاؤنٹ کے کام کرنے کے لیے بنائی گئی ہے۔ یہ صفحہ سادہ زبان میں بتاتا ہے کہ ایپ آپ کے آلے پر کیا استعمال کرتی ہے، انٹرنیٹ پر کیا بھیجتی ہے اور آپ کے پاس کیا اختیارات ہیں۔",
-      "updatedLabel": "آخری بار اپ ڈیٹ 2026-10-02",
+      "intro": "Muslim Flow بغیر اکاؤنٹ کے کام کرتی ہے۔ اکاؤنٹ صرف اختیاری کمیونٹی (بیٹا) کے لیے درکار ہے۔ یہ صفحہ سادہ زبان میں بتاتا ہے کہ ایپ آپ کے آلے پر کیا استعمال کرتی ہے، انٹرنیٹ پر کیا بھیجتی ہے، کمیونٹی کیا محفوظ کرتی ہے اور آپ کے پاس کیا اختیارات ہیں۔",
+      "updatedLabel": "آخری بار اپ ڈیٹ 2026-11-02",
       "highlights": [
         {
-          "title": "اکاؤنٹ کی ضرورت نہیں",
-          "text": "سائن اپ کیے بغیر یا اپنا نام یا ای میل دیے بغیر ہر خصوصیت استعمال کریں۔"
+          "title": "اکاؤنٹ صرف کمیونٹی کے لیے",
+          "text": "اوقاتِ نماز، قرآن، اذکار اور قبلہ سائن اپ کیے بغیر کام کرتے ہیں۔ اکاؤنٹ صرف کمیونٹی میں شامل ہونے کے لیے درکار ہے۔"
         },
         {
           "title": "کوئی اشتہار یا ٹریکنگ نہیں",
           "text": "ایپ میں کوئی اشتہار، تجزیاتی ٹول یا کریش رپورٹنگ ٹول نہیں ہے۔"
         },
         {
-          "title": "آپ کے آلے پر رہتا ہے",
-          "text": "ترتیبات، پیش رفت اور پسندیدہ مقامی طور پر محفوظ ہوتے ہیں، ہمیں اپ لوڈ نہیں ہوتے۔"
+          "title": "عبادت کا ڈیٹا آپ کے آلے پر رہتا ہے",
+          "text": "ترتیبات، پیش رفت اور پسندیدہ مقامی طور پر محفوظ ہوتے ہیں۔ صرف وہی چیز آن لائن محفوظ ہوتی ہے جو آپ کمیونٹی میں پوسٹ کرتے ہیں۔"
         }
       ],
       "sections": [
         {
           "id": "overview",
           "title": "یہ پالیسی کیا احاطہ کرتی ہے",
-          "description": "Muslim Flow نماز، قرآن، قبلہ، اذکار اور روزانہ عبادت کی ایپ ہے۔ یہ آپ کے بارے میں پروفائل نہیں بناتی۔ کام کرنے کے لیے یہ ایپ کھلی ہونے پر آپ کا مقام، آپ کے آلے کا اسٹوریج اور نیچے بیان کردہ چند عوامی مواد کی خدمات استعمال کرتی ہے۔",
+          "description": "Muslim Flow نماز، قرآن، قبلہ، اذکار اور روزانہ عبادت کی ایپ ہے۔ یہ آپ کے بارے میں پروفائل نہیں بناتی۔ کام کرنے کے لیے یہ ایپ کھلی ہونے پر آپ کا مقام، آپ کے آلے کا اسٹوریج اور نیچے بیان کردہ چند عوامی مواد کی خدمات استعمال کرتی ہے۔ اگر آپ کمیونٹی میں شامل ہونے کا انتخاب کریں تو یہ ایک آن لائن اکاؤنٹ بھی استعمال کرتی ہے۔",
           "items": [
-            "ایپ میں کوئی صارف اکاؤنٹ نہیں ہے۔",
-            "ایپ آپ کا ڈیٹا ہمارے زیرِ انتظام کسی سرور پر اپ لوڈ نہیں کرتی۔",
-            "جو کچھ آپ محفوظ کرتے ہیں وہ آپ کے آلے پر رہتا ہے جب تک آپ اسے شیئر کرنے کا انتخاب نہ کریں۔"
+            "اوقاتِ نماز، قرآن، قبلہ، اذکار یا عبادت کے دیگر ٹولز کے لیے اکاؤنٹ کی ضرورت نہیں۔",
+            "اکاؤنٹ صرف اختیاری کمیونٹی (بیٹا) کے لیے درکار ہے۔ کمیونٹی کا ڈیٹا ہمارے سرور پر آن لائن محفوظ ہوتا ہے، جو Supabase پر ہوسٹ ہے۔",
+            "باقی جو کچھ آپ محفوظ کرتے ہیں وہ آپ کے آلے پر رہتا ہے جب تک آپ اسے شیئر کرنے کا انتخاب نہ کریں۔"
           ]
         },
         {
@@ -1179,7 +1374,7 @@
           "description": "صرف ایپ کھلی ہونے پر، اوقاتِ نماز اور قبلہ کی سمت معلوم کرنے کے لیے استعمال ہوتا ہے۔",
           "items": [
             "مقام صرف اس وقت مانگا جاتا ہے جب کسی خصوصیت کو ضرورت ہو، اور آپ انکار کر سکتے ہیں۔ اس کے بغیر آپ کے مقام کے لیے اوقاتِ نماز اور قبلہ کی سمت معلوم نہیں ہو سکتی۔",
-            "قبلہ کی سمت آپ کے آلے پر حساب کی جاتی ہے۔ اوقاتِ نماز کے لیے ایپ آپ کے نقاط AlAdhan اوقاتِ نماز کی سروس کو بھیجتی ہے؛ اگر وہ دستیاب نہ ہو تو اوقات اس کی جگہ آپ کے آلے پر حساب کیے جاتے ہیں۔",
+            "قبلہ کی سمت آپ کے آلے پر حساب کی جاتی ہے۔ اوقاتِ نماز کے لیے ایپ آپ کے کوآرڈینیٹس AlAdhan اوقاتِ نماز کی سروس کو بھیجتی ہے؛ اگر وہ دستیاب نہ ہو تو اوقات اس کی جگہ آپ کے آلے پر حساب کیے جاتے ہیں۔",
             "شہر اور ملک کا نام آپ کے آلے کی بلٹ اِن جیو کوڈنگ سروس سے معلوم کیا جاتا ہے، جو Apple یا Google فراہم کرتے ہیں۔",
             "آپ کا آخری مقام آپ کے آلے پر محفوظ ہوتا ہے تاکہ ایپ جلدی کھلے۔ وہ ہمیں اپ لوڈ نہیں ہوتا۔",
             "ملائیشیا میں ایپ پہلے آپ کے نماز زون کے اوقات کے لیے سرکاری JAKIM e-Solat سروس سے پوچھتی ہے اور صرف زون کوڈ بھیجتی ہے۔ اگر وہ سروس دستیاب نہ ہو تو ایپ اوپر بیان کردہ طریقے سے AlAdhan استعمال کرتی ہے۔",
@@ -1208,7 +1403,23 @@
             "ڈے پلانر کے کام اور ان کی یاد دہانی کے اوقات۔",
             "محفوظ شدہ اوقاتِ نماز اور مواد تاکہ ایپ آف لائن بھی چلتی رہے۔",
             "وہ بلاگ پوسٹس جو آپ نے کھولیں اور جو پسند کیں۔",
+            "اگر آپ کمیونٹی میں سائن ان کریں تو سائن ان سیشن اور نہ بھیجی گئی پوسٹ کا مسودہ بھی آپ کے آلے پر رکھا جاتا ہے۔",
             "ان میں سے کچھ بھی ہمیں نہیں بھیجا جاتا۔ ایپ ان انسٹال کرنے یا اس کا اسٹوریج صاف کرنے سے یہ ہٹ جاتا ہے۔"
+          ]
+        },
+        {
+          "id": "community",
+          "title": "کمیونٹی (بیٹا) اور آپ کا اکاؤنٹ",
+          "description": "کمیونٹی اختیاری ہے۔ آپ پوری ایپ اس کے بغیر استعمال کر سکتے ہیں۔ اگر آپ شامل ہوں تو یہ یہ چیزیں محفوظ کرتی ہے۔",
+          "items": [
+            "سائن اپ: آپ کا ای میل پتا اور پاس ورڈ، جس کی تصدیق آپ کی ای میل پر بھیجے گئے کوڈ سے ہوتی ہے۔ جہاں دستیاب ہو، آپ اپنے Google اکاؤنٹ سے بھی آگے بڑھ سکتے ہیں؛ تب Google ہمیں آپ کا ای میل پتا اور نام دیتا ہے۔ ہم آپ کا پاس ورڈ نہیں پڑھ سکتے۔",
+            "پروفائل: ایک ظاہر ہونے والا نام، ایک صارف نام اور، اگر آپ چاہیں، مختصر تعارف، ملک، زبانیں، جنس، ایک خاکہ نما اوتار اور کور۔ آپ کا پروفائل کمیونٹی میں دوسرے لوگوں کو نظر آتا ہے۔",
+            "پوسٹس: آپ کی پوسٹ کردہ تحریر، تصاویر، مختصر ویڈیوز، آواز میں تلاوتیں اور آیات کے کارڈ، نیز آپ کے تبصرے، ری پوسٹس اور لائکس۔ یہ آن لائن محفوظ ہوتے ہیں اور آپ کی منتخب کردہ آڈیئنس کے مطابق دوسروں کو دکھائے جاتے ہیں۔",
+            "آپ کن لوگوں کو فالو کرتے ہیں یہ دوسروں کو نظر آتا ہے۔ محفوظ پوسٹس، بلاک اور خاموش کیے گئے لوگ اور نوٹیفکیشن کی ترتیبات صرف آپ کے لیے ہیں۔ ایپ کے اندر کے نوٹیفکیشن آپ کے اکاؤنٹ کے ساتھ محفوظ ہوتے ہیں۔",
+            "کسی پوسٹ یا شخص کے بارے میں آپ جو رپورٹ بھیجتے ہیں اسے ہمارے ماڈریٹرز اور ایڈمنسٹریٹرز دیکھتے ہیں۔",
+            "اسپام اور غلط استعمال روکنے کے لیے، سرور حدیں لگانے کی خاطر پوسٹ کرنے اور رپورٹ کرنے جیسی کارروائیوں کا ایک مختصر نجی لاگ چند دن تک رکھتا ہے۔ سائن ان یا سائن اپ کے وقت Cloudflare (Turnstile) کا CAPTCHA دکھایا جاتا ہے۔ اس جانچ کے لیے Cloudflare آپ کا IP ایڈریس اور براؤزر کی تفصیلات دیکھ سکتا ہے۔",
+            "ماڈریٹرز کمیونٹی کے اصولوں کی خلاف ورزی کرنے والی پوسٹس ہٹا سکتے ہیں اور اکاؤنٹس معطل کر سکتے ہیں۔ ان کی کارروائیاں ایک نجی سرگرمی لاگ میں درج ہوتی ہیں۔",
+            "ہم کمیونٹی کا ڈیٹا فروخت نہیں کرتے اور اس میں کوئی اشتہار یا تجزیات نہیں ہیں۔ آپ جو کچھ پوسٹ کرتے ہیں اسے دوسرے دیکھ سکتے ہیں، اس لیے نجی معلومات پوسٹ نہ کریں۔"
           ]
         },
         {
@@ -1222,7 +1433,8 @@
             "تفسیر: Quran Tafseer اور QuranEnc۔",
             "کنکشن کی جانچ: ایپ یہ جاننے کے لیے کہ آپ آن لائن ہیں یا نہیں، Google کے کنیکٹیویٹی چیک ایڈریس سے رابطہ کرتی ہے۔",
             "بلاگ: پوسٹس اور تصاویر GitHub Pages پر ہوسٹ کی گئی بلاگ ویب سائٹ سے لوڈ ہوتی ہیں۔",
-            "ان درخواستوں میں آپ کا نام یا اکاؤنٹ کی شناخت شامل نہیں ہوتی۔ ہر سروس کی اپنی رازداری کی پالیسی ہے۔"
+            "کمیونٹی: Supabase پر ہمارا سرور، اور CAPTCHA کے لیے Cloudflare Turnstile۔ اگر آپ Google سے سائن ان کریں تو Google کا سائن ان صفحہ۔",
+            "اوپر دی گئی مواد کی خدمات کو بھیجی گئی درخواستوں میں آپ کا نام یا اکاؤنٹ کی شناخت شامل نہیں ہوتی۔ ہر سروس کی اپنی رازداری کی پالیسی ہے۔"
           ]
         },
         {
@@ -1233,7 +1445,7 @@
             "قبلہ کمپاس آپ کے آلے کی سمت سسٹم کی مقام سروسز کے ذریعے پڑھتا ہے۔ سمت کا ڈیٹا صرف آلے پر استعمال ہوتا ہے اور محفوظ یا ارسال نہیں کیا جاتا۔",
             "تھرتھراہٹ اور ہیپٹک فیڈبیک کاؤنٹرز اور قبلہ کی سیدھ کے لیے استعمال ہوتے ہیں اور ترتیبات میں بند کیے جا سکتے ہیں۔",
             "قرآن کی آڈیو میڈیا نوٹیفکیشن کے ذریعے پس منظر میں چلتی رہ سکتی ہے۔",
-            "ایپ آپ کا مائیکروفون یا کیمرا استعمال نہیں کرتی۔"
+            "مائیکروفون صرف اس وقت استعمال ہوتا ہے جب آپ کمیونٹی کے لیے آواز میں تلاوت ریکارڈ کریں، اور صرف ریکارڈنگ کے دوران۔ ایپ آپ کا کیمرا استعمال نہیں کرتی۔"
           ]
         },
         {
@@ -1242,9 +1454,10 @@
           "description": "شیئرنگ صرف اس وقت ہوتی ہے جب آپ شیئر کا بٹن دباتے ہیں۔",
           "items": [
             "شیئر کیا گیا متن یا تصاویر، جیسے آیت، دعا، ذکر یا ایپ کا لنک، آپ کی منتخب کردہ ایپ کو دے دیے جاتے ہیں۔ ہم انہیں وصول یا محفوظ نہیں کرتے۔",
-            "شیئر کیے گئے پیغامات میں ایپ کا نام اور اسٹور کا لنک شامل ہوتا ہے تاکہ دوسرے ایپ تلاش کر سکیں۔",
+            "شیئر کیے گئے پیغامات میں ایپ کا نام اور اسٹور کا لنک شامل ہوتا ہے تاکہ دوسرے لوگ ایپ تلاش کر سکیں۔",
             "سپورٹ ای میلز آپ کی اپنی ای میل ایپ میں کھلتی ہیں۔ ہمیں صرف وہی ملتا ہے جو آپ بھیجتے ہیں۔",
-            "اگر آپ کسی بلاگ تصویر پر محفوظ کریں دبائیں تو وہ آپ کی فوٹو لائبریری میں شامل ہو جاتی ہے۔ ایپ تصاویر شامل کر سکتی ہے مگر آپ کی تصاویر پڑھ نہیں سکتی۔"
+            "اگر آپ کسی بلاگ تصویر پر محفوظ کریں دبائیں تو وہ آپ کی فوٹو لائبریری میں شامل ہو جاتی ہے۔",
+            "کمیونٹی پوسٹس کی تصاویر اور ویڈیوز آپ خود سسٹم پکر میں سے منتخب کرتے ہیں۔ ایپ آپ کی باقی تصاویر نہیں پڑھ سکتی۔"
           ]
         },
         {
@@ -1254,7 +1467,8 @@
           "items": [
             "ہم ذاتی معلومات فروخت یا کرائے پر نہیں دیتے۔",
             "ایپ میں کوئی اشتہار نہیں اور کوئی تجزیاتی یا کریش رپورٹنگ ٹول نہیں۔",
-            "آپ کا مقام اور عبادت کی سرگرمی کبھی اشتہار کے لیے استعمال نہیں ہوتی۔"
+            "آپ کا مقام اور عبادت کی سرگرمی کبھی اشتہار کے لیے استعمال نہیں ہوتی۔",
+            "کمیونٹی پوسٹس آپ کی پسند کے مطابق دوسرے صارفین کو دکھائی جاتی ہیں۔ ہم انہیں فروخت نہیں کرتے۔"
           ]
         },
         {
@@ -1264,7 +1478,11 @@
           "items": [
             "مقامی ڈیٹا آپ کے آلے پر رہتا ہے جب تک آپ ایپ کا اسٹوریج صاف نہ کریں یا ایپ ان انسٹال نہ کریں۔",
             "ڈاؤن لوڈ شدہ آڈیو بھی اسی طرح ہٹ جاتی ہے۔",
-            "ہم آپ کے ڈیٹا کی کوئی کاپی نہیں رکھتے، اس لیے ہماری طرف سے حذف کرنے کو کچھ نہیں۔"
+            "نماز، قرآن اور پلانر کا ڈیٹا ہم نہیں رکھتے، اس لیے ہماری طرف سے حذف کرنے کو کچھ نہیں۔",
+            "کمیونٹی: آپ ایپ میں کسی بھی وقت اپنا اکاؤنٹ حذف کر سکتے ہیں (کمیونٹی ← مینو ← ترتیبات ← اکاؤنٹ حذف کریں)۔ اس سے آپ کا سائن ان، پروفائل، پوسٹس، تبصرے، لائکس، فالو کی فہرست، محفوظ پوسٹس اور آپ کی اپ لوڈ کی ہوئی تصاویر، ویڈیوز اور آواز کی فائلیں ہٹ جاتی ہیں۔",
+            "جو پوسٹ آپ خود حذف کریں وہ فوراً چھپ جاتی ہے اور اس کی فائلیں ہٹا دی جاتی ہیں۔ اس کی تحریر ہمارے ڈیٹابیس میں چھپی رہ سکتی ہے جب تک آپ کا اکاؤنٹ حذف نہ ہو۔",
+            "کمیونٹی کو محفوظ رکھنے کے لیے ضرورت پڑنے پر کچھ ریکارڈ رکھے جا سکتے ہیں: رپورٹس، ماڈریٹرز کی کارروائیاں، اور معطل کیے گئے اکاؤنٹ کا ای میل پتا، تاکہ وہ دوبارہ سائن اپ نہ کر سکے۔",
+            "اگر آپ ایپ نہیں کھول سکتے تو اپنے اکاؤنٹ کے ای میل پتے سے نیچے دیے گئے رازداری کے ای میل پر لکھیں، ہم اکاؤنٹ حذف کر دیں گے۔"
           ]
         },
         {
@@ -1273,7 +1491,8 @@
           "description": "سادہ اقدامات جو آپ کی معلومات کی حفاظت کرتے ہیں۔",
           "items": [
             "ایپ مواد کی خدمات سے محفوظ HTTPS کنکشن کے ذریعے جڑتی ہے۔",
-            "چونکہ آپ کا ڈیٹا آپ کے آلے پر رہتا ہے، آپ کے آلے کی لاک اسکرین اس کی بہترین حفاظت ہے۔"
+            "کمیونٹی کا ڈیٹا ڈیٹابیس کے رسائی کے اصولوں سے محفوظ ہے، اور آپ کا پاس ورڈ سائن ان فراہم کنندہ صرف ہیش کی شکل میں رکھتا ہے۔",
+            "آلے پر محفوظ ڈیٹا کی بہترین حفاظت آپ کے آلے کی لاک اسکرین ہے۔ اپنے اکاؤنٹ کے لیے مضبوط اور منفرد پاس ورڈ استعمال کریں۔"
           ]
         },
         {
@@ -1281,7 +1500,8 @@
           "title": "بچے",
           "description": "ایپ ہر عمر کے لیے موزوں ہے۔",
           "items": [
-            "ایپ جان بوجھ کر کسی سے بھی، بشمول بچوں کے، ذاتی معلومات جمع نہیں کرتی۔"
+            "عبادت کی خصوصیات کسی سے بھی، بشمول بچوں کے، ذاتی معلومات جمع نہیں کرتیں۔",
+            "کمیونٹی 13 سال سے کم عمر بچوں کے لیے نہیں ہے۔ اگر آپ کی عمر 13 سال سے کم ہے تو براہِ کرم اکاؤنٹ نہ بنائیں۔ اگر ہمیں معلوم ہو کہ کوئی اکاؤنٹ 13 سال سے کم عمر بچے کا ہے تو ہم اسے حذف کر دیں گے۔"
           ]
         },
         {
@@ -1289,10 +1509,11 @@
           "title": "آپ کے اختیارات",
           "description": "آپ فیصلہ کرتے ہیں کہ ایپ کیا استعمال کر سکتی ہے۔",
           "items": [
-            "اپنے آلے کی ترتیبات میں مقام اور نوٹیفکیشن کی رسائی کی اجازت دیں، انکار کریں یا کسی بھی وقت تبدیل کریں۔",
+            "اپنے آلے کی ترتیبات میں مقام، نوٹیفکیشن اور مائیکروفون کی رسائی کی اجازت دیں، انکار کریں یا کسی بھی وقت تبدیل کریں۔ ایپ ان کے بغیر بھی چلتی ہے۔",
             "ترتیبات میں نماز کے نوٹیفکیشن اور قبلہ کی آواز یا تھرتھراہٹ بند کریں۔",
             "ایپ آف لائن استعمال کریں: قرآن کا متن، دعائیں اور ڈاؤن لوڈ شدہ آڈیو انٹرنیٹ کے بغیر چلتے ہیں۔",
-            "اپنے آلے کی ترتیبات میں مقامی ڈیٹا صاف کریں، یا ایپ ان انسٹال کریں۔"
+            "اپنا پروفائل ایڈٹ کریں، اپنی پوسٹس حذف کریں، اور کمیونٹی کے اندر لوگوں کو بلاک، خاموش یا رپورٹ کریں۔",
+            "کمیونٹی اکاؤنٹ ایپ میں حذف کریں یا ای میل کے ذریعے ہم سے کہیں۔ اپنے آلے کی ترتیبات میں مقامی ڈیٹا صاف کریں، یا ایپ ان انسٹال کریں۔"
           ]
         },
         {
@@ -1300,12 +1521,13 @@
           "title": "اس پالیسی میں تبدیلیاں",
           "description": "آپ کو اپ ڈیٹس یہاں نظر آئیں گی۔",
           "items": [
-            "اگر ایپ اکاؤنٹس، تجزیات، اشتہارات یا کلاؤڈ سنک استعمال کرنے لگی تو یہ پالیسی پہلے اپ ڈیٹ کی جائے گی اور اوپر نئی تاریخ دکھائی جائے گی۔"
+            "اگر ایپ تجزیات، اشتہارات یا نئی قسم کا ڈیٹا استعمال کرنے لگی تو یہ پالیسی پہلے اپ ڈیٹ کی جائے گی اور اوپر نئی تاریخ دکھائی جائے گی۔"
           ]
         }
       ],
       "contactTitle": "رازداری کے بارے میں سوالات؟",
-      "contactDescription": "اگر آپ کا رازداری سے متعلق کوئی سوال یا درخواست ہو تو ہم سے رابطہ کریں۔"
+      "contactDescription": "اگر آپ کا رازداری سے متعلق کوئی سوال یا درخواست ہو تو ہم سے رابطہ کریں۔",
+      "developerLabel": "ڈیولپر"
     }
   }
 }

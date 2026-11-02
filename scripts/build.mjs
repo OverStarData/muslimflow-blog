@@ -12,7 +12,10 @@
  *   posts/<id>.json   one published post (used by share links and notifications)
  *   p/<id>.html       the web page a shared link opens
  *   privacy.html      the privacy policy page (when content/privacy.json exists)
+ *   delete-account.html  the "Delete your account" page that Google Play asks for
+ *                     (when content/delete-account.json exists)
  *   images/           copy of the pictures
+ *   quran/<code>.json  Quran translations the app downloads on demand (copy of content/quran)
  *
  * A post whose `date` is in the future is QUEUED: it is left out of every file
  * above (so nobody can read it early) and only listed in `upcoming` with its
@@ -200,10 +203,11 @@ document.documentElement.lang=pick;})();
 }
 
 /* ------------------------------------------------------------------ */
-/* Privacy policy page (content/privacy.json, made by the app project)   */
+/* Privacy policy and delete-account pages (content/privacy.json and     */
+/* content/delete-account.json); both use the same renderer              */
 /* ------------------------------------------------------------------ */
 
-/* The privacy page has more languages than the blog posts do. */
+/* These pages have more languages than the blog posts do. */
 const PRIVACY_LANGUAGES = [...LANGUAGES, "tr", "id", "ur"];
 const RTL_LANGUAGES = ["ar", "ur"];
 const LANGUAGE_NAMES = {
@@ -217,14 +221,28 @@ const LANGUAGE_NAMES = {
   ur: "اردو",
 };
 
-function renderPrivacy(privacy) {
-  const codes = PRIVACY_LANGUAGES.filter((code) => privacy.languages[code]);
-  const mail = escapeHtml(privacy.supportEmail);
+/*
+ * doc: the parsed JSON of the page. other: the parsed JSON of the sister page
+ * (privacy <-> delete-account) or null; each page links to the other one.
+ */
+function renderPolicyPage(doc, { otherSlug, other, description }) {
+  const codes = PRIVACY_LANGUAGES.filter((code) => doc.languages[code]);
+  const mail = escapeHtml(doc.supportEmail);
+  /* The app name and the developer, in the language of the article. */
+  const developer = (text) =>
+    doc.developerName
+      ? `<p class="muted who"><strong>${escapeHtml(doc.appName)}</strong> &middot; ${escapeHtml(text.developerLabel ?? "Developer")}: ${escapeHtml(doc.developerName)}</p>\n`
+      : "";
+  /* A visible link to the sister page, titled in the same language. */
+  const sister = (code) =>
+    other
+      ? `<p><a class="alt" href="${siteUrl}/${otherSlug}.html">${escapeHtml(other.languages[code]?.title ?? other.languages.en.title)}</a></p>`
+      : "";
 
   const articles = codes
     .map((code) => {
-      const text = privacy.languages[code];
-      const highlights = text.highlights
+      const text = doc.languages[code];
+      const highlights = (text.highlights ?? [])
         .map((item) => `<div class="tile"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.text)}</span></div>`)
         .join("");
       const sections = text.sections
@@ -240,9 +258,9 @@ function renderPrivacy(privacy) {
       return `<article data-lang="${code}" lang="${code}" dir="${RTL_LANGUAGES.includes(code) ? "rtl" : "ltr"}"${code === "en" ? "" : " hidden"}>
 <h1>${escapeHtml(text.title)}</h1>
 <p class="muted">${escapeHtml(text.updatedLabel)}</p>
-<p>${escapeHtml(text.intro)}</p>
-<div class="tiles">${highlights}</div>
-${sections}
+${developer(text)}<p>${escapeHtml(text.intro)}</p>
+${sister(code)}
+${highlights ? `<div class="tiles">${highlights}</div>\n` : ""}${sections}
 <section><h2>${escapeHtml(text.contactTitle)}</h2><p>${escapeHtml(text.contactDescription)}</p><p><a class="primary" href="mailto:${mail}">${mail}</a></p></section>
 </article>`;
     })
@@ -255,8 +273,8 @@ ${sections}
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy · ${escapeHtml(privacy.appName)}</title>
-<meta name="description" content="Privacy policy of ${escapeHtml(privacy.appName)}.">
+<title>${escapeHtml(doc.languages.en.title)} · ${escapeHtml(doc.appName)}</title>
+<meta name="description" content="${escapeHtml(description)}">
 <style>
 :root{color-scheme:light dark;--bg:#f3f7f6;--card:#fff;--text:#0a2a26;--muted:#5a7570;--accent:#2e8a7c;--border:#d6e5e2}
 @media (prefers-color-scheme:dark){:root{--bg:#0c1a1a;--card:#142625;--text:#e8f2f0;--muted:#9bb5b0;--accent:#7cc4b8;--border:#244542}}
@@ -275,11 +293,13 @@ ul{margin:0 0 12px;padding-inline-start:22px}li{margin-bottom:8px}
 .tile{border:1px solid var(--border);border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:4px}
 .tile span{color:var(--muted);font-size:14px}
 a.primary{display:inline-block;padding:10px 16px;border-radius:12px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700}
+.who{margin-top:-4px}
+a.alt{display:inline-block;padding:8px 14px;border-radius:12px;border:1px solid var(--border);color:var(--accent);text-decoration:none;font-weight:700;font-size:14px}
 </style>
 </head>
 <body>
 <main>
-<div class="brand">${escapeHtml(privacy.appName)}</div>
+<div class="brand">${escapeHtml(doc.appName)}</div>
 <div class="switch">${switcher}</div>
 <div class="card">
 ${articles}
@@ -319,12 +339,24 @@ for (const post of published) {
   writeFileSync(join(distDir, "p", `${post.id}.html`), renderPage(post));
 }
 
-const privacyFile = join(blogDir, "privacy.json");
-if (existsSync(privacyFile)) {
-  const page = renderPrivacy(JSON.parse(readFileSync(privacyFile, "utf8")));
-  mkdirSync(join(distDir, "privacy"), { recursive: true });
-  writeFileSync(join(distDir, "privacy.html"), page);
-  writeFileSync(join(distDir, "privacy", "index.html"), page);
+const POLICY_PAGES = [
+  { slug: "privacy", description: (name) => `Privacy policy of ${name}.` },
+  { slug: "delete-account", description: (name) => `How to delete your ${name} account and the data linked to it.` },
+]
+  .map((entry) => ({ ...entry, file: join(blogDir, `${entry.slug}.json`) }))
+  .filter((entry) => existsSync(entry.file))
+  .map((entry) => ({ ...entry, doc: JSON.parse(readFileSync(entry.file, "utf8")) }));
+
+for (const entry of POLICY_PAGES) {
+  const sister = POLICY_PAGES.find((candidate) => candidate !== entry);
+  const page = renderPolicyPage(entry.doc, {
+    otherSlug: sister?.slug,
+    other: sister?.doc ?? null,
+    description: entry.description(entry.doc.appName),
+  });
+  mkdirSync(join(distDir, entry.slug), { recursive: true });
+  writeFileSync(join(distDir, `${entry.slug}.html`), page);
+  writeFileSync(join(distDir, entry.slug, "index.html"), page);
 }
 
 const horizon = now + UPCOMING_DAYS * 86_400_000;
@@ -339,6 +371,16 @@ writeFileSync(
 
 if (existsSync(imagesDir)) {
   for (const file of readdirSync(imagesDir)) copyFileSync(join(imagesDir, file), join(distDir, "images", file));
+}
+
+const quranDir = join(root, "content", "quran");
+
+if (existsSync(quranDir)) {
+  mkdirSync(join(distDir, "quran"), { recursive: true });
+
+  for (const file of readdirSync(quranDir)) {
+    if (file.endsWith(".json")) copyFileSync(join(quranDir, file), join(distDir, "quran", file));
+  }
 }
 
 for (const warning of warnings) console.warn(`warning: ${warning}`);

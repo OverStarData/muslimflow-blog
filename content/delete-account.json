@@ -1,0 +1,520 @@
+{
+  "updatedAt": "2026-11-02",
+  "appName": "Muslim Flow",
+  "supportEmail": "mahmoudkamal20518@gmail.com",
+  "developerName": "Mahmoud Kamal",
+  "languages": {
+    "en": {
+      "title": "Delete your account",
+      "intro": "This page explains how to delete your Muslim Flow account and the data linked to it. A Muslim Flow account is needed only for the optional Community (Beta). Prayer times, Quran, planner and other worship features need no account.",
+      "updatedLabel": "Last updated 2026-11-02",
+      "developerLabel": "Developer",
+      "sections": [
+        {
+          "id": "inApp",
+          "title": "Delete your account in the app",
+          "description": "Use this if you can open the app.",
+          "items": [
+            "Open Muslim Flow and sign in to the Community.",
+            "Go to Community > Menu > Settings > Delete account.",
+            "Confirm when asked."
+          ]
+        },
+        {
+          "id": "email",
+          "title": "If you cannot open the app",
+          "description": "Ask us by e-mail.",
+          "items": [
+            "Send an e-mail to mahmoudkamal20518@gmail.com from the e-mail address of your account.",
+            "Use the subject “Delete my Muslim Flow account”.",
+            "We delete the account within 30 days."
+          ]
+        },
+        {
+          "id": "deleted",
+          "title": "What is deleted",
+          "description": "These are removed when your account is deleted.",
+          "items": [
+            "Your sign-in",
+            "Your profile",
+            "Your posts and comments",
+            "Your likes and follows",
+            "Your saved posts",
+            "Your blocks and mutes",
+            "Your notifications",
+            "The pictures, videos and voice files you uploaded"
+          ]
+        },
+        {
+          "id": "kept",
+          "title": "What may be kept",
+          "description": "Some records may be kept when needed to keep the Community safe.",
+          "items": [
+            "Reports and moderator action records.",
+            "The e-mail address of an account that was suspended for breaking the rules, so it cannot sign up again.",
+            "A private, short-lived abuse log. It is kept for a few days only."
+          ]
+        },
+        {
+          "id": "device",
+          "title": "Data stored only on your device",
+          "description": "We do not hold this data.",
+          "items": [
+            "Prayer times, Quran, planner and other worship data are stored only on your device, not by us.",
+            "Uninstalling the app or clearing its storage removes it."
+          ]
+        }
+      ],
+      "contactTitle": "Need help?",
+      "contactDescription": "Write to us if you have a question about deleting your account."
+    },
+    "ar": {
+      "title": "حذف حسابك",
+      "intro": "تشرح هذه الصفحة كيف تحذف حسابك في Muslim Flow والبيانات المرتبطة به. لا يلزم حساب في Muslim Flow إلا للمجتمع الاختياري (بيتا). أما أوقات الصلاة والقرآن والمخطط وبقية ميزات العبادة فلا تحتاج إلى حساب.",
+      "updatedLabel": "آخر تحديث 2026-11-02",
+      "developerLabel": "المطوّر",
+      "sections": [
+        {
+          "id": "inApp",
+          "title": "حذف الحساب من التطبيق",
+          "description": "استخدم هذه الطريقة إن كان بإمكانك فتح التطبيق.",
+          "items": [
+            "افتح Muslim Flow وسجّل الدخول إلى المجتمع.",
+            "انتقل إلى المجتمع > القائمة > الإعدادات > حذف الحساب.",
+            "أكّد عند الطلب."
+          ]
+        },
+        {
+          "id": "email",
+          "title": "إذا تعذّر عليك فتح التطبيق",
+          "description": "اطلب الحذف عبر البريد الإلكتروني.",
+          "items": [
+            "أرسل رسالة إلى mahmoudkamal20518@gmail.com من عنوان البريد الإلكتروني المرتبط بحسابك.",
+            "اكتب في عنوان الرسالة: “Delete my Muslim Flow account”.",
+            "نحذف الحساب خلال 30 يوماً."
+          ]
+        },
+        {
+          "id": "deleted",
+          "title": "ما الذي يُحذف",
+          "description": "تُزال هذه البيانات عند حذف حسابك.",
+          "items": [
+            "بيانات تسجيل الدخول",
+            "ملفك الشخصي",
+            "منشوراتك وتعليقاتك",
+            "إعجاباتك ومتابعاتك",
+            "المنشورات التي حفظتها",
+            "قوائم الحظر والكتم",
+            "إشعاراتك",
+            "الصور ومقاطع الفيديو والملفات الصوتية التي رفعتها"
+          ]
+        },
+        {
+          "id": "kept",
+          "title": "ما قد يُحتفظ به",
+          "description": "قد نحتفظ ببعض السجلات عند الحاجة لحماية المجتمع.",
+          "items": [
+            "البلاغات وسجلات إجراءات المشرفين.",
+            "البريد الإلكتروني لحساب عُلّق بسبب مخالفة القواعد، حتى لا يستطيع التسجيل من جديد.",
+            "سجل خاص قصير الأمد لإساءة الاستخدام، يُحفظ لبضعة أيام فقط."
+          ]
+        },
+        {
+          "id": "device",
+          "title": "بيانات تبقى على جهازك فقط",
+          "description": "لا نحتفظ بهذه البيانات.",
+          "items": [
+            "أوقات الصلاة والقرآن والمخطط وبقية بيانات العبادة تُخزَّن على جهازك فقط، وليس لدينا.",
+            "يؤدي حذف التطبيق أو مسح بياناته إلى إزالتها."
+          ]
+        }
+      ],
+      "contactTitle": "هل تحتاج إلى مساعدة؟",
+      "contactDescription": "راسلنا إذا كان لديك سؤال عن حذف حسابك."
+    },
+    "ms": {
+      "title": "Padam akaun anda",
+      "intro": "Halaman ini menerangkan cara memadam akaun Muslim Flow anda dan data yang dipautkan kepadanya. Akaun Muslim Flow hanya diperlukan untuk Komuniti (Beta) pilihan. Waktu solat, al-Quran, perancang dan ciri ibadah yang lain tidak memerlukan akaun.",
+      "updatedLabel": "Dikemas kini terakhir 2026-11-02",
+      "developerLabel": "Pembangun",
+      "sections": [
+        {
+          "id": "inApp",
+          "title": "Padam akaun anda dalam aplikasi",
+          "description": "Gunakan cara ini jika anda boleh membuka aplikasi.",
+          "items": [
+            "Buka Muslim Flow dan log masuk ke Komuniti.",
+            "Pergi ke Komuniti > Menu > Tetapan > Padam akaun.",
+            "Sahkan apabila diminta."
+          ]
+        },
+        {
+          "id": "email",
+          "title": "Jika anda tidak dapat membuka aplikasi",
+          "description": "Minta kami melalui e-mel.",
+          "items": [
+            "Hantar e-mel ke mahmoudkamal20518@gmail.com daripada alamat e-mel akaun anda.",
+            "Gunakan subjek “Delete my Muslim Flow account”.",
+            "Kami memadam akaun itu dalam tempoh 30 hari."
+          ]
+        },
+        {
+          "id": "deleted",
+          "title": "Apa yang dipadam",
+          "description": "Perkara ini dibuang apabila akaun anda dipadam.",
+          "items": [
+            "Log masuk anda",
+            "Profil anda",
+            "Hantaran dan komen anda",
+            "Suka dan ikutan anda",
+            "Hantaran tersimpan anda",
+            "Sekatan dan bisu anda",
+            "Pemberitahuan anda",
+            "Gambar, video dan fail suara yang anda muat naik"
+          ]
+        },
+        {
+          "id": "kept",
+          "title": "Apa yang mungkin disimpan",
+          "description": "Sesetengah rekod mungkin disimpan apabila perlu untuk memastikan Komuniti selamat.",
+          "items": [
+            "Laporan dan rekod tindakan moderator.",
+            "Alamat e-mel akaun yang digantung kerana melanggar peraturan, supaya ia tidak boleh mendaftar semula.",
+            "Log penyalahgunaan peribadi yang bersifat jangka pendek. Ia disimpan beberapa hari sahaja."
+          ]
+        },
+        {
+          "id": "device",
+          "title": "Data yang disimpan pada peranti anda sahaja",
+          "description": "Kami tidak menyimpan data ini.",
+          "items": [
+            "Waktu solat, al-Quran, perancang dan data ibadah yang lain disimpan pada peranti anda sahaja, bukan oleh kami.",
+            "Menyahpasang aplikasi atau mengosongkan storannya akan memadamkannya."
+          ]
+        }
+      ],
+      "contactTitle": "Perlukan bantuan?",
+      "contactDescription": "Tulis kepada kami jika anda ada soalan tentang memadam akaun anda."
+    },
+    "es": {
+      "title": "Eliminar tu cuenta",
+      "intro": "Esta página explica cómo eliminar tu cuenta de Muslim Flow y los datos vinculados a ella. La cuenta de Muslim Flow solo hace falta para la Comunidad (Beta), que es opcional. Los horarios de oración, el Corán, el planificador y las demás funciones de adoración no necesitan cuenta.",
+      "updatedLabel": "Última actualización 2026-11-02",
+      "developerLabel": "Desarrollador",
+      "sections": [
+        {
+          "id": "inApp",
+          "title": "Elimina tu cuenta en la aplicación",
+          "description": "Usa esta opción si puedes abrir la aplicación.",
+          "items": [
+            "Abre Muslim Flow e inicia sesión en la Comunidad.",
+            "Ve a Comunidad > Menú > Ajustes > Eliminar cuenta.",
+            "Confirma cuando se te pida."
+          ]
+        },
+        {
+          "id": "email",
+          "title": "Si no puedes abrir la aplicación",
+          "description": "Pídenoslo por correo electrónico.",
+          "items": [
+            "Envía un correo a mahmoudkamal20518@gmail.com desde la dirección de correo electrónico de tu cuenta.",
+            "Usa el asunto “Delete my Muslim Flow account”.",
+            "Eliminamos la cuenta en un plazo de 30 días."
+          ]
+        },
+        {
+          "id": "deleted",
+          "title": "Qué se elimina",
+          "description": "Esto se elimina cuando se borra tu cuenta.",
+          "items": [
+            "Tu inicio de sesión",
+            "Tu perfil",
+            "Tus publicaciones y comentarios",
+            "Tus me gusta y seguimientos",
+            "Tus publicaciones guardadas",
+            "Tus bloqueos y silenciamientos",
+            "Tus notificaciones",
+            "Las imágenes, vídeos y archivos de voz que subiste"
+          ]
+        },
+        {
+          "id": "kept",
+          "title": "Qué puede conservarse",
+          "description": "Algunos registros pueden conservarse cuando es necesario para mantener segura la Comunidad.",
+          "items": [
+            "Informes y registros de acciones de los moderadores.",
+            "El correo electrónico de una cuenta suspendida por incumplir las normas, para que no pueda volver a registrarse.",
+            "Un registro privado de abusos de corta duración. Se conserva solo unos días."
+          ]
+        },
+        {
+          "id": "device",
+          "title": "Datos guardados solo en tu dispositivo",
+          "description": "Nosotros no guardamos estos datos.",
+          "items": [
+            "Los horarios de oración, el Corán, el planificador y otros datos de adoración se guardan solo en tu dispositivo, no en nuestros servidores.",
+            "Desinstalar la aplicación o borrar su almacenamiento los elimina."
+          ]
+        }
+      ],
+      "contactTitle": "¿Necesitas ayuda?",
+      "contactDescription": "Escríbenos si tienes una pregunta sobre cómo eliminar tu cuenta."
+    },
+    "fr": {
+      "title": "Supprimer votre compte",
+      "intro": "Cette page explique comment supprimer votre compte Muslim Flow et les données qui y sont liées. Un compte Muslim Flow n’est nécessaire que pour la Communauté (bêta), facultative. Les horaires de prière, le Coran, le planificateur et les autres fonctions d’adoration n’exigent aucun compte.",
+      "updatedLabel": "Dernière mise à jour 2026-11-02",
+      "developerLabel": "Développeur",
+      "sections": [
+        {
+          "id": "inApp",
+          "title": "Supprimer votre compte dans l’application",
+          "description": "Utilisez cette méthode si vous pouvez ouvrir l’application.",
+          "items": [
+            "Ouvrez Muslim Flow et connectez-vous à la Communauté.",
+            "Allez dans Communauté > Menu > Réglages > Supprimer le compte.",
+            "Confirmez lorsque l’application vous le demande."
+          ]
+        },
+        {
+          "id": "email",
+          "title": "Si vous ne pouvez pas ouvrir l’application",
+          "description": "Demandez-le-nous par e-mail.",
+          "items": [
+            "Envoyez un e-mail à mahmoudkamal20518@gmail.com depuis l’adresse e-mail de votre compte.",
+            "Utilisez l’objet « Delete my Muslim Flow account ».",
+            "Nous supprimons le compte dans un délai de 30 jours."
+          ]
+        },
+        {
+          "id": "deleted",
+          "title": "Ce qui est supprimé",
+          "description": "Ces éléments sont supprimés lorsque votre compte est supprimé.",
+          "items": [
+            "Votre connexion",
+            "Votre profil",
+            "Vos publications et commentaires",
+            "Vos mentions J’aime et vos abonnements",
+            "Vos publications enregistrées",
+            "Vos blocages et mises en sourdine",
+            "Vos notifications",
+            "Les images, vidéos et fichiers vocaux que vous avez envoyés"
+          ]
+        },
+        {
+          "id": "kept",
+          "title": "Ce qui peut être conservé",
+          "description": "Certains enregistrements peuvent être conservés lorsque c’est nécessaire pour préserver la sécurité de la Communauté.",
+          "items": [
+            "Les signalements et les enregistrements des actions des modérateurs.",
+            "L’adresse e-mail d’un compte suspendu pour non-respect des règles, afin qu’il ne puisse pas se réinscrire.",
+            "Un journal privé de lutte contre les abus, de courte durée. Il n’est conservé que quelques jours."
+          ]
+        },
+        {
+          "id": "device",
+          "title": "Données stockées uniquement sur votre appareil",
+          "description": "Nous ne conservons pas ces données.",
+          "items": [
+            "Les horaires de prière, le Coran, le planificateur et les autres données de culte sont stockés uniquement sur votre appareil, pas chez nous.",
+            "Désinstaller l’application ou vider son stockage les supprime."
+          ]
+        }
+      ],
+      "contactTitle": "Besoin d’aide ?",
+      "contactDescription": "Écrivez-nous si vous avez une question sur la suppression de votre compte."
+    },
+    "tr": {
+      "title": "Hesabınızı silin",
+      "intro": "Bu sayfa, Muslim Flow hesabınızı ve hesaba bağlı verileri nasıl sileceğinizi açıklar. Muslim Flow hesabı yalnızca isteğe bağlı Topluluk (Beta) için gerekir. Namaz vakitleri, Kur'an, planlayıcı ve diğer ibadet özellikleri için hesap gerekmez.",
+      "updatedLabel": "Son güncelleme 2026-11-02",
+      "developerLabel": "Geliştirici",
+      "sections": [
+        {
+          "id": "inApp",
+          "title": "Hesabınızı uygulama içinden silin",
+          "description": "Uygulamayı açabiliyorsanız bu yolu kullanın.",
+          "items": [
+            "Muslim Flow'u açın ve Topluluğa giriş yapın.",
+            "Topluluk > Menü > Ayarlar > Hesabı sil yolunu izleyin.",
+            "İstendiğinde onaylayın."
+          ]
+        },
+        {
+          "id": "email",
+          "title": "Uygulamayı açamıyorsanız",
+          "description": "Bize e-postayla bildirin.",
+          "items": [
+            "Hesabınızın e-posta adresinden mahmoudkamal20518@gmail.com adresine bir e-posta gönderin.",
+            "Konu olarak “Delete my Muslim Flow account” yazın.",
+            "Hesabı 30 gün içinde sileriz."
+          ]
+        },
+        {
+          "id": "deleted",
+          "title": "Nelerin silindiği",
+          "description": "Hesabınız silindiğinde bunlar kaldırılır.",
+          "items": [
+            "Giriş bilgileriniz",
+            "Profiliniz",
+            "Gönderileriniz ve yorumlarınız",
+            "Beğenileriniz ve takipleriniz",
+            "Kaydettiğiniz gönderiler",
+            "Engellemeleriniz ve sessize almalarınız",
+            "Bildirimleriniz",
+            "Yüklediğiniz resim, video ve ses dosyaları"
+          ]
+        },
+        {
+          "id": "kept",
+          "title": "Nelerin saklanabileceği",
+          "description": "Topluluğu güvende tutmak için gerektiğinde bazı kayıtlar saklanabilir.",
+          "items": [
+            "Şikâyetler ve moderatör eylem kayıtları.",
+            "Kuralları ihlal ettiği için askıya alınmış bir hesabın e-posta adresi (yeniden kaydolamasın diye).",
+            "Kısa ömürlü, özel bir kötüye kullanım kaydı. Yalnızca birkaç gün saklanır."
+          ]
+        },
+        {
+          "id": "device",
+          "title": "Yalnızca cihazınızda saklanan veriler",
+          "description": "Bu verileri biz tutmayız.",
+          "items": [
+            "Namaz vakitleri, Kur'an, planlayıcı ve diğer ibadet verileri yalnızca cihazınızda saklanır, bizde değil.",
+            "Uygulamayı kaldırmak veya depolamasını temizlemek bunları siler."
+          ]
+        }
+      ],
+      "contactTitle": "Yardıma mı ihtiyacınız var?",
+      "contactDescription": "Hesabınızı silmeyle ilgili bir sorunuz varsa bize yazın."
+    },
+    "id": {
+      "title": "Hapus akun Anda",
+      "intro": "Halaman ini menjelaskan cara menghapus akun Muslim Flow Anda dan data yang terkait. Akun Muslim Flow hanya diperlukan untuk Komunitas (Beta) yang opsional. Waktu salat, Al-Qur'an, perencana, dan fitur ibadah lainnya tidak memerlukan akun.",
+      "updatedLabel": "Terakhir diperbarui 2026-11-02",
+      "developerLabel": "Pengembang",
+      "sections": [
+        {
+          "id": "inApp",
+          "title": "Hapus akun Anda di aplikasi",
+          "description": "Gunakan cara ini jika Anda dapat membuka aplikasi.",
+          "items": [
+            "Buka Muslim Flow dan masuk ke Komunitas.",
+            "Buka Komunitas > Menu > Pengaturan > Hapus akun.",
+            "Konfirmasi saat diminta."
+          ]
+        },
+        {
+          "id": "email",
+          "title": "Jika Anda tidak dapat membuka aplikasi",
+          "description": "Minta kepada kami lewat email.",
+          "items": [
+            "Kirim email ke mahmoudkamal20518@gmail.com dari alamat email akun Anda.",
+            "Gunakan subjek “Delete my Muslim Flow account”.",
+            "Kami menghapus akun dalam waktu 30 hari."
+          ]
+        },
+        {
+          "id": "deleted",
+          "title": "Yang dihapus",
+          "description": "Hal-hal ini dihapus saat akun Anda dihapus.",
+          "items": [
+            "Data masuk Anda",
+            "Profil Anda",
+            "Postingan dan komentar Anda",
+            "Suka dan yang Anda ikuti",
+            "Postingan tersimpan Anda",
+            "Blokir dan bisukan Anda",
+            "Notifikasi Anda",
+            "Gambar, video, dan file suara yang Anda unggah"
+          ]
+        },
+        {
+          "id": "kept",
+          "title": "Yang mungkin disimpan",
+          "description": "Beberapa catatan mungkin disimpan bila diperlukan untuk menjaga keamanan Komunitas.",
+          "items": [
+            "Laporan dan catatan tindakan moderator.",
+            "Alamat email akun yang ditangguhkan karena melanggar aturan, agar tidak dapat mendaftar lagi.",
+            "Log penyalahgunaan pribadi yang berumur pendek. Log ini hanya disimpan beberapa hari."
+          ]
+        },
+        {
+          "id": "device",
+          "title": "Data yang hanya disimpan di perangkat Anda",
+          "description": "Kami tidak menyimpan data ini.",
+          "items": [
+            "Waktu salat, Al-Qur'an, perencana, dan data ibadah lainnya hanya disimpan di perangkat Anda, bukan oleh kami.",
+            "Menghapus aplikasi atau membersihkan penyimpanannya akan menghapusnya."
+          ]
+        }
+      ],
+      "contactTitle": "Butuh bantuan?",
+      "contactDescription": "Tulis kepada kami jika Anda punya pertanyaan tentang penghapusan akun Anda."
+    },
+    "ur": {
+      "title": "اپنا اکاؤنٹ حذف کریں",
+      "intro": "یہ صفحہ بتاتا ہے کہ اپنا Muslim Flow اکاؤنٹ اور اس سے جڑا ڈیٹا کیسے حذف کیا جائے۔ Muslim Flow اکاؤنٹ صرف اختیاری کمیونٹی (بیٹا) کے لیے درکار ہے۔ اوقاتِ نماز، قرآن، پلانر اور عبادت کی دیگر خصوصیات کے لیے اکاؤنٹ کی ضرورت نہیں۔",
+      "updatedLabel": "آخری بار اپ ڈیٹ 2026-11-02",
+      "developerLabel": "ڈیولپر",
+      "sections": [
+        {
+          "id": "inApp",
+          "title": "ایپ میں اپنا اکاؤنٹ حذف کریں",
+          "description": "اگر آپ ایپ کھول سکتے ہیں تو یہ طریقہ استعمال کریں۔",
+          "items": [
+            "Muslim Flow کھولیں اور کمیونٹی میں سائن اِن کریں۔",
+            "کمیونٹی > مینو > ترتیبات > اکاؤنٹ حذف کریں پر جائیں۔",
+            "پوچھے جانے پر تصدیق کریں۔"
+          ]
+        },
+        {
+          "id": "email",
+          "title": "اگر آپ ایپ نہیں کھول سکتے",
+          "description": "ہمیں ای میل کے ذریعے بتائیں۔",
+          "items": [
+            "اپنے اکاؤنٹ کے ای میل پتے سے mahmoudkamal20518@gmail.com پر ای میل بھیجیں۔",
+            "موضوع (سبجیکٹ) میں “Delete my Muslim Flow account” لکھیں۔",
+            "ہم اکاؤنٹ 30 دن کے اندر حذف کر دیتے ہیں۔"
+          ]
+        },
+        {
+          "id": "deleted",
+          "title": "کیا حذف ہوتا ہے",
+          "description": "اکاؤنٹ حذف ہونے پر یہ سب ہٹا دیا جاتا ہے۔",
+          "items": [
+            "آپ کا سائن اِن",
+            "آپ کا پروفائل",
+            "آپ کی پوسٹس اور تبصرے",
+            "آپ کے لائکس اور فالو",
+            "آپ کی محفوظ کردہ پوسٹس",
+            "آپ کے بلاک اور میوٹ",
+            "آپ کے نوٹیفکیشن",
+            "آپ کی اپ لوڈ کی ہوئی تصاویر، ویڈیوز اور آواز کی فائلیں"
+          ]
+        },
+        {
+          "id": "kept",
+          "title": "کیا رکھا جا سکتا ہے",
+          "description": "کمیونٹی کو محفوظ رکھنے کے لیے ضرورت پڑنے پر کچھ ریکارڈ رکھے جا سکتے ہیں۔",
+          "items": [
+            "رپورٹس اور ماڈریٹرز کے اقدامات کا ریکارڈ۔",
+            "قواعد توڑنے پر معطل کیے گئے اکاؤنٹ کا ای میل پتہ تاکہ وہ دوبارہ سائن اپ نہ کر سکے۔",
+            "غلط استعمال کا ایک نجی، مختصر مدت کا لاگ۔ یہ صرف چند دن رکھا جاتا ہے۔"
+          ]
+        },
+        {
+          "id": "device",
+          "title": "ڈیٹا جو صرف آپ کے آلے پر ہے",
+          "description": "یہ ڈیٹا ہمارے پاس نہیں ہوتا۔",
+          "items": [
+            "اوقاتِ نماز، قرآن، پلانر اور عبادت کا دیگر ڈیٹا صرف آپ کے آلے پر محفوظ ہوتا ہے، ہمارے پاس نہیں۔",
+            "ایپ ان انسٹال کرنے یا اس کا اسٹوریج صاف کرنے سے یہ ہٹ جاتا ہے۔"
+          ]
+        }
+      ],
+      "contactTitle": "مدد چاہیے؟",
+      "contactDescription": "اکاؤنٹ حذف کرنے کے بارے میں کوئی سوال ہو تو ہمیں لکھیں۔"
+    }
+  }
+}
