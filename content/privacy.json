@@ -69,7 +69,8 @@
             "Saved prayer times and content so the app keeps working offline.",
             "Blog posts you opened, and the posts you liked.",
             "If you sign in to the Community, a sign-in session and an unsent post draft are also kept on your device.",
-            "None of this is sent to us. Uninstalling the app or clearing its storage removes it."
+            "None of this is sent to us. Uninstalling the app or clearing its storage removes it.",
+            "Quran translations you download for another language, saved on your device so they work offline."
           ]
         },
         {
@@ -84,7 +85,8 @@
             "Reports you send about a post or person are seen by our moderators and administrators.",
             "To stop spam and abuse, the server keeps a short private log of actions such as posting and reporting for a few days to apply limits, and a CAPTCHA from Cloudflare (Turnstile) is shown when you sign in or sign up. Cloudflare may see your IP address and browser details for that check.",
             "Moderators can remove posts and suspend accounts that break the Community rules. Their actions are recorded in a private activity log.",
-            "We do not sell Community data and there are no ads or analytics in it. Anything you post can be seen by others, so do not post private information."
+            "We do not sell Community data and there are no ads or analytics in it. Anything you post can be seen by others, so do not post private information.",
+            "The posts you have viewed: the list is kept on your device and, if you are signed in, also with your account so Suggestions and Viewed match on all your phones. You can clear it from Viewed > Clear history, and it is deleted with your account."
           ]
         },
         {
@@ -99,7 +101,8 @@
             "Connection check: the app contacts a Google connectivity-check address to find out whether you are online.",
             "Blog: posts and pictures are loaded from the blog website, hosted on GitHub Pages.",
             "Community: our server on Supabase, and Cloudflare Turnstile for the CAPTCHA. If you use Google sign-in, Google’s sign-in page.",
-            "Requests to the content services above do not include your name or an account identifier. Each service has its own privacy policy."
+            "Requests to the content services above do not include your name or an account identifier. Each service has its own privacy policy.",
+            "Quran translations: if you choose a language whose translation is not built into the app, it is downloaded once from the blog website (GitHub Pages) or Al Quran Cloud and saved on your device."
           ]
         },
         {
@@ -260,7 +263,8 @@
             "أوقات الصلاة والمحتوى المحفوظ ليستمر التطبيق في العمل دون اتصال.",
             "المنشورات التي فتحتها في المدوّنة وتلك التي أعجبتك.",
             "إذا سجّلت الدخول إلى المجتمع، فتُحفظ على جهازك أيضًا جلسة تسجيل الدخول ومسودة منشور لم يُرسل.",
-            "لا يُرسل شيء من ذلك إلينا. يؤدي حذف التطبيق أو مسح بياناته إلى إزالته."
+            "لا يُرسل شيء من ذلك إلينا. يؤدي حذف التطبيق أو مسح بياناته إلى إزالته.",
+            "ترجمات القرآن التي تنزّلها للغات أخرى، وتُحفظ على جهازك لتعمل دون اتصال."
           ]
         },
         {
@@ -275,7 +279,8 @@
             "البلاغات التي ترسلها عن منشور أو شخص يراها المشرفون والمسؤولون لدينا.",
             "لمنع الرسائل المزعجة وإساءة الاستخدام، يحتفظ الخادم بسجل خاص قصير للإجراءات مثل النشر والإبلاغ لبضعة أيام لتطبيق الحدود، ويظهر اختبار CAPTCHA من Cloudflare (Turnstile) عند تسجيل الدخول أو إنشاء الحساب. وقد ترى Cloudflare عنوان IP وتفاصيل المتصفح لديك لأجل هذا الفحص.",
             "يستطيع المشرفون إزالة المنشورات وتعليق الحسابات المخالفة لقواعد المجتمع. وتُسجَّل إجراءاتهم في سجل نشاط خاص.",
-            "لا نبيع بيانات المجتمع، ولا توجد فيه إعلانات ولا تحليلات. وكل ما تنشره يمكن للآخرين رؤيته، فلا تنشر معلومات خاصة."
+            "لا نبيع بيانات المجتمع، ولا توجد فيه إعلانات ولا تحليلات. وكل ما تنشره يمكن للآخرين رؤيته، فلا تنشر معلومات خاصة.",
+            "المنشورات التي شاهدتها: تُحفظ القائمة على جهازك، وإن كنت مسجّل الدخول تُحفظ أيضًا مع حسابك لتتطابق الاقتراحات وقائمة المشاهَدة على كل هواتفك. يمكنك مسحها من «تمت مشاهدتها» > «مسح السجل»، وتُحذف مع حسابك."
           ]
         },
         {
@@ -290,7 +295,8 @@
             "فحص الاتصال: يتصل التطبيق بعنوان فحص اتصال تابع لـ Google ليعرف هل أنت متصل بالإنترنت.",
             "المدوّنة: تُحمَّل المنشورات والصور من موقع المدوّنة المستضاف على GitHub Pages.",
             "المجتمع: خادمنا على Supabase، و Cloudflare Turnstile لاختبار CAPTCHA. وإذا استخدمت تسجيل الدخول عبر Google فصفحة تسجيل الدخول من Google.",
-            "لا تتضمن الطلبات إلى خدمات المحتوى أعلاه اسمك ولا معرّف حساب. ولكل خدمة سياسة خصوصية خاصة بها."
+            "لا تتضمن الطلبات إلى خدمات المحتوى أعلاه اسمك ولا معرّف حساب. ولكل خدمة سياسة خصوصية خاصة بها.",
+            "ترجمات القرآن: إذا اخترت لغة ترجمتها غير مضمّنة في التطبيق، تُنزَّل مرة واحدة من موقع المدوّنة (GitHub Pages) أو من Al Quran Cloud وتُحفظ على جهازك."
           ]
         },
         {
@@ -451,7 +457,8 @@
             "Waktu solat dan kandungan yang disimpan supaya aplikasi terus berfungsi tanpa talian.",
             "Catatan blog yang anda buka, dan catatan yang anda sukai.",
             "Jika anda log masuk ke Komuniti, sesi log masuk dan draf hantaran yang belum dihantar turut disimpan pada peranti anda.",
-            "Tiada satu pun daripadanya dihantar kepada kami. Menyahpasang aplikasi atau mengosongkan storannya akan memadamkannya."
+            "Tiada satu pun daripadanya dihantar kepada kami. Menyahpasang aplikasi atau mengosongkan storannya akan memadamkannya.",
+            "Terjemahan al-Quran yang anda muat turun untuk bahasa lain, disimpan pada peranti supaya berfungsi tanpa internet."
           ]
         },
         {
@@ -466,7 +473,8 @@
             "Laporan yang anda hantar tentang sesuatu hantaran atau seseorang dilihat oleh moderator dan pentadbir kami.",
             "Untuk menghentikan spam dan penyalahgunaan, pelayan menyimpan log peribadi ringkas bagi tindakan seperti menyiarkan dan melapor selama beberapa hari untuk menguatkuasakan had, dan CAPTCHA daripada Cloudflare (Turnstile) dipaparkan apabila anda log masuk atau mendaftar. Cloudflare mungkin melihat alamat IP dan butiran pelayar anda untuk semakan itu.",
             "Moderator boleh membuang hantaran dan menggantung akaun yang melanggar peraturan Komuniti. Tindakan mereka direkodkan dalam log aktiviti peribadi.",
-            "Kami tidak menjual data Komuniti dan tiada iklan atau analitik di dalamnya. Apa sahaja yang anda siarkan boleh dilihat oleh orang lain, jadi jangan menyiarkan maklumat peribadi."
+            "Kami tidak menjual data Komuniti dan tiada iklan atau analitik di dalamnya. Apa sahaja yang anda siarkan boleh dilihat oleh orang lain, jadi jangan menyiarkan maklumat peribadi.",
+            "Hantaran yang telah anda lihat: senarai disimpan pada peranti anda dan, jika anda log masuk, turut disimpan bersama akaun anda supaya Cadangan dan Dilihat sama pada semua telefon anda. Anda boleh memadamnya melalui Dilihat > Kosongkan sejarah, dan ia dipadam bersama akaun anda."
           ]
         },
         {
@@ -481,7 +489,8 @@
             "Semakan sambungan: aplikasi menghubungi alamat semakan sambungan Google untuk mengetahui sama ada anda berada dalam talian.",
             "Blog: catatan dan gambar dimuatkan daripada laman web blog, yang dihoskan di GitHub Pages.",
             "Komuniti: pelayan kami di Supabase, dan Cloudflare Turnstile untuk CAPTCHA. Jika anda menggunakan log masuk Google, halaman log masuk Google.",
-            "Permintaan kepada perkhidmatan kandungan di atas tidak termasuk nama anda atau pengenal akaun. Setiap perkhidmatan mempunyai dasar privasinya sendiri."
+            "Permintaan kepada perkhidmatan kandungan di atas tidak termasuk nama anda atau pengenal akaun. Setiap perkhidmatan mempunyai dasar privasinya sendiri.",
+            "Terjemahan al-Quran: jika anda memilih bahasa yang terjemahannya tidak terbina dalam aplikasi, ia dimuat turun sekali daripada laman blog (GitHub Pages) atau Al Quran Cloud dan disimpan pada peranti anda."
           ]
         },
         {
@@ -642,7 +651,8 @@
             "Horarios de oración y contenido guardados para que la aplicación siga funcionando sin conexión.",
             "Las publicaciones del blog que abriste y las que te gustaron.",
             "Si inicias sesión en la Comunidad, también se guardan en tu dispositivo una sesión iniciada y un borrador de publicación sin enviar.",
-            "Nada de esto se nos envía. Desinstalar la aplicación o borrar su almacenamiento lo elimina."
+            "Nada de esto se nos envía. Desinstalar la aplicación o borrar su almacenamiento lo elimina.",
+            "Las traducciones del Corán que descargas para otro idioma, guardadas en tu dispositivo para que funcionen sin conexión."
           ]
         },
         {
@@ -657,7 +667,8 @@
             "Los reportes que envías sobre una publicación o una persona los ven nuestros moderadores y administradores.",
             "Para frenar el spam y los abusos, el servidor guarda durante unos días un breve registro privado de acciones como publicar y reportar, con el fin de aplicar límites, y se muestra un CAPTCHA de Cloudflare (Turnstile) cuando inicias sesión o te registras. Cloudflare puede ver tu dirección IP y los datos de tu navegador para esa comprobación.",
             "Los moderadores pueden eliminar publicaciones y suspender cuentas que incumplan las normas de la Comunidad. Sus acciones se anotan en un registro de actividad privado.",
-            "No vendemos los datos de la Comunidad y en ella no hay anuncios ni analíticas. Todo lo que publicas puede verlo otra gente, así que no publiques información privada."
+            "No vendemos los datos de la Comunidad y en ella no hay anuncios ni analíticas. Todo lo que publicas puede verlo otra gente, así que no publiques información privada.",
+            "Las publicaciones que has visto: la lista se guarda en tu dispositivo y, si has iniciado sesión, también en tu cuenta para que Sugerencias y Vistas coincidan en todos tus teléfonos. Puedes borrarla en Vistas > Borrar historial, y se elimina con tu cuenta."
           ]
         },
         {
@@ -672,7 +683,8 @@
             "Comprobación de conexión: la aplicación contacta una dirección de comprobación de conectividad de Google para saber si estás en línea.",
             "Blog: las publicaciones y las imágenes se cargan desde el sitio web del blog, alojado en GitHub Pages.",
             "Comunidad: nuestro servidor en Supabase y Cloudflare Turnstile para el CAPTCHA. Si usas el inicio de sesión con Google, la página de inicio de sesión de Google.",
-            "Las solicitudes a los servicios de contenido anteriores no incluyen tu nombre ni un identificador de cuenta. Cada servicio tiene su propia política de privacidad."
+            "Las solicitudes a los servicios de contenido anteriores no incluyen tu nombre ni un identificador de cuenta. Cada servicio tiene su propia política de privacidad.",
+            "Traducciones del Corán: si eliges un idioma cuya traducción no viene incluida en la app, se descarga una vez desde el sitio del blog (GitHub Pages) o desde Al Quran Cloud y se guarda en tu dispositivo."
           ]
         },
         {
@@ -833,7 +845,8 @@
             "Les horaires de prière et le contenu enregistrés pour que l’application continue de fonctionner hors ligne.",
             "Les publications du blog que vous avez ouvertes et celles que vous avez aimées.",
             "Si vous vous connectez à la Communauté, une session de connexion et un brouillon de publication non envoyé sont aussi conservés sur votre appareil.",
-            "Rien de tout cela ne nous est envoyé. Désinstaller l’application ou vider son stockage le supprime."
+            "Rien de tout cela ne nous est envoyé. Désinstaller l’application ou vider son stockage le supprime.",
+            "Les traductions du Coran que vous téléchargez pour une autre langue, enregistrées sur votre appareil pour fonctionner hors connexion."
           ]
         },
         {
@@ -848,7 +861,8 @@
             "Les signalements que vous envoyez à propos d’une publication ou d’une personne sont vus par nos modérateurs et nos administrateurs.",
             "Pour lutter contre le spam et les abus, le serveur conserve quelques jours un court journal privé des actions telles que publier et signaler afin d’appliquer des limites, et un CAPTCHA de Cloudflare (Turnstile) s’affiche lorsque vous vous connectez ou vous inscrivez. Cloudflare peut voir votre adresse IP et des informations sur votre navigateur pour cette vérification.",
             "Les modérateurs peuvent supprimer des publications et suspendre les comptes qui enfreignent les règles de la Communauté. Leurs actions sont consignées dans un journal d’activité privé.",
-            "Nous ne vendons pas les données de la Communauté et elle ne contient ni publicité ni outil d’analyse. Tout ce que vous publiez peut être vu par les autres : ne publiez donc pas d’informations privées."
+            "Nous ne vendons pas les données de la Communauté et elle ne contient ni publicité ni outil d’analyse. Tout ce que vous publiez peut être vu par les autres : ne publiez donc pas d’informations privées.",
+            "Les publications que vous avez vues : la liste est conservée sur votre appareil et, si vous êtes connecté, aussi avec votre compte afin que Suggestions et Vues soient identiques sur tous vos téléphones. Vous pouvez l’effacer dans Vues > Effacer l’historique, et elle est supprimée avec votre compte."
           ]
         },
         {
@@ -863,7 +877,8 @@
             "Vérification de connexion : l’application contacte une adresse de test de connectivité de Google pour savoir si vous êtes en ligne.",
             "Blog : les publications et les images sont chargées depuis le site du blog, hébergé sur GitHub Pages.",
             "Communauté : notre serveur sur Supabase, et Cloudflare Turnstile pour le CAPTCHA. Si vous utilisez la connexion Google, la page de connexion de Google.",
-            "Les requêtes envoyées aux services de contenu ci-dessus n’incluent ni votre nom ni identifiant de compte. Chaque service a sa propre politique de confidentialité."
+            "Les requêtes envoyées aux services de contenu ci-dessus n’incluent ni votre nom ni identifiant de compte. Chaque service a sa propre politique de confidentialité.",
+            "Traductions du Coran : si vous choisissez une langue dont la traduction n’est pas intégrée à l’application, elle est téléchargée une fois depuis le site du blog (GitHub Pages) ou Al Quran Cloud et enregistrée sur votre appareil."
           ]
         },
         {
@@ -1024,7 +1039,8 @@
             "Uygulamanın çevrimdışı çalışmaya devam etmesi için kayıtlı namaz vakitleri ve içerik.",
             "Açtığınız blog yazıları ve beğendiğiniz yazılar.",
             "Topluluğa giriş yaparsanız, bir oturum bilgisi ve gönderilmemiş bir gönderi taslağı da cihazınızda tutulur.",
-            "Bunların hiçbiri bize gönderilmez. Uygulamayı kaldırmak veya depolamasını temizlemek bunları siler."
+            "Bunların hiçbiri bize gönderilmez. Uygulamayı kaldırmak veya depolamasını temizlemek bunları siler.",
+            "Başka bir dil için indirdiğiniz Kur'an mealleri, çevrimdışı çalışsın diye cihazınıza kaydedilir."
           ]
         },
         {
@@ -1039,7 +1055,8 @@
             "Bir gönderi veya kişi hakkında gönderdiğiniz şikayetleri moderatörlerimiz ve yöneticilerimiz görür.",
             "Spam ve kötüye kullanımı önlemek için sunucu, sınırları uygulamak amacıyla gönderi paylaşma ve şikayet etme gibi işlemlerin kısa ve özel bir kaydını birkaç gün tutar. Giriş yaparken veya kaydolurken Cloudflare'in (Turnstile) bir CAPTCHA'sı gösterilir. Cloudflare bu kontrol için IP adresinizi ve tarayıcı bilgilerinizi görebilir.",
             "Moderatörler, Topluluk kurallarını ihlal eden gönderileri kaldırabilir ve hesapları askıya alabilir. Bu işlemler özel bir etkinlik günlüğüne kaydedilir.",
-            "Topluluk verilerini satmayız ve Toplulukta reklam veya analiz yoktur. Paylaştığınız her şey başkaları tarafından görülebilir; bu yüzden özel bilgi paylaşmayın."
+            "Topluluk verilerini satmayız ve Toplulukta reklam veya analiz yoktur. Paylaştığınız her şey başkaları tarafından görülebilir; bu yüzden özel bilgi paylaşmayın.",
+            "Görüntülediğiniz gönderiler: liste cihazınızda tutulur; oturum açtıysanız ayrıca hesabınızla birlikte saklanır, böylece Öneriler ve Görüntülenenler tüm telefonlarınızda aynı olur. Görüntülenenler > Geçmişi temizle ile silebilirsiniz; hesabınızla birlikte de silinir."
           ]
         },
         {
@@ -1054,7 +1071,8 @@
             "Bağlantı denetimi: uygulama çevrimiçi olup olmadığınızı anlamak için bir Google bağlantı denetimi adresiyle iletişim kurar.",
             "Blog: yazılar ve resimler, GitHub Pages üzerinde barındırılan blog sitesinden yüklenir.",
             "Topluluk: Supabase üzerindeki sunucumuz ve CAPTCHA için Cloudflare Turnstile. Google ile giriş kullanırsanız Google'ın giriş sayfası.",
-            "Yukarıdaki içerik hizmetlerine yapılan isteklerde adınız veya bir hesap tanımlayıcısı bulunmaz. Her hizmetin kendi gizlilik politikası vardır."
+            "Yukarıdaki içerik hizmetlerine yapılan isteklerde adınız veya bir hesap tanımlayıcısı bulunmaz. Her hizmetin kendi gizlilik politikası vardır.",
+            "Kur'an mealleri: meali uygulamaya dahil olmayan bir dil seçerseniz, meal bir kez blog sitesinden (GitHub Pages) veya Al Quran Cloud'dan indirilir ve cihazınıza kaydedilir."
           ]
         },
         {
@@ -1100,7 +1118,8 @@
             "İndirilen sesler de aynı şekilde kaldırılır.",
             "Namaz, Kur'an ve planlayıcı verilerini biz tutmadığımız için bizim tarafımızda silinecek bir şey yoktur.",
             "Topluluk: hesabınızı istediğiniz zaman uygulama içinden silebilirsiniz (Topluluk > Menü > Ayarlar > Hesabı sil). Bu işlem girişinizi, profilinizi, gönderilerinizi, yorumlarınızı, beğenilerinizi, takiplerinizi, kaydettiğiniz gönderileri ve yüklediğiniz resim, video ve ses dosyalarını kaldırır.",
-            "Kendi sildiğiniz bir gönderi hemen gizlenir ve dosyaları kaldırılır. Metni, hesabınız silinene kadar veri tabanımızda gizli kalabilir.",
+            "Kendi sildiğiniz bir gönderi veya yorum veri tabanımızdan silinir ve dosyaları kaldırılır. Hakkında henüz karara bağlanmamış bir şikayet varsa, şikayet karara bağlanana kadar saklanır, sonra silinir. Moderatörlerin kaldırdığı içerik incelenmek üzere en fazla 30 gün saklanır, sonra silinir.",
+            "3 ay boyunca açılmayan hesaplar, içindeki her şeyle birlikte otomatik olarak silinir (ekip üyeleri ve askıya alınmış hesaplar bu şekilde silinmez). E-postasını hiç doğrulamayan kayıtlar 7 gün sonra silinir.",
             "Topluluğun güvenliği için gerektiğinde bazı kayıtlar tutulabilir: şikayetler, moderatör işlemleri ve askıya alınan bir hesabın e-posta adresi (tekrar kaydolamaması için).",
             "Uygulamayı açamıyorsanız, hesabınızın e-posta adresinden aşağıdaki gizlilik e-posta adresine yazın; hesabı sileriz."
           ]
@@ -1214,7 +1233,8 @@
             "Waktu salat dan konten yang tersimpan agar aplikasi tetap berfungsi offline.",
             "Pos blog yang Anda buka dan pos yang Anda sukai.",
             "Jika Anda masuk ke Komunitas, sesi masuk dan draf postingan yang belum terkirim juga disimpan di perangkat Anda.",
-            "Semua ini tidak dikirim kepada kami. Menghapus aplikasi atau membersihkan penyimpanannya akan menghapusnya."
+            "Semua ini tidak dikirim kepada kami. Menghapus aplikasi atau membersihkan penyimpanannya akan menghapusnya.",
+            "Terjemahan Al-Qur'an yang Anda unduh untuk bahasa lain, disimpan di perangkat agar berfungsi tanpa internet."
           ]
         },
         {
@@ -1229,7 +1249,8 @@
             "Laporan yang Anda kirim tentang postingan atau seseorang dapat dilihat oleh moderator dan administrator kami.",
             "Untuk mencegah spam dan penyalahgunaan, server menyimpan catatan pribadi singkat tentang tindakan seperti memposting dan melapor selama beberapa hari untuk menerapkan batasan. CAPTCHA dari Cloudflare (Turnstile) ditampilkan saat Anda masuk atau mendaftar. Cloudflare dapat melihat alamat IP dan detail browser Anda untuk pemeriksaan itu.",
             "Moderator dapat menghapus postingan dan menangguhkan akun yang melanggar aturan Komunitas. Tindakan mereka dicatat dalam log aktivitas pribadi.",
-            "Kami tidak menjual data Komunitas, dan di dalamnya tidak ada iklan atau analitik. Semua yang Anda posting dapat dilihat orang lain, jadi jangan memposting informasi pribadi."
+            "Kami tidak menjual data Komunitas, dan di dalamnya tidak ada iklan atau analitik. Semua yang Anda posting dapat dilihat orang lain, jadi jangan memposting informasi pribadi.",
+            "Kiriman yang telah Anda lihat: daftar disimpan di perangkat Anda dan, jika Anda masuk, juga bersama akun Anda agar Saran dan Dilihat sama di semua ponsel Anda. Anda dapat menghapusnya lewat Dilihat > Hapus riwayat, dan daftar ini ikut terhapus bersama akun Anda."
           ]
         },
         {
@@ -1244,7 +1265,8 @@
             "Pemeriksaan koneksi: aplikasi menghubungi alamat pemeriksaan konektivitas Google untuk mengetahui apakah Anda online.",
             "Blog: pos dan gambar dimuat dari situs blog yang dihosting di GitHub Pages.",
             "Komunitas: server kami di Supabase, dan Cloudflare Turnstile untuk CAPTCHA. Jika Anda masuk dengan Google, halaman masuk Google.",
-            "Permintaan ke layanan konten di atas tidak menyertakan nama Anda atau pengenal akun. Setiap layanan memiliki kebijakan privasinya sendiri."
+            "Permintaan ke layanan konten di atas tidak menyertakan nama Anda atau pengenal akun. Setiap layanan memiliki kebijakan privasinya sendiri.",
+            "Terjemahan Al-Qur'an: jika Anda memilih bahasa yang terjemahannya tidak tertanam di aplikasi, terjemahan diunduh sekali dari situs blog (GitHub Pages) atau Al Quran Cloud dan disimpan di perangkat Anda."
           ]
         },
         {
@@ -1290,7 +1312,8 @@
             "Audio yang diunduh dihapus dengan cara yang sama.",
             "Data salat, Al-Qur'an, dan perencana tidak kami simpan, sehingga tidak ada yang perlu kami hapus di sisi kami.",
             "Komunitas: Anda dapat menghapus akun kapan saja di aplikasi (Komunitas > Menu > Pengaturan > Hapus akun). Ini menghapus data masuk, profil, postingan, komentar, suka, ikutan, postingan tersimpan, serta gambar, video, dan file suara yang Anda unggah.",
-            "Postingan yang Anda hapus sendiri langsung disembunyikan dan file-nya dihapus. Teksnya mungkin tetap tersembunyi di database kami sampai akun Anda dihapus.",
+            "Postingan atau komentar yang Anda hapus sendiri dihapus dari database kami dan file-nya dihapus. Jika masih ada laporan yang belum diputuskan tentangnya, ia disimpan sampai laporan diputuskan, lalu dihapus. Konten yang dihapus moderator disimpan hingga 30 hari untuk ditinjau, lalu dihapus.",
+            "Akun yang tidak dibuka selama 3 bulan dihapus otomatis beserta seluruh isinya (anggota tim dan akun yang ditangguhkan tidak dihapus dengan cara ini). Pendaftaran yang tidak pernah mengonfirmasi email dihapus setelah 7 hari.",
             "Beberapa catatan dapat disimpan bila diperlukan untuk menjaga keamanan Komunitas: laporan, tindakan moderator, dan alamat email akun yang ditangguhkan agar tidak dapat mendaftar lagi.",
             "Jika Anda tidak dapat membuka aplikasi, tulislah ke email privasi di bawah dari alamat email akun Anda, dan kami akan menghapus akunnya."
           ]
@@ -1404,7 +1427,8 @@
             "محفوظ شدہ اوقاتِ نماز اور مواد تاکہ ایپ آف لائن بھی چلتی رہے۔",
             "وہ بلاگ پوسٹس جو آپ نے کھولیں اور جو پسند کیں۔",
             "اگر آپ کمیونٹی میں سائن ان کریں تو سائن ان سیشن اور نہ بھیجی گئی پوسٹ کا مسودہ بھی آپ کے آلے پر رکھا جاتا ہے۔",
-            "ان میں سے کچھ بھی ہمیں نہیں بھیجا جاتا۔ ایپ ان انسٹال کرنے یا اس کا اسٹوریج صاف کرنے سے یہ ہٹ جاتا ہے۔"
+            "ان میں سے کچھ بھی ہمیں نہیں بھیجا جاتا۔ ایپ ان انسٹال کرنے یا اس کا اسٹوریج صاف کرنے سے یہ ہٹ جاتا ہے۔",
+            "دوسری زبان کے لیے ڈاؤن لوڈ کیے گئے قرآن کے ترجمے، آپ کے آلے پر محفوظ ہوتے ہیں تاکہ انٹرنیٹ کے بغیر چلیں۔"
           ]
         },
         {
@@ -1419,7 +1443,8 @@
             "کسی پوسٹ یا شخص کے بارے میں آپ جو رپورٹ بھیجتے ہیں اسے ہمارے ماڈریٹرز اور ایڈمنسٹریٹرز دیکھتے ہیں۔",
             "اسپام اور غلط استعمال روکنے کے لیے، سرور حدیں لگانے کی خاطر پوسٹ کرنے اور رپورٹ کرنے جیسی کارروائیوں کا ایک مختصر نجی لاگ چند دن تک رکھتا ہے۔ سائن ان یا سائن اپ کے وقت Cloudflare (Turnstile) کا CAPTCHA دکھایا جاتا ہے۔ اس جانچ کے لیے Cloudflare آپ کا IP ایڈریس اور براؤزر کی تفصیلات دیکھ سکتا ہے۔",
             "ماڈریٹرز کمیونٹی کے اصولوں کی خلاف ورزی کرنے والی پوسٹس ہٹا سکتے ہیں اور اکاؤنٹس معطل کر سکتے ہیں۔ ان کی کارروائیاں ایک نجی سرگرمی لاگ میں درج ہوتی ہیں۔",
-            "ہم کمیونٹی کا ڈیٹا فروخت نہیں کرتے اور اس میں کوئی اشتہار یا تجزیات نہیں ہیں۔ آپ جو کچھ پوسٹ کرتے ہیں اسے دوسرے دیکھ سکتے ہیں، اس لیے نجی معلومات پوسٹ نہ کریں۔"
+            "ہم کمیونٹی کا ڈیٹا فروخت نہیں کرتے اور اس میں کوئی اشتہار یا تجزیات نہیں ہیں۔ آپ جو کچھ پوسٹ کرتے ہیں اسے دوسرے دیکھ سکتے ہیں، اس لیے نجی معلومات پوسٹ نہ کریں۔",
+            "وہ پوسٹس جو آپ نے دیکھی ہیں: فہرست آپ کے آلے پر رہتی ہے اور اگر آپ سائن اِن ہیں تو آپ کے اکاؤنٹ کے ساتھ بھی محفوظ ہوتی ہے تاکہ تجاویز اور دیکھی گئی پوسٹس آپ کے تمام فونز پر ایک جیسی رہیں۔ آپ اسے «دیکھی گئی» > «تاریخ صاف کریں» سے صاف کر سکتے ہیں، اور یہ آپ کے اکاؤنٹ کے ساتھ حذف ہو جاتی ہے۔"
           ]
         },
         {
@@ -1434,7 +1459,8 @@
             "کنکشن کی جانچ: ایپ یہ جاننے کے لیے کہ آپ آن لائن ہیں یا نہیں، Google کے کنیکٹیویٹی چیک ایڈریس سے رابطہ کرتی ہے۔",
             "بلاگ: پوسٹس اور تصاویر GitHub Pages پر ہوسٹ کی گئی بلاگ ویب سائٹ سے لوڈ ہوتی ہیں۔",
             "کمیونٹی: Supabase پر ہمارا سرور، اور CAPTCHA کے لیے Cloudflare Turnstile۔ اگر آپ Google سے سائن ان کریں تو Google کا سائن ان صفحہ۔",
-            "اوپر دی گئی مواد کی خدمات کو بھیجی گئی درخواستوں میں آپ کا نام یا اکاؤنٹ کی شناخت شامل نہیں ہوتی۔ ہر سروس کی اپنی رازداری کی پالیسی ہے۔"
+            "اوپر دی گئی مواد کی خدمات کو بھیجی گئی درخواستوں میں آپ کا نام یا اکاؤنٹ کی شناخت شامل نہیں ہوتی۔ ہر سروس کی اپنی رازداری کی پالیسی ہے۔",
+            "قرآن کے ترجمے: اگر آپ ایسی زبان چنیں جس کا ترجمہ ایپ میں شامل نہیں، تو وہ ایک بار بلاگ ویب سائٹ (GitHub Pages) یا Al Quran Cloud سے ڈاؤن لوڈ ہو کر آپ کے آلے پر محفوظ ہو جاتا ہے۔"
           ]
         },
         {
@@ -1480,7 +1506,8 @@
             "ڈاؤن لوڈ شدہ آڈیو بھی اسی طرح ہٹ جاتی ہے۔",
             "نماز، قرآن اور پلانر کا ڈیٹا ہم نہیں رکھتے، اس لیے ہماری طرف سے حذف کرنے کو کچھ نہیں۔",
             "کمیونٹی: آپ ایپ میں کسی بھی وقت اپنا اکاؤنٹ حذف کر سکتے ہیں (کمیونٹی ← مینو ← ترتیبات ← اکاؤنٹ حذف کریں)۔ اس سے آپ کا سائن ان، پروفائل، پوسٹس، تبصرے، لائکس، فالو کی فہرست، محفوظ پوسٹس اور آپ کی اپ لوڈ کی ہوئی تصاویر، ویڈیوز اور آواز کی فائلیں ہٹ جاتی ہیں۔",
-            "جو پوسٹ آپ خود حذف کریں وہ فوراً چھپ جاتی ہے اور اس کی فائلیں ہٹا دی جاتی ہیں۔ اس کی تحریر ہمارے ڈیٹابیس میں چھپی رہ سکتی ہے جب تک آپ کا اکاؤنٹ حذف نہ ہو۔",
+            "جو پوسٹ یا تبصرہ آپ خود حذف کریں وہ ہمارے ڈیٹابیس سے حذف ہو جاتا ہے اور اس کی فائلیں ہٹا دی جاتی ہیں۔ اگر اس کے بارے میں کوئی رپورٹ ابھی زیر غور ہو تو وہ رپورٹ کا فیصلہ ہونے تک رکھی جاتی ہے، پھر حذف ہو جاتی ہے۔ ماڈریٹرز کا ہٹایا ہوا مواد جائزے کے لیے زیادہ سے زیادہ 30 دن رکھا جاتا ہے، پھر حذف ہو جاتا ہے۔",
+            "جو اکاؤنٹ 3 ماہ تک نہ کھولے جائیں وہ اپنے تمام مواد سمیت خودکار طور پر حذف ہو جاتے ہیں (ٹیم ممبران اور معطل اکاؤنٹس اس طرح حذف نہیں ہوتے)۔ جو سائن اپ اپنا ای میل کبھی تصدیق نہ کریں وہ 7 دن بعد حذف ہو جاتے ہیں۔",
             "کمیونٹی کو محفوظ رکھنے کے لیے ضرورت پڑنے پر کچھ ریکارڈ رکھے جا سکتے ہیں: رپورٹس، ماڈریٹرز کی کارروائیاں، اور معطل کیے گئے اکاؤنٹ کا ای میل پتا، تاکہ وہ دوبارہ سائن اپ نہ کر سکے۔",
             "اگر آپ ایپ نہیں کھول سکتے تو اپنے اکاؤنٹ کے ای میل پتے سے نیچے دیے گئے رازداری کے ای میل پر لکھیں، ہم اکاؤنٹ حذف کر دیں گے۔"
           ]

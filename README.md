@@ -91,6 +91,22 @@ the app, so the app and the web page always match. After changing the policy in
 the app project, run `npm run blog:export-privacy` there, copy the new
 `content/privacy.json` into this repository and publish.
 
+## Delete-account page (required by Google Play)
+
+Google Play asks for a public web address where people can learn how to delete
+their account. The blog site publishes it next to the privacy policy, in all
+eight languages, at:
+
+```
+https://<your-user>.github.io/muslimflow-blog/delete-account.html
+```
+
+Paste that address into **Play Console -> App content -> Data safety -> Delete
+account URL**. The page comes from `content/delete-account.json` (steps in the
+app, the e-mail route with a 30-day limit, what is deleted, what may be kept).
+It and the privacy page link to each other and show the app name and the
+developer. Keep it in step with the Community delete flow in the app.
+
 ## Examples
 
 `content/samples.json` has one example of every kind of post (text, long text,

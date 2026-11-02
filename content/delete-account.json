@@ -40,6 +40,7 @@
             "Your posts and comments",
             "Your likes and follows",
             "Your saved posts",
+            "Your viewed-posts history",
             "Your blocks and mutes",
             "Your notifications",
             "The pictures, videos and voice files you uploaded"
@@ -104,6 +105,7 @@
             "منشوراتك وتعليقاتك",
             "إعجاباتك ومتابعاتك",
             "المنشورات التي حفظتها",
+            "سجل المنشورات التي شاهدتها",
             "قوائم الحظر والكتم",
             "إشعاراتك",
             "الصور ومقاطع الفيديو والملفات الصوتية التي رفعتها"
@@ -168,6 +170,7 @@
             "Hantaran dan komen anda",
             "Suka dan ikutan anda",
             "Hantaran tersimpan anda",
+            "Sejarah hantaran yang telah anda lihat",
             "Sekatan dan bisu anda",
             "Pemberitahuan anda",
             "Gambar, video dan fail suara yang anda muat naik"
@@ -232,6 +235,7 @@
             "Tus publicaciones y comentarios",
             "Tus me gusta y seguimientos",
             "Tus publicaciones guardadas",
+            "Tu historial de publicaciones vistas",
             "Tus bloqueos y silenciamientos",
             "Tus notificaciones",
             "Las imágenes, vídeos y archivos de voz que subiste"
@@ -296,6 +300,7 @@
             "Vos publications et commentaires",
             "Vos mentions J’aime et vos abonnements",
             "Vos publications enregistrées",
+            "Votre historique des publications vues",
             "Vos blocages et mises en sourdine",
             "Vos notifications",
             "Les images, vidéos et fichiers vocaux que vous avez envoyés"
@@ -360,6 +365,7 @@
             "Gönderileriniz ve yorumlarınız",
             "Beğenileriniz ve takipleriniz",
             "Kaydettiğiniz gönderiler",
+            "Görüntülediğiniz gönderilerin geçmişi",
             "Engellemeleriniz ve sessize almalarınız",
             "Bildirimleriniz",
             "Yüklediğiniz resim, video ve ses dosyaları"
@@ -424,6 +430,7 @@
             "Postingan dan komentar Anda",
             "Suka dan yang Anda ikuti",
             "Postingan tersimpan Anda",
+            "Riwayat postingan yang telah Anda lihat",
             "Blokir dan bisukan Anda",
             "Notifikasi Anda",
             "Gambar, video, dan file suara yang Anda unggah"
@@ -488,6 +495,7 @@
             "آپ کی پوسٹس اور تبصرے",
             "آپ کے لائکس اور فالو",
             "آپ کی محفوظ کردہ پوسٹس",
+            "آپ کی دیکھی گئی پوسٹس کی تاریخ",
             "آپ کے بلاک اور میوٹ",
             "آپ کے نوٹیفکیشن",
             "آپ کی اپ لوڈ کی ہوئی تصاویر، ویڈیوز اور آواز کی فائلیں"
