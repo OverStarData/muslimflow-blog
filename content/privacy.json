@@ -817,6 +817,495 @@
       ],
       "contactTitle": "Des questions sur la confidentialité ?",
       "contactDescription": "Contactez-nous si vous avez une question ou une demande concernant la confidentialité."
+    },
+    "tr": {
+      "title": "Gizlilik Politikası",
+      "intro": "Muslim Flow hesap olmadan çalışacak şekilde yapıldı. Bu sayfa, uygulamanın cihazınızda neyi kullandığını, internet üzerinden neyi gönderdiğini ve sahip olduğunuz seçenekleri sade bir dille açıklar.",
+      "updatedLabel": "Son güncelleme 2026-10-02",
+      "highlights": [
+        {
+          "title": "Hesap gerekmez",
+          "text": "Kaydolmadan veya adınızı ya da e-postanızı vermeden tüm özellikleri kullanın."
+        },
+        {
+          "title": "Reklam ve takip yok",
+          "text": "Uygulamada reklam, analiz veya çökme raporlama aracı yoktur."
+        },
+        {
+          "title": "Cihazınızda kalır",
+          "text": "Ayarlar, ilerleme ve favoriler yerel olarak saklanır, bize yüklenmez."
+        }
+      ],
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Bu politika neleri kapsar",
+          "description": "Muslim Flow, namaz, Kur'an, Kıble, zikir ve günlük ibadet uygulamasıdır. Hakkınızda profil oluşturmaz. Çalışmak için uygulama açıkken konumunuzu, cihazınızdaki depolamayı ve aşağıda açıklanan birkaç herkese açık içerik hizmetini kullanır.",
+          "items": [
+            "Uygulamada kullanıcı hesabı yoktur.",
+            "Uygulama verilerinizi bizim işlettiğimiz bir sunucuya yüklemez.",
+            "Kaydettikleriniz, siz paylaşmayı seçmedikçe cihazınızda kalır."
+          ]
+        },
+        {
+          "id": "location",
+          "title": "Konum",
+          "description": "Yalnızca uygulama açıkken, namaz vakitlerini ve Kıble yönünü belirlemek için kullanılır.",
+          "items": [
+            "Konum yalnızca bir özellik gerektirdiğinde istenir ve reddedebilirsiniz. Konum olmadan namaz vakitleri ve Kıble yönü bulunduğunuz yer için hesaplanamaz.",
+            "Kıble yönü cihazınızda hesaplanır. Namaz vakitleri için uygulama koordinatlarınızı AlAdhan namaz vakti hizmetine gönderir; hizmete ulaşılamazsa vakitler bunun yerine cihazınızda hesaplanır.",
+            "Şehir ve ülke adı, Apple veya Google tarafından sağlanan cihazınızın yerleşik coğrafi kodlama hizmetiyle bulunur.",
+            "Son konumunuz, uygulama hızlı açılsın diye cihazınıza kaydedilir. Bize yüklenmez.",
+            "Malezya'da uygulama önce namaz bölgenizin vakitleri için resmî JAKIM e-Solat hizmetine sorar ve yalnızca bir bölge kodu gönderir. Bu hizmet kullanılamıyorsa yukarıda açıklandığı gibi AlAdhan'ı kullanır.",
+            "Uygulama konumunuzu arka planda izlemez."
+          ]
+        },
+        {
+          "id": "notifications",
+          "title": "Bildirimler ve alarmlar",
+          "description": "Hatırlatıcılar cihazınızda planlanır.",
+          "items": [
+            "Ezan, namaz hatırlatıcıları, gün planlayıcı hatırlatıcıları ve İslami olay hatırlatıcıları yerel bildirimlerdir. Anlık bildirim sunucusu kullanılmaz.",
+            "Android'de uygulama, ezanın tam vaktinde çalması için tam alarm planlama izni isteyebilir.",
+            "Bildirimler isteğe bağlıdır. Namaz bildirimlerini Ayarlar'dan veya cihaz ayarlarınızdan kapatabilirsiniz.",
+            "Blog bildirimleri de yereldir: uygulama blogdaki yaklaşan yazıların zamanlarını okur ve cihazınızda planlar. Bunları Ayarlar'dan kapatabilirsiniz."
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Cihazınızda saklanan bilgiler",
+          "description": "Uygulama seçimlerinizi ve ilerlemenizi yerel olarak hatırlar.",
+          "items": [
+            "Dil, tema, saat biçimi, Kur'an meali, okuyucu ve yazı boyutu gibi ayarlar.",
+            "Kur'an favorileri, okuma konumu ve indirilen sure sesleri.",
+            "Tesbih ve zikir sayaçları, favoriler ve okundu olarak işaretlediğiniz dualar.",
+            "Gün planlayıcı görevleri ve hatırlatma saatleri.",
+            "Uygulamanın çevrimdışı çalışmaya devam etmesi için kayıtlı namaz vakitleri ve içerik.",
+            "Açtığınız blog yazıları ve beğendiğiniz yazılar.",
+            "Bunların hiçbiri bize gönderilmez. Uygulamayı kaldırmak veya depolamasını temizlemek bunları siler."
+          ]
+        },
+        {
+          "id": "network",
+          "title": "İçerik ve internet hizmetleri",
+          "description": "Bazı özellikler herkese açık içerik yükler. Bu hizmetler, her web sitesi gibi IP adresiniz gibi standart teknik bilgileri görür.",
+          "items": [
+            "Namaz vakitleri: JAKIM e-Solat (Malezya) ve AlAdhan.",
+            "Zikir metni: api.islamic.app adresindeki zikir içerik hizmeti.",
+            "Kur'an sesi: MP3Quran (mp3quran.net), Islamic Network ses CDN'i ve Al Quran Cloud.",
+            "Tefsir: Quran Tafseer ve QuranEnc.",
+            "Bağlantı denetimi: uygulama çevrimiçi olup olmadığınızı anlamak için bir Google bağlantı denetimi adresiyle iletişim kurar.",
+            "Blog: yazılar ve resimler, GitHub Pages üzerinde barındırılan blog sitesinden yüklenir.",
+            "Bu isteklerde adınız veya bir hesap tanımlayıcısı bulunmaz. Her hizmetin kendi gizlilik politikası vardır."
+          ]
+        },
+        {
+          "id": "sensors",
+          "title": "Pusula, ses ve cihaz özellikleri",
+          "description": "Bazı özellikler cihazınızın donanımını kullanır.",
+          "items": [
+            "Kıble pusulası, cihazınızın yönünü sistem konum hizmetleri üzerinden okur. Yön verisi yalnızca cihazda kullanılır, saklanmaz veya gönderilmez.",
+            "Titreşim ve dokunsal geri bildirim sayaçlar ve Kıble hizalaması için kullanılır ve Ayarlar'dan kapatılabilir.",
+            "Kur'an sesi, bir medya bildirimi aracılığıyla arka planda çalmaya devam edebilir.",
+            "Uygulama mikrofonunuzu veya kameranızı kullanmaz."
+          ]
+        },
+        {
+          "id": "sharing",
+          "title": "Paylaşım",
+          "description": "Paylaşım yalnızca bir paylaş düğmesine dokunduğunuzda gerçekleşir.",
+          "items": [
+            "Bir ayet, dua, zikir öğesi veya uygulama bağlantısı gibi paylaşılan metin veya görseller, seçtiğiniz uygulamaya iletilir. Bunları biz almayız ve saklamayız.",
+            "Paylaşılan iletiler, başkalarının uygulamayı bulabilmesi için uygulama adını ve bir mağaza bağlantısını içerir.",
+            "Destek e-postaları kendi e-posta uygulamanızda açılır. Biz yalnızca sizin gönderdiğinizi alırız.",
+            "Bir blog resminde Kaydet'e dokunursanız, resim fotoğraf kitaplığınıza eklenir. Uygulama resim ekleyebilir ancak fotoğraflarınızı okuyamaz."
+          ]
+        },
+        {
+          "id": "noSale",
+          "title": "Satış, reklam veya takip yok",
+          "description": "Bilgileriniz bir ürün değildir.",
+          "items": [
+            "Kişisel bilgileri satmayız veya kiralamayız.",
+            "Uygulamada reklam ile analiz veya çökme raporlama araçları yoktur.",
+            "Konumunuz ve ibadet etkinliğiniz asla reklam için kullanılmaz."
+          ]
+        },
+        {
+          "id": "retention",
+          "title": "Verilerin saklanması ve silinmesi",
+          "description": "Uygulamanın sakladığı veriyi siz yönetirsiniz.",
+          "items": [
+            "Yerel veriler, uygulamanın depolamasını temizleyene veya uygulamayı kaldırana kadar cihazınızda kalır.",
+            "İndirilen sesler de aynı şekilde kaldırılır.",
+            "Verilerinizin bir kopyasını tutmadığımız için bizim tarafımızda silinecek bir şey yoktur."
+          ]
+        },
+        {
+          "id": "security",
+          "title": "Güvenlik",
+          "description": "Bilgilerinizi koruyan basit adımlar.",
+          "items": [
+            "Uygulama, içerik hizmetlerine güvenli HTTPS bağlantılarıyla bağlanır.",
+            "Verileriniz cihazınızda kaldığı için, cihazınızın kilit ekranı onlar için en iyi korumadır."
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Çocuklar",
+          "description": "Uygulama her yaştan kullanıcı için uygundur.",
+          "items": [
+            "Uygulama, çocuklar dahil hiç kimseden bilerek kişisel bilgi toplamaz."
+          ]
+        },
+        {
+          "id": "choices",
+          "title": "Seçenekleriniz",
+          "description": "Uygulamanın neleri kullanabileceğine siz karar verirsiniz.",
+          "items": [
+            "Konum ve bildirim erişimine cihaz ayarlarınızdan istediğiniz zaman izin verin, reddedin veya değiştirin.",
+            "Namaz bildirimlerini ve Kıble sesini veya titreşimini Ayarlar'dan kapatın.",
+            "Uygulamayı çevrimdışı kullanın: Kur'an metni, dualar ve indirilen sesler internet bağlantısı olmadan çalışır.",
+            "Yerel verileri cihaz ayarlarınızdan temizleyin veya uygulamayı kaldırın."
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "Bu politikadaki değişiklikler",
+          "description": "Güncellemeleri burada görürsünüz.",
+          "items": [
+            "Uygulama hesap, analiz, reklam veya bulut eşitleme kullanmaya başlarsa, bu politika önce güncellenecek ve en üstte yeni bir tarih gösterilecektir."
+          ]
+        }
+      ],
+      "contactTitle": "Gizlilikle ilgili sorularınız mı var?",
+      "contactDescription": "Gizlilikle ilgili bir sorunuz veya talebiniz varsa bize ulaşın."
+    },
+    "id": {
+      "title": "Kebijakan Privasi",
+      "intro": "Muslim Flow dibuat agar berfungsi tanpa akun. Halaman ini menjelaskan dengan bahasa sederhana apa yang digunakan aplikasi di perangkat Anda, apa yang dikirim lewat internet, dan pilihan yang Anda miliki.",
+      "updatedLabel": "Terakhir diperbarui 2026-10-02",
+      "highlights": [
+        {
+          "title": "Tanpa akun",
+          "text": "Gunakan semua fitur tanpa mendaftar atau memberikan nama atau email Anda."
+        },
+        {
+          "title": "Tanpa iklan atau pelacakan",
+          "text": "Aplikasi tidak memiliki iklan, analitik, atau alat pelaporan kerusakan."
+        },
+        {
+          "title": "Tetap di perangkat Anda",
+          "text": "Pengaturan, kemajuan, dan favorit disimpan secara lokal, tidak diunggah kepada kami."
+        }
+      ],
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Cakupan kebijakan ini",
+          "description": "Muslim Flow adalah aplikasi salat, Al-Qur'an, Kiblat, zikir, dan ibadah harian. Aplikasi ini tidak membuat profil tentang Anda. Agar berfungsi, aplikasi memakai lokasi Anda saat aplikasi terbuka, penyimpanan di perangkat Anda, dan beberapa layanan konten publik yang dijelaskan di bawah.",
+          "items": [
+            "Tidak ada akun pengguna di aplikasi.",
+            "Aplikasi tidak mengunggah data Anda ke server yang kami kelola.",
+            "Apa yang Anda simpan tetap di perangkat Anda kecuali Anda memilih untuk membagikannya."
+          ]
+        },
+        {
+          "id": "location",
+          "title": "Lokasi",
+          "description": "Hanya digunakan saat aplikasi terbuka, untuk menghitung waktu salat dan arah Kiblat.",
+          "items": [
+            "Lokasi hanya diminta saat suatu fitur membutuhkannya, dan Anda boleh menolak. Tanpa lokasi, waktu salat dan arah Kiblat tidak dapat dihitung untuk posisi Anda.",
+            "Arah Kiblat dihitung di perangkat Anda. Untuk waktu salat, aplikasi mengirim koordinat Anda ke layanan waktu salat AlAdhan; jika tidak dapat dijangkau, waktu dihitung di perangkat Anda.",
+            "Nama kota dan negara dicari dengan layanan geokode bawaan perangkat Anda, yang disediakan oleh Apple atau Google.",
+            "Lokasi terakhir Anda disimpan di perangkat agar aplikasi terbuka dengan cepat. Lokasi itu tidak diunggah kepada kami.",
+            "Di Malaysia, aplikasi lebih dulu menanyakan layanan resmi JAKIM e-Solat untuk waktu zona salat Anda dan hanya mengirim kode zona. Jika layanan itu tidak tersedia, aplikasi memakai AlAdhan seperti dijelaskan di atas.",
+            "Aplikasi tidak melacak lokasi Anda di latar belakang."
+          ]
+        },
+        {
+          "id": "notifications",
+          "title": "Notifikasi dan alarm",
+          "description": "Pengingat dijadwalkan di perangkat Anda.",
+          "items": [
+            "Azan, pengingat salat, pengingat perencana harian, dan pengingat peristiwa Islam adalah notifikasi lokal. Tidak ada server notifikasi push yang digunakan.",
+            "Di Android, aplikasi dapat meminta izin menjadwalkan alarm tepat waktu agar azan berbunyi tepat waktu.",
+            "Notifikasi bersifat opsional. Anda dapat mematikan notifikasi salat di Pengaturan atau di pengaturan perangkat.",
+            "Notifikasi blog juga lokal: aplikasi membaca jadwal pos mendatang dari blog dan menjadwalkannya di perangkat Anda. Anda dapat mematikannya di Pengaturan."
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Informasi yang disimpan di perangkat Anda",
+          "description": "Aplikasi mengingat pilihan dan kemajuan Anda secara lokal.",
+          "items": [
+            "Pengaturan seperti bahasa, tema, format waktu, terjemahan Al-Qur'an, qari, dan ukuran huruf.",
+            "Favorit Al-Qur'an, posisi bacaan, dan audio surah yang diunduh.",
+            "Penghitung tasbih dan zikir, favorit, serta doa yang Anda tandai sudah dibaca.",
+            "Tugas perencana harian dan waktu pengingatnya.",
+            "Waktu salat dan konten yang tersimpan agar aplikasi tetap berfungsi offline.",
+            "Pos blog yang Anda buka dan pos yang Anda sukai.",
+            "Semua ini tidak dikirim kepada kami. Menghapus aplikasi atau membersihkan penyimpanannya akan menghapusnya."
+          ]
+        },
+        {
+          "id": "network",
+          "title": "Layanan konten dan internet",
+          "description": "Beberapa fitur memuat konten publik. Layanan ini melihat informasi teknis standar, seperti alamat IP Anda, sama seperti situs web mana pun.",
+          "items": [
+            "Waktu salat: JAKIM e-Solat (Malaysia) dan AlAdhan.",
+            "Teks zikir: layanan konten zikir di api.islamic.app.",
+            "Audio Al-Qur'an: MP3Quran (mp3quran.net), CDN audio Islamic Network, dan Al Quran Cloud.",
+            "Tafsir: Quran Tafseer dan QuranEnc.",
+            "Pemeriksaan koneksi: aplikasi menghubungi alamat pemeriksaan konektivitas Google untuk mengetahui apakah Anda online.",
+            "Blog: pos dan gambar dimuat dari situs blog yang dihosting di GitHub Pages.",
+            "Permintaan ini tidak menyertakan nama Anda atau pengenal akun. Setiap layanan memiliki kebijakan privasinya sendiri."
+          ]
+        },
+        {
+          "id": "sensors",
+          "title": "Kompas, audio, dan fitur perangkat",
+          "description": "Beberapa fitur menggunakan perangkat keras perangkat Anda.",
+          "items": [
+            "Kompas Kiblat membaca arah perangkat Anda melalui layanan lokasi sistem. Data arah hanya digunakan di perangkat dan tidak disimpan atau dikirim.",
+            "Getaran dan umpan balik haptik digunakan untuk penghitung dan kesejajaran Kiblat, dan dapat dimatikan di Pengaturan.",
+            "Audio Al-Qur'an dapat terus diputar di latar belakang melalui notifikasi media.",
+            "Aplikasi tidak menggunakan mikrofon atau kamera Anda."
+          ]
+        },
+        {
+          "id": "sharing",
+          "title": "Berbagi",
+          "description": "Berbagi hanya terjadi saat Anda mengetuk tombol bagikan.",
+          "items": [
+            "Teks atau gambar yang dibagikan, seperti ayat, doa, item zikir, atau tautan aplikasi, diserahkan ke aplikasi yang Anda pilih. Kami tidak menerima atau menyimpannya.",
+            "Pesan yang dibagikan menyertakan nama aplikasi dan tautan toko agar orang lain dapat menemukan aplikasinya.",
+            "Email dukungan terbuka di aplikasi email Anda sendiri. Kami hanya menerima apa yang Anda kirim.",
+            "Jika Anda mengetuk Simpan pada gambar blog, gambar itu ditambahkan ke pustaka foto Anda. Aplikasi dapat menambahkan gambar tetapi tidak dapat membaca foto Anda."
+          ]
+        },
+        {
+          "id": "noSale",
+          "title": "Tanpa penjualan, iklan, atau pelacakan",
+          "description": "Informasi Anda bukan produk.",
+          "items": [
+            "Kami tidak menjual atau menyewakan informasi pribadi.",
+            "Aplikasi tidak memuat iklan serta tidak ada alat analitik atau pelaporan kerusakan.",
+            "Lokasi dan aktivitas ibadah Anda tidak pernah digunakan untuk iklan."
+          ]
+        },
+        {
+          "id": "retention",
+          "title": "Penyimpanan dan penghapusan data",
+          "description": "Anda mengendalikan data yang disimpan aplikasi.",
+          "items": [
+            "Data lokal tetap di perangkat Anda sampai Anda membersihkan penyimpanan aplikasi atau menghapus aplikasi.",
+            "Audio yang diunduh dihapus dengan cara yang sama.",
+            "Kami tidak menyimpan salinan data Anda, sehingga tidak ada yang perlu kami hapus di sisi kami."
+          ]
+        },
+        {
+          "id": "security",
+          "title": "Keamanan",
+          "description": "Langkah sederhana yang melindungi informasi Anda.",
+          "items": [
+            "Aplikasi terhubung ke layanan konten melalui koneksi HTTPS yang aman.",
+            "Karena data Anda tetap di perangkat, layar kunci perangkat Anda adalah perlindungan terbaik untuknya."
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Anak-anak",
+          "description": "Aplikasi ini cocok untuk segala usia.",
+          "items": [
+            "Aplikasi tidak dengan sengaja mengumpulkan informasi pribadi dari siapa pun, termasuk anak-anak."
+          ]
+        },
+        {
+          "id": "choices",
+          "title": "Pilihan Anda",
+          "description": "Anda yang menentukan apa yang boleh digunakan aplikasi.",
+          "items": [
+            "Izinkan, tolak, atau ubah akses lokasi dan notifikasi kapan saja di pengaturan perangkat Anda.",
+            "Matikan notifikasi salat serta suara atau getaran Kiblat di Pengaturan.",
+            "Gunakan aplikasi secara offline: teks Al-Qur'an, doa, dan audio yang diunduh berfungsi tanpa koneksi internet.",
+            "Bersihkan data lokal di pengaturan perangkat Anda, atau hapus aplikasi."
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "Perubahan pada kebijakan ini",
+          "description": "Anda akan melihat pembaruan di sini.",
+          "items": [
+            "Jika aplikasi mulai menggunakan akun, analitik, iklan, atau sinkronisasi cloud, kebijakan ini akan diperbarui lebih dulu, dengan tanggal baru di bagian atas."
+          ]
+        }
+      ],
+      "contactTitle": "Pertanyaan tentang privasi?",
+      "contactDescription": "Hubungi kami jika Anda memiliki pertanyaan atau permintaan terkait privasi."
+    },
+    "ur": {
+      "title": "رازداری کی پالیسی",
+      "intro": "Muslim Flow بغیر اکاؤنٹ کے کام کرنے کے لیے بنائی گئی ہے۔ یہ صفحہ سادہ زبان میں بتاتا ہے کہ ایپ آپ کے آلے پر کیا استعمال کرتی ہے، انٹرنیٹ پر کیا بھیجتی ہے اور آپ کے پاس کیا اختیارات ہیں۔",
+      "updatedLabel": "آخری بار اپ ڈیٹ 2026-10-02",
+      "highlights": [
+        {
+          "title": "اکاؤنٹ کی ضرورت نہیں",
+          "text": "سائن اپ کیے بغیر یا اپنا نام یا ای میل دیے بغیر ہر خصوصیت استعمال کریں۔"
+        },
+        {
+          "title": "کوئی اشتہار یا ٹریکنگ نہیں",
+          "text": "ایپ میں کوئی اشتہار، تجزیاتی ٹول یا کریش رپورٹنگ ٹول نہیں ہے۔"
+        },
+        {
+          "title": "آپ کے آلے پر رہتا ہے",
+          "text": "ترتیبات، پیش رفت اور پسندیدہ مقامی طور پر محفوظ ہوتے ہیں، ہمیں اپ لوڈ نہیں ہوتے۔"
+        }
+      ],
+      "sections": [
+        {
+          "id": "overview",
+          "title": "یہ پالیسی کیا احاطہ کرتی ہے",
+          "description": "Muslim Flow نماز، قرآن، قبلہ، اذکار اور روزانہ عبادت کی ایپ ہے۔ یہ آپ کے بارے میں پروفائل نہیں بناتی۔ کام کرنے کے لیے یہ ایپ کھلی ہونے پر آپ کا مقام، آپ کے آلے کا اسٹوریج اور نیچے بیان کردہ چند عوامی مواد کی خدمات استعمال کرتی ہے۔",
+          "items": [
+            "ایپ میں کوئی صارف اکاؤنٹ نہیں ہے۔",
+            "ایپ آپ کا ڈیٹا ہمارے زیرِ انتظام کسی سرور پر اپ لوڈ نہیں کرتی۔",
+            "جو کچھ آپ محفوظ کرتے ہیں وہ آپ کے آلے پر رہتا ہے جب تک آپ اسے شیئر کرنے کا انتخاب نہ کریں۔"
+          ]
+        },
+        {
+          "id": "location",
+          "title": "مقام",
+          "description": "صرف ایپ کھلی ہونے پر، اوقاتِ نماز اور قبلہ کی سمت معلوم کرنے کے لیے استعمال ہوتا ہے۔",
+          "items": [
+            "مقام صرف اس وقت مانگا جاتا ہے جب کسی خصوصیت کو ضرورت ہو، اور آپ انکار کر سکتے ہیں۔ اس کے بغیر آپ کے مقام کے لیے اوقاتِ نماز اور قبلہ کی سمت معلوم نہیں ہو سکتی۔",
+            "قبلہ کی سمت آپ کے آلے پر حساب کی جاتی ہے۔ اوقاتِ نماز کے لیے ایپ آپ کے نقاط AlAdhan اوقاتِ نماز کی سروس کو بھیجتی ہے؛ اگر وہ دستیاب نہ ہو تو اوقات اس کی جگہ آپ کے آلے پر حساب کیے جاتے ہیں۔",
+            "شہر اور ملک کا نام آپ کے آلے کی بلٹ اِن جیو کوڈنگ سروس سے معلوم کیا جاتا ہے، جو Apple یا Google فراہم کرتے ہیں۔",
+            "آپ کا آخری مقام آپ کے آلے پر محفوظ ہوتا ہے تاکہ ایپ جلدی کھلے۔ وہ ہمیں اپ لوڈ نہیں ہوتا۔",
+            "ملائیشیا میں ایپ پہلے آپ کے نماز زون کے اوقات کے لیے سرکاری JAKIM e-Solat سروس سے پوچھتی ہے اور صرف زون کوڈ بھیجتی ہے۔ اگر وہ سروس دستیاب نہ ہو تو ایپ اوپر بیان کردہ طریقے سے AlAdhan استعمال کرتی ہے۔",
+            "ایپ پس منظر میں آپ کے مقام کا سراغ نہیں رکھتی۔"
+          ]
+        },
+        {
+          "id": "notifications",
+          "title": "نوٹیفکیشن اور الارم",
+          "description": "یاد دہانیاں آپ کے آلے پر مقرر ہوتی ہیں۔",
+          "items": [
+            "اذان، نماز کی یاد دہانیاں، ڈے پلانر کی یاد دہانیاں اور اسلامی تقریبات کی یاد دہانیاں مقامی نوٹیفکیشن ہیں۔ کوئی پش نوٹیفکیشن سرور استعمال نہیں ہوتا۔",
+            "اینڈرائیڈ پر ایپ عین وقت پر اذان بجانے کے لیے درست الارم مقرر کرنے کی اجازت مانگ سکتی ہے۔",
+            "نوٹیفکیشن اختیاری ہیں۔ آپ نماز کے نوٹیفکیشن ترتیبات میں یا اپنے آلے کی ترتیبات میں بند کر سکتے ہیں۔",
+            "بلاگ کے نوٹیفکیشن بھی مقامی ہیں: ایپ بلاگ سے آنے والی پوسٹس کے اوقات پڑھ کر انہیں آپ کے آلے پر مقرر کرتی ہے۔ آپ انہیں ترتیبات میں بند کر سکتے ہیں۔"
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "آپ کے آلے پر محفوظ معلومات",
+          "description": "ایپ آپ کے انتخاب اور پیش رفت کو مقامی طور پر یاد رکھتی ہے۔",
+          "items": [
+            "ترتیبات جیسے زبان، تھیم، وقت کی شکل، قرآن کا ترجمہ، قاری اور فونٹ کا سائز۔",
+            "قرآن کے پسندیدہ، پڑھنے کا مقام اور ڈاؤن لوڈ شدہ سورت کی آڈیو۔",
+            "تسبیح اور اذکار کے کاؤنٹر، پسندیدہ، اور وہ دعائیں جنہیں آپ نے پڑھا ہوا نشان زد کیا۔",
+            "ڈے پلانر کے کام اور ان کی یاد دہانی کے اوقات۔",
+            "محفوظ شدہ اوقاتِ نماز اور مواد تاکہ ایپ آف لائن بھی چلتی رہے۔",
+            "وہ بلاگ پوسٹس جو آپ نے کھولیں اور جو پسند کیں۔",
+            "ان میں سے کچھ بھی ہمیں نہیں بھیجا جاتا۔ ایپ ان انسٹال کرنے یا اس کا اسٹوریج صاف کرنے سے یہ ہٹ جاتا ہے۔"
+          ]
+        },
+        {
+          "id": "network",
+          "title": "مواد اور انٹرنیٹ کی خدمات",
+          "description": "کچھ خصوصیات عوامی مواد لوڈ کرتی ہیں۔ یہ خدمات ہر ویب سائٹ کی طرح معیاری تکنیکی معلومات دیکھتی ہیں، جیسے آپ کا IP پتہ۔",
+          "items": [
+            "اوقاتِ نماز: JAKIM e-Solat (ملائیشیا) اور AlAdhan۔",
+            "اذکار کا متن: api.islamic.app پر اذکار کے مواد کی سروس۔",
+            "قرآن کی آڈیو: MP3Quran (mp3quran.net)، Islamic Network آڈیو CDN اور Al Quran Cloud۔",
+            "تفسیر: Quran Tafseer اور QuranEnc۔",
+            "کنکشن کی جانچ: ایپ یہ جاننے کے لیے کہ آپ آن لائن ہیں یا نہیں، Google کے کنیکٹیویٹی چیک ایڈریس سے رابطہ کرتی ہے۔",
+            "بلاگ: پوسٹس اور تصاویر GitHub Pages پر ہوسٹ کی گئی بلاگ ویب سائٹ سے لوڈ ہوتی ہیں۔",
+            "ان درخواستوں میں آپ کا نام یا اکاؤنٹ کی شناخت شامل نہیں ہوتی۔ ہر سروس کی اپنی رازداری کی پالیسی ہے۔"
+          ]
+        },
+        {
+          "id": "sensors",
+          "title": "کمپاس، آڈیو اور آلے کی خصوصیات",
+          "description": "کچھ خصوصیات آپ کے آلے کا ہارڈویئر استعمال کرتی ہیں۔",
+          "items": [
+            "قبلہ کمپاس آپ کے آلے کی سمت سسٹم کی مقام سروسز کے ذریعے پڑھتا ہے۔ سمت کا ڈیٹا صرف آلے پر استعمال ہوتا ہے اور محفوظ یا ارسال نہیں کیا جاتا۔",
+            "تھرتھراہٹ اور ہیپٹک فیڈبیک کاؤنٹرز اور قبلہ کی سیدھ کے لیے استعمال ہوتے ہیں اور ترتیبات میں بند کیے جا سکتے ہیں۔",
+            "قرآن کی آڈیو میڈیا نوٹیفکیشن کے ذریعے پس منظر میں چلتی رہ سکتی ہے۔",
+            "ایپ آپ کا مائیکروفون یا کیمرا استعمال نہیں کرتی۔"
+          ]
+        },
+        {
+          "id": "sharing",
+          "title": "شیئرنگ",
+          "description": "شیئرنگ صرف اس وقت ہوتی ہے جب آپ شیئر کا بٹن دباتے ہیں۔",
+          "items": [
+            "شیئر کیا گیا متن یا تصاویر، جیسے آیت، دعا، ذکر یا ایپ کا لنک، آپ کی منتخب کردہ ایپ کو دے دیے جاتے ہیں۔ ہم انہیں وصول یا محفوظ نہیں کرتے۔",
+            "شیئر کیے گئے پیغامات میں ایپ کا نام اور اسٹور کا لنک شامل ہوتا ہے تاکہ دوسرے ایپ تلاش کر سکیں۔",
+            "سپورٹ ای میلز آپ کی اپنی ای میل ایپ میں کھلتی ہیں۔ ہمیں صرف وہی ملتا ہے جو آپ بھیجتے ہیں۔",
+            "اگر آپ کسی بلاگ تصویر پر محفوظ کریں دبائیں تو وہ آپ کی فوٹو لائبریری میں شامل ہو جاتی ہے۔ ایپ تصاویر شامل کر سکتی ہے مگر آپ کی تصاویر پڑھ نہیں سکتی۔"
+          ]
+        },
+        {
+          "id": "noSale",
+          "title": "کوئی فروخت، اشتہار یا ٹریکنگ نہیں",
+          "description": "آپ کی معلومات کوئی مصنوعہ نہیں۔",
+          "items": [
+            "ہم ذاتی معلومات فروخت یا کرائے پر نہیں دیتے۔",
+            "ایپ میں کوئی اشتہار نہیں اور کوئی تجزیاتی یا کریش رپورٹنگ ٹول نہیں۔",
+            "آپ کا مقام اور عبادت کی سرگرمی کبھی اشتہار کے لیے استعمال نہیں ہوتی۔"
+          ]
+        },
+        {
+          "id": "retention",
+          "title": "ڈیٹا کا رکھنا اور حذف کرنا",
+          "description": "ایپ جو ڈیٹا محفوظ کرتی ہے اس پر آپ کا اختیار ہے۔",
+          "items": [
+            "مقامی ڈیٹا آپ کے آلے پر رہتا ہے جب تک آپ ایپ کا اسٹوریج صاف نہ کریں یا ایپ ان انسٹال نہ کریں۔",
+            "ڈاؤن لوڈ شدہ آڈیو بھی اسی طرح ہٹ جاتی ہے۔",
+            "ہم آپ کے ڈیٹا کی کوئی کاپی نہیں رکھتے، اس لیے ہماری طرف سے حذف کرنے کو کچھ نہیں۔"
+          ]
+        },
+        {
+          "id": "security",
+          "title": "سیکیورٹی",
+          "description": "سادہ اقدامات جو آپ کی معلومات کی حفاظت کرتے ہیں۔",
+          "items": [
+            "ایپ مواد کی خدمات سے محفوظ HTTPS کنکشن کے ذریعے جڑتی ہے۔",
+            "چونکہ آپ کا ڈیٹا آپ کے آلے پر رہتا ہے، آپ کے آلے کی لاک اسکرین اس کی بہترین حفاظت ہے۔"
+          ]
+        },
+        {
+          "id": "children",
+          "title": "بچے",
+          "description": "ایپ ہر عمر کے لیے موزوں ہے۔",
+          "items": [
+            "ایپ جان بوجھ کر کسی سے بھی، بشمول بچوں کے، ذاتی معلومات جمع نہیں کرتی۔"
+          ]
+        },
+        {
+          "id": "choices",
+          "title": "آپ کے اختیارات",
+          "description": "آپ فیصلہ کرتے ہیں کہ ایپ کیا استعمال کر سکتی ہے۔",
+          "items": [
+            "اپنے آلے کی ترتیبات میں مقام اور نوٹیفکیشن کی رسائی کی اجازت دیں، انکار کریں یا کسی بھی وقت تبدیل کریں۔",
+            "ترتیبات میں نماز کے نوٹیفکیشن اور قبلہ کی آواز یا تھرتھراہٹ بند کریں۔",
+            "ایپ آف لائن استعمال کریں: قرآن کا متن، دعائیں اور ڈاؤن لوڈ شدہ آڈیو انٹرنیٹ کے بغیر چلتے ہیں۔",
+            "اپنے آلے کی ترتیبات میں مقامی ڈیٹا صاف کریں، یا ایپ ان انسٹال کریں۔"
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "اس پالیسی میں تبدیلیاں",
+          "description": "آپ کو اپ ڈیٹس یہاں نظر آئیں گی۔",
+          "items": [
+            "اگر ایپ اکاؤنٹس، تجزیات، اشتہارات یا کلاؤڈ سنک استعمال کرنے لگی تو یہ پالیسی پہلے اپ ڈیٹ کی جائے گی اور اوپر نئی تاریخ دکھائی جائے گی۔"
+          ]
+        }
+      ],
+      "contactTitle": "رازداری کے بارے میں سوالات؟",
+      "contactDescription": "اگر آپ کا رازداری سے متعلق کوئی سوال یا درخواست ہو تو ہم سے رابطہ کریں۔"
     }
   }
 }

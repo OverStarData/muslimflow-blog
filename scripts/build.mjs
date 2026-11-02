@@ -155,6 +155,9 @@ ${body}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(title)} · ${escapeHtml(app.name)}</title>
 <meta name="description" content="${escapeHtml(description)}">
+<link rel="canonical" href="${siteUrl}/p/${encodeURIComponent(post.id)}.html">
+<meta property="og:url" content="${siteUrl}/p/${encodeURIComponent(post.id)}.html">
+<meta name="theme-color" content="#0c1a1a">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="${escapeHtml(app.name)}">
 <meta property="og:title" content="${escapeHtml(title)}">
@@ -200,10 +203,22 @@ document.documentElement.lang=pick;})();
 /* Privacy policy page (content/privacy.json, made by the app project)   */
 /* ------------------------------------------------------------------ */
 
-const LANGUAGE_NAMES = { en: "English", ar: "العربية", ms: "Bahasa Melayu", es: "Español", fr: "Français" };
+/* The privacy page has more languages than the blog posts do. */
+const PRIVACY_LANGUAGES = [...LANGUAGES, "tr", "id", "ur"];
+const RTL_LANGUAGES = ["ar", "ur"];
+const LANGUAGE_NAMES = {
+  en: "English",
+  ar: "العربية",
+  ms: "Bahasa Melayu",
+  es: "Español",
+  fr: "Français",
+  tr: "Türkçe",
+  id: "Bahasa Indonesia",
+  ur: "اردو",
+};
 
 function renderPrivacy(privacy) {
-  const codes = LANGUAGES.filter((code) => privacy.languages[code]);
+  const codes = PRIVACY_LANGUAGES.filter((code) => privacy.languages[code]);
   const mail = escapeHtml(privacy.supportEmail);
 
   const articles = codes
@@ -222,7 +237,7 @@ function renderPrivacy(privacy) {
         )
         .join("\n");
 
-      return `<article data-lang="${code}" lang="${code}" dir="${code === "ar" ? "rtl" : "ltr"}"${code === "en" ? "" : " hidden"}>
+      return `<article data-lang="${code}" lang="${code}" dir="${RTL_LANGUAGES.includes(code) ? "rtl" : "ltr"}"${code === "en" ? "" : " hidden"}>
 <h1>${escapeHtml(text.title)}</h1>
 <p class="muted">${escapeHtml(text.updatedLabel)}</p>
 <p>${escapeHtml(text.intro)}</p>
@@ -274,7 +289,7 @@ ${articles}
 (function(){var langs=${JSON.stringify(codes)};
 function show(code){document.querySelectorAll("[data-lang]").forEach(function(el){el.hidden=el.getAttribute("data-lang")!==code});
 document.querySelectorAll("[data-pick]").forEach(function(b){b.setAttribute("aria-pressed",String(b.getAttribute("data-pick")===code))});
-document.documentElement.lang=code;document.documentElement.dir=code==="ar"?"rtl":"ltr"}
+document.documentElement.lang=code;document.documentElement.dir=(code==="ar"||code==="ur")?"rtl":"ltr"}
 document.querySelectorAll("[data-pick]").forEach(function(b){b.addEventListener("click",function(){show(b.getAttribute("data-pick"))})});
 var prefs=(navigator.languages||[navigator.language||"en"]).map(function(l){return String(l).slice(0,2)});
 show(prefs.filter(function(l){return langs.indexOf(l)>=0})[0]||"en");})();
