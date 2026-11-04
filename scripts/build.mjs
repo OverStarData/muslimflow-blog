@@ -26,7 +26,7 @@
  * The site address comes from --site-url, the BLOG_SITE_URL variable or
  * content/config.json, in that order.
  */
-import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { cpSync, copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -386,3 +386,7 @@ if (existsSync(quranDir)) {
 for (const warning of warnings) console.warn(`warning: ${warning}`);
 console.log(`Blog built: ${published.length} published in ${pageCount} page(s), ${queued.length} queued -> dist`);
 if (queued.length) console.log(`Next to publish: ${queued[0].id} at ${new Date(queued[0].date).toISOString()}`);
+
+/* Short recorded clips of the app's Learn Prayer pages (content/audio -> audio/). The app downloads each one once and keeps it on the phone. */
+const audioDir = join(root, "content", "audio");
+if (existsSync(audioDir)) cpSync(audioDir, join(distDir, "audio"), { recursive: true });
