@@ -16,6 +16,8 @@
  *                     (when content/delete-account.json exists)
  *   images/           copy of the pictures
  *   quran/<code>.json  Quran translations the app downloads on demand (copy of content/quran)
+ *   cities/v1/...     the world city list for the Qibla / Prayer city picker (copy of content/cities: index.json, s/<xx>.json =
+ *                      places with a word starting with those two letters, c/<CC>.json = biggest places of a country)
  *   lang/<code>.json   UI text of the languages that are not bundled in the app, and lang/index.json (copy of content/lang,
  *                      written by `node scripts/build-language-packs.mjs` in the app repo)
  *
@@ -28,7 +30,7 @@
  * The site address comes from --site-url, the BLOG_SITE_URL variable or
  * content/config.json, in that order.
  */
-import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { copyFileSync, cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -393,6 +395,12 @@ if (existsSync(langDir)) {
   for (const file of readdirSync(langDir)) {
     if (file.endsWith(".json")) copyFileSync(join(langDir, file), join(distDir, "lang", file));
   }
+}
+
+const citiesDir = join(root, "content", "cities");
+
+if (existsSync(citiesDir)) {
+  cpSync(citiesDir, join(distDir, "cities"), { recursive: true });
 }
 
 for (const warning of warnings) console.warn(`warning: ${warning}`);
