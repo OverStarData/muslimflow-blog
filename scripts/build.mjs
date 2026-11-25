@@ -18,6 +18,7 @@
  *   quran/<code>.json  Quran translations the app downloads on demand (copy of content/quran)
  *   cities/v1/...     the world city list for the Qibla / Prayer city picker (copy of content/cities: index.json, s/<xx>.json =
  *                      places with a word starting with those two letters, c/<CC>.json = biggest places of a country)
+ *   audio/prayer/v1/<id>.mp3  the short recorded clips of Learn Prayer (copy of content/audio)
  *   lang/<code>.json   UI text of the languages that are not bundled in the app, and lang/index.json (copy of content/lang,
  *                      written by `node scripts/build-language-packs.mjs` in the app repo)
  *
@@ -401,6 +402,13 @@ const citiesDir = join(root, "content", "cities");
 
 if (existsSync(citiesDir)) {
   cpSync(citiesDir, join(distDir, "cities"), { recursive: true });
+}
+
+/* the short recorded clips of Learn Prayer (audio/prayer/v1/<id>.mp3); the app downloads each one the first time it is played */
+const audioDir = join(root, "content", "audio");
+
+if (existsSync(audioDir)) {
+  cpSync(audioDir, join(distDir, "audio"), { recursive: true });
 }
 
 for (const warning of warnings) console.warn(`warning: ${warning}`);
